@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385e5d4aee6412d46ab07b122684e467, type: 3}
+  m_Name: DB_EventSel_InfoDataGroup
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: dataDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EventSel_InfoData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_Info_1
+    - Name: $v
+      Entry: 7
+      Data: 2|EventSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_Info_1
+    - Name: Btn
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_1
+    - Name: Comment
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_Comment_1
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_StatusComment_1
+    - Name: Status_Change
+      Entry: 3
+      Data: 1
+    - Name: StatusType_1
+      Entry: 3
+      Data: 1
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 1
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 2
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 2
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 2
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 2
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_Info_2
+    - Name: $v
+      Entry: 7
+      Data: 3|EventSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_Info_2
+    - Name: Btn
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_2
+    - Name: Comment
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_Comment_2
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_StatusComment_2
+    - Name: Status_Change
+      Entry: 3
+      Data: 2
+    - Name: StatusType_1
+      Entry: 3
+      Data: 2
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 2
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 2
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 2
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 2
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 2
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_Info_3
+    - Name: $v
+      Entry: 7
+      Data: 4|EventSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_Info_3
+    - Name: Btn
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_2
+    - Name: Comment
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_Comment_2
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: Lo_test_EventIfo_1_Btn_StatusComment_2
+    - Name: Status_Change
+      Entry: 3
+      Data: 3
+    - Name: StatusType_1
+      Entry: 3
+      Data: 3
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 1
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 2
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 2
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 2
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 2
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  dataArr:
+  - Key: EventSel_Info_1
+    Btn: Lo_test_EventIfo_1_Btn_1
+    Comment: Lo_test_EventIfo_1_Btn_Comment_1
+    Staus_change_Str: Lo_test_EventIfo_1_Btn_StatusComment_1
+    Status_Change: 1
+    StatusType_1: 1
+    Staus_ValueType_1: 1
+    Staus_Change_Value_1: 0
+    StatusType_2: 2
+    Staus_ValueType_2: 2
+    Staus_Change_Value_2: 0
+    StatusType_3: 2
+    Staus_ValueType_3: 2
+    Staus_Change_Value_3: 0
+  - Key: EventSel_Info_2
+    Btn: Lo_test_EventIfo_1_Btn_2
+    Comment: Lo_test_EventIfo_1_Btn_Comment_2
+    Staus_change_Str: Lo_test_EventIfo_1_Btn_StatusComment_2
+    Status_Change: 2
+    StatusType_1: 2
+    Staus_ValueType_1: 2
+    Staus_Change_Value_1: 0
+    StatusType_2: 2
+    Staus_ValueType_2: 2
+    Staus_Change_Value_2: 0
+    StatusType_3: 2
+    Staus_ValueType_3: 2
+    Staus_Change_Value_3: 0
+  - Key: EventSel_Info_3
+    Btn: Lo_test_EventIfo_1_Btn_2
+    Comment: Lo_test_EventIfo_1_Btn_Comment_2
+    Staus_change_Str: Lo_test_EventIfo_1_Btn_StatusComment_2
+    Status_Change: 3
+    StatusType_1: 3
+    Staus_ValueType_1: 1
+    Staus_Change_Value_1: 0
+    StatusType_2: 2
+    Staus_ValueType_2: 2
+    Staus_Change_Value_2: 0
+    StatusType_3: 2
+    Staus_ValueType_3: 2
+    Staus_Change_Value_3: 0
+  keyArr:
+  - EventSel_Info_1
+  - EventSel_Info_2
+  - EventSel_Info_3
