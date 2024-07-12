@@ -16,6 +16,7 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
     public Common common;
     public Log log;
     public Wealth wealth;
+    public Status status;
 
     public override Common_C GetCommon => this.common;
     public override Log_C GetLog => this.log;
@@ -31,6 +32,7 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
         }
 
         this.wealth.Init_Func(_layer);
+        this.status.Init_Func(_layer);
     }
 
     protected override void OnLoadUserDataStr_Func(string _userDataStr)
@@ -98,6 +100,52 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
 
             return _userWealthData;
         }
-    } 
+    }
+    #endregion
+    #region Status
+    [System.Serializable]
+    public class Status
+    {
+        private UserStatusData GetData => Instance.userData.userStatusData;
+
+        public void Init_Func(int _layer)
+        {
+            if (_layer == 0)
+            {
+
+            }
+        }
+
+        public UserStatusData Get_UserStatus_Func()
+        {
+            UserStatusData a_Data = this.GetData;
+            return a_Data;
+        }
+
+        public void Set_MentalStatus_Func(int a_MentalCount)
+        {
+            this.GetData.mentality += a_MentalCount;
+        }
+
+        public void Set_BackMovementSTR_Func(int a_BackMovementSTR)
+        {
+            this.GetData.backMovementSTR += a_BackMovementSTR;
+        }
+
+        public void Set_ChestExercisesSTR_Func(int a_ChestExercisesSTR)
+        {
+            this.GetData.chestExercisesSTR += a_ChestExercisesSTR;
+        }
+
+        public void Set_LowerBodyExercisesSTR_Func(int a_LowerBodyExercisesSTR)
+        {
+            this.GetData.lowerBodyExercisesSTR += a_LowerBodyExercisesSTR;
+        }
+
+        public void Set_Fatiguelevel_Func(int a_Fatiguelevel)
+        {
+            this.GetData.fatiguelevel += a_Fatiguelevel;
+        }
+    }
     #endregion
 }

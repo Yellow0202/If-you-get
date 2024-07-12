@@ -3,7 +3,8 @@ public enum SatusType
 {
     None = 0,
 
-    Mentality = 1,
+    Tiredness = 4,
     Done = 2,
-    Strength = 3,
+    Mentality = 1,
+    Money = 5,
 }

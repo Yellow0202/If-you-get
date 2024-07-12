@@ -14,6 +14,7 @@ public partial class Event_InfoData : Data_C
      [LabelText("이름")] public string Name;
      [LabelText("설명")] public string Comment;
      [LabelText("선택지")] public string[] Btn;
+     [LabelText("퍼센트 버튼인지")] public bool is_PersentBtn;
 
     
 
@@ -26,6 +27,7 @@ public partial class Event_InfoData : Data_C
         string[] _strArr3 = _cellDataArr[3].Split(',');
         Btn = new string[_strArr3.Length];
         Btn = _strArr3;
+        is_PersentBtn = _cellDataArr[4].ToBool();
     }
 #endif
 }

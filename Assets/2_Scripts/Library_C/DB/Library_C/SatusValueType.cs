@@ -3,6 +3,7 @@ public enum SatusValueType
 {
     None = 0,
 
-    Multi = 1,
+    Single = 3,
     Done = 2,
+    Multi = 1,
 }

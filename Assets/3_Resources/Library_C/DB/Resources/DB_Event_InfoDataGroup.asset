@@ -64,13 +64,16 @@ MonoBehaviour:
       Data: Lo_test_EventIfo_1_Btn_1
     - Name: 
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_2
+      Data: Lo_test_EventIfo_2_Btn_1
     - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -110,6 +113,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
     - Name: 
       Entry: 8
       Data: 
@@ -149,6 +155,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -188,6 +197,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -227,6 +239,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -266,6 +281,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -305,6 +323,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -344,6 +365,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -383,6 +407,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -422,6 +449,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -461,6 +491,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -500,6 +533,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -539,6 +575,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -578,6 +617,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -596,72 +638,86 @@ MonoBehaviour:
     Comment: Lo_test_EventInfoComment_1
     Btn:
     - Lo_test_EventIfo_1_Btn_1
-    - Lo_test_EventIfo_1_Btn_2
+    - Lo_test_EventIfo_2_Btn_1
+    is_PersentBtn: 0
   - Key: EventInfo_2
     Name: Lo_test_EventInfoName_2
     Comment: Lo_test_EventInfoComment_2
     Btn:
     - 
+    is_PersentBtn: 1
   - Key: EventInfo_3
     Name: Lo_test_EventInfoName_3
     Comment: Lo_test_EventInfoComment_3
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_4
     Name: Lo_test_EventInfoName_4
     Comment: Lo_test_EventInfoComment_4
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_5
     Name: Lo_test_EventInfoName_5
     Comment: Lo_test_EventInfoComment_5
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_6
     Name: Lo_test_EventInfoName_6
     Comment: Lo_test_EventInfoComment_6
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_7
     Name: Lo_test_EventInfoName_7
     Comment: Lo_test_EventInfoComment_7
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_8
     Name: Lo_test_EventInfoName_8
     Comment: Lo_test_EventInfoComment_8
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_9
     Name: Lo_test_EventInfoName_9
     Comment: Lo_test_EventInfoComment_9
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_10
     Name: Lo_test_EventInfoName_10
     Comment: Lo_test_EventInfoComment_10
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_11
     Name: Lo_test_EventInfoName_11
     Comment: Lo_test_EventInfoComment_11
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_12
     Name: Lo_test_EventInfoName_12
     Comment: Lo_test_EventInfoComment_12
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_13
     Name: Lo_test_EventInfoName_13
     Comment: Lo_test_EventInfoComment_13
     Btn:
     - 
+    is_PersentBtn: 0
   - Key: EventInfo_14
     Name: Lo_test_EventInfoName_14
     Comment: Lo_test_EventInfoComment_14
     Btn:
     - 
+    is_PersentBtn: 0
   keyArr:
   - EventInfo_1
   - EventInfo_2

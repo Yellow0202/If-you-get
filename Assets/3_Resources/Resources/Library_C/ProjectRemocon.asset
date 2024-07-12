@@ -15,21 +15,147 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: c6b8148bd910bbb4f929268e9217d8f7, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
     - Name: database
+      Entry: 10
+      Data: 0
+    - Name: tableImporter
+      Entry: 7
+      Data: 0|Cargold.LibraryRemocon+FrameWorkData+DatabaseData+TableImporterData,
+        Assembly-CSharp
+    - Name: scriptPath
+      Entry: 1
+      Data: "\uCD08\uAE30\uD654 \uC624\uB958"
+    - Name: dbmClass
       Entry: 6
       Data: 
-    - Name: tableImporter
+    - Name: excelName
+      Entry: 1
+      Data: ImportedTable_C
+    - Name: excelFolderName
+      Entry: 1
+      Data: Temp
+    - Name: columnIngoreStr
+      Entry: 1
+      Data: '@'
+    - Name: sheetIngoreStr
+      Entry: 1
+      Data: '@'
+    - Name: ignoreStr
+      Entry: 1
+      Data: IGNORE_C
+    - Name: columnNameStr
+      Entry: 1
+      Data: Column_Name
+    - Name: columnKorNameStr
+      Entry: 1
+      Data: Column_KorName
+    - Name: columnTypeStr
+      Entry: 1
+      Data: Column_Type
+    - Name: jsonPath
+      Entry: 1
+      Data: "\uCD08\uAE30\uD654 \uC624\uB958"
+    - Name: jsonFolderName
+      Entry: 1
+      Data: Json_C
+    - Name: jsonFileName
+      Entry: 1
+      Data: TableJson
+    - Name: dataSobjPath
+      Entry: 1
+      Data: "\uCD08\uAE30\uD654 \uC624\uB958"
+    - Name: dataClassPrefixStr
+      Entry: 1
+      Data: 
+    - Name: dataClassSuffixStr
+      Entry: 1
+      Data: Data
+    - Name: dataGroupClassPrefixStr
+      Entry: 1
+      Data: DB_
+    - Name: dataGroupClassSuffixStr
+      Entry: 1
+      Data: DataGroup
+    - Name: dataKeyClassName
+      Entry: 1
+      Data: TableDataKey_C
+    - Name: dbScriptFolderName
+      Entry: 1
+      Data: Library_C
+    - Name: dbResourceFolderName
       Entry: 6
+      Data: 
+    - Name: sheetDataDic
+      Entry: 6
+      Data: 
+    - Name: isCallAfterCompiled
+      Entry: 5
+      Data: false
+    - Name: isEnumGenerate
+      Entry: 5
+      Data: false
+    - Name: enumGenerateListDic
+      Entry: 6
+      Data: 
+    - Name: nestedGenerateDic
+      Entry: 6
+      Data: 
+    - Name: libraryTableDataList
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Cargold.LibraryRemocon+FrameWorkData+DatabaseData+TableImporterData+LibraryTableData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: iLibrary
+      Entry: 6
+      Data: 
+    - Name: exPoint
+      Entry: 3
+      Data: 3
+    - Name: tableImportTime_Edit
+      Entry: 7
+      Data: System.DateTime, mscorlib
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tableImportGenerateTime_Edit
+      Entry: 7
+      Data: System.DateTime, mscorlib
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: remoconClassArr
+      Entry: 6
+      Data: 
+    - Name: isDataGroupImport
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
       Data: 
     - Name: cheatClass
       Entry: 7
-      Data: 0|Cargold.Remocon.ProjectCheat, Assembly-CSharp
+      Data: 2|Cargold.Remocon.ProjectCheat, Assembly-CSharp
     - Name: timeScale
       Entry: 4
       Data: 1
@@ -45,8 +171,10 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  userData: {fileID: 0}
-  tableImportRemoconList: []
+  userData: {fileID: 8484629129341659839, guid: 1b9f598d8ca73684bb44c5adbad7c43a, type: 3}
+  tableImportRemoconList:
+  - remoconID: 0
+    tableNameStr: "\uBA54"
   buildSystem:
     androidBuildType: 2
     defaultDefineArr:

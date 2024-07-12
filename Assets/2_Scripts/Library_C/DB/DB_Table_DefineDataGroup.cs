@@ -9,6 +9,17 @@ using Cargold.DB.TableImporter;
 
 public partial class DB_Table_DefineDataGroup
 {
+    [SerializeField, FoldoutGroup("기본값"), LabelText("지정 스케쥴 일 수"), ReadOnly] private int _playDayData = 7; public int playDayData => this._playDayData;
+
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("등 운동")] private Sprite _uI_Icon_backMovement; public Sprite uI_Icon_backMovement => this._uI_Icon_backMovement;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가슴 운동")] private Sprite _uI_Icon_chestExercises; public Sprite uI_Icon_chestExercises => this._uI_Icon_chestExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("하체 운동")] private Sprite _uI_Icon_lowerBodyExercises; public Sprite uI_Icon_lowerBodyExercises => this._uI_Icon_lowerBodyExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가벼운 휴식")] private Sprite _uI_Icon_lowbreak; public Sprite uI_Icon_lowbreak => this._uI_Icon_lowbreak;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("호화로운 휴식")] private Sprite _uI_Icon_hardbreak; public Sprite uI_Icon_hardbreak => this._uI_Icon_hardbreak;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("업무")] private Sprite _uI_Icon_business; public Sprite uI_Icon_business => this._uI_Icon_business;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("치팅")] private Sprite _uI_Icon_cheating; public Sprite uI_Icon_cheating => this._uI_Icon_cheating;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("빈 공간")] private Sprite _uI_Icon_done; public Sprite uI_Icon_done => this._uI_Icon_done;
+
     protected override void Init_Project_Func()
     {
         base.Init_Project_Func();

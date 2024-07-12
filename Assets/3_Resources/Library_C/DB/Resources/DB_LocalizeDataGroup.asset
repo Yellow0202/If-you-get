@@ -34,19 +34,19 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 8
+      Data: 142
     - Name: 
       Entry: 7
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventInfoName_1
+      Data: Lo_EventInfoName_1
     - Name: $v
       Entry: 7
       Data: 2|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventInfoName_1
+      Data: Lo_EventInfoName_1
     - Name: ko
       Entry: 1
       Data: "\uADFC\uC721\uD1B5"
@@ -73,13 +73,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventInfoComment_1
+      Data: Lo_EventInfoComment_1
     - Name: $v
       Entry: 7
       Data: 3|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventInfoComment_1
+      Data: Lo_EventInfoComment_1
     - Name: ko
       Entry: 1
       Data: "\uC694\uC998 \uC6B4\uB3D9\uC744 \uB108\uBB34 \uC5F4\uC2EC\uD788 \uD588\uB294\uC9C0
@@ -108,13 +108,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_1
+      Data: Lo_EventIfo_1_Btn_1
     - Name: $v
       Entry: 7
       Data: 4|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_1
+      Data: Lo_EventIfo_1_Btn_1
     - Name: ko
       Entry: 1
       Data: "\uC270\uB2E4"
@@ -141,13 +141,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_2
+      Data: Lo_EventIfo_2_Btn_1
     - Name: $v
       Entry: 7
       Data: 5|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_2
+      Data: Lo_EventIfo_2_Btn_1
     - Name: ko
       Entry: 1
       Data: "\uC544\uB2C8\uB2E4"
@@ -174,13 +174,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_Comment_1
+      Data: Lo_EventIfo_1_Btn_Comment_1
     - Name: $v
       Entry: 7
       Data: 6|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_Comment_1
+      Data: Lo_EventIfo_1_Btn_Comment_1
     - Name: ko
       Entry: 1
       Data: "\uADF8\uB798 \uC880 \uC26C\uC5B4\uC57C\uC9C0"
@@ -207,13 +207,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_Comment_2
+      Data: Lo_EventIfo_2_Btn_Comment_1
     - Name: $v
       Entry: 7
       Data: 7|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_Comment_2
+      Data: Lo_EventIfo_2_Btn_Comment_1
     - Name: ko
       Entry: 1
       Data: "\uC57D\uD558\uAC8C\uB77C\uB3C4 \uD574\uC57C\uC9C0 \uBB50."
@@ -240,17 +240,17 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_StatusComment_1
+      Data: Lo_EventIfo_1_Btn_StatusComment_1
     - Name: $v
       Entry: 7
       Data: 8|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_StatusComment_1
+      Data: Lo_EventIfo_1_Btn_StatusComment_1
     - Name: ko
       Entry: 1
-      Data: "\uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC2A4\uCF00\uC904\uB9C1 \uBD88\uAC00,
-        \uB2E4\uC74C \uB2EC \uD734\uC2DD \uC2DC \uD53C\uB85C\uB3C4 \uAC10\uC18C 1.5\uBC30"
+      Data: "\uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC6B4\uB3D9 \uAE08\uC9C0, \uD53C\uB85C\uB3C4
+        -40"
     - Name: en
       Entry: 1
       Data: 
@@ -274,16 +274,4506 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_StatusComment_2
+      Data: Lo_EventIfo_2_Btn_StatusComment_1
     - Name: $v
       Entry: 7
       Data: 9|LocalizeData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_StatusComment_2
+      Data: Lo_EventIfo_2_Btn_StatusComment_1
     - Name: ko
       Entry: 1
       Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_2
+    - Name: $v
+      Entry: 7
+      Data: 10|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_2
+    - Name: ko
+      Entry: 1
+      Data: "\uAE30\uBD84\uC804\uD658"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_2
+    - Name: $v
+      Entry: 7
+      Data: 11|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_2
+    - Name: ko
+      Entry: 1
+      Data: "\uC624\uB298\uC740 \uC660\uC9C0 \uAE30\uBD84\uC774 \uAFC0\uAFC0\uD558\uB2E4.
+        \uC637\uC774\uB098 \uC0AC\uBCFC\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_2
+    - Name: $v
+      Entry: 7
+      Data: 12|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_2
+    - Name: ko
+      Entry: 1
+      Data: "\uC0AC\uB7EC\uAC00\uC790"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_2
+    - Name: $v
+      Entry: 7
+      Data: 13|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_2
+    - Name: ko
+      Entry: 1
+      Data: "\uC548\uB41C\uB2E4"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_2
+    - Name: $v
+      Entry: 7
+      Data: 14|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_2
+    - Name: ko
+      Entry: 1
+      Data: "\uC637\uC744 \uACE0\uB974\uB2E4\uBCF4\uB2C8 \uB108\uBB34 \uB9CE\uC774
+        \uC368\uBC84\uB838\uB2E4! \uD558\uC9C0\uB9CC \uAE30\uBD84\uC740 \uC88B\uC544\uC84C\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_2
+    - Name: $v
+      Entry: 7
+      Data: 15|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_2
+    - Name: ko
+      Entry: 1
+      Data: "\uAD1C\uD55C \uC9C0\uCD9C\uD558\uC9C0 \uB9D0\uC790."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_2
+    - Name: $v
+      Entry: 7
+      Data: 16|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_2
+    - Name: ko
+      Entry: 1
+      Data: "\uB3C8 -10\uB9CC\uC6D0, \uC815\uC2E0\uB825 +2"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_2
+    - Name: $v
+      Entry: 7
+      Data: 17|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_2
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_3
+    - Name: $v
+      Entry: 7
+      Data: 18|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_3
+    - Name: ko
+      Entry: 1
+      Data: "\uC601\uC591\uC81C"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_3
+    - Name: $v
+      Entry: 7
+      Data: 19|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_3
+    - Name: ko
+      Entry: 1
+      Data: "\uCE5C\uCC99\uACE0\uBAA8\uAC00 \uC6B4\uB3D9\uD560 \uB54C \uC88B\uC744\uAC70\uB77C\uBA70
+        \uC601\uC591\uC81C\uB97C \uD558\uB098 \uC120\uBB3C\uD574\uC8FC\uC168\uB2E4.
+        \uADFC\uB370 \uBB54\uAC00 \uB9CE\uC774 \uC774\uC0C1\uD558\uAC8C \uC0DD\uACBC\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_3
+    - Name: $v
+      Entry: 7
+      Data: 20|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_3
+    - Name: ko
+      Entry: 1
+      Data: "\uAC10\uC0AC\uD569\uB2C8\uB2E4!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_3
+    - Name: $v
+      Entry: 7
+      Data: 21|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_3
+    - Name: ko
+      Entry: 1
+      Data: "\uBA39\uC9C4 \uB9D0\uC544\uC57C\uC9C0."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_3
+    - Name: $v
+      Entry: 7
+      Data: 22|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_3
+    - Name: ko
+      Entry: 1
+      Data: "\uB9DB\uB3C4, \uC0DD\uAE34 \uAC83\uB3C4 \uC774\uC0C1\uD588\uC9C0\uB9CC
+        \uC815\uB9D0 \uC6B4\uB3D9 \uC218\uD589 \uB2A5\uB825\uC774 \uC88B\uC544\uC9C4
+        \uAC83 \uAC19\uB2E4!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_3
+    - Name: $v
+      Entry: 7
+      Data: 23|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_3
+    - Name: ko
+      Entry: 1
+      Data: "\uC8FC\uC2E0 \uB9C8\uC74C\uC740 \uC815\uB9D0 \uAC10\uC0AC\uD558\uC9C0\uB9CC,
+        \uC870\uC2EC\uD574\uC57C\uC9C0."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_3
+    - Name: $v
+      Entry: 7
+      Data: 24|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_3
+    - Name: ko
+      Entry: 1
+      Data: "\uC77C\uC2DC\uC801\uC73C\uB85C \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+        1.3\uBC30"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_3
+    - Name: $v
+      Entry: 7
+      Data: 25|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_3
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_4
+    - Name: $v
+      Entry: 7
+      Data: 26|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_4
+    - Name: ko
+      Entry: 1
+      Data: "\uC220\uC790\uB9AC"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_4
+    - Name: $v
+      Entry: 7
+      Data: 27|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_4
+    - Name: ko
+      Entry: 1
+      Data: "\uCE5C\uAD6C\uAC00 \uCDE8\uC5C5\uD588\uB2E4\uBA70 \uC220\uC744 \uC0AC\uC900\uB2E4\uACE0
+        \uBD88\uB800\uB2E4. \uAC00\uC57C\uD560\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_4
+    - Name: $v
+      Entry: 7
+      Data: 28|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_4
+    - Name: ko
+      Entry: 1
+      Data: "\uB2F9\uC5F0\uD788 \uAC00\uC57C\uC9C0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_4
+    - Name: $v
+      Entry: 7
+      Data: 29|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_4
+    - Name: ko
+      Entry: 1
+      Data: "\uBB54 \uC220\uC774\uC57C"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_4
+    - Name: $v
+      Entry: 7
+      Data: 30|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_4
+    - Name: ko
+      Entry: 1
+      Data: "\uCE5C\uAD6C\uAC00 \uBB34\uB824 \uCDE8\uC5C5\uC744 \uD588\uB2E4\uB294\uB370
+        \uAC00\uC57C\uC9C0!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_4
+    - Name: $v
+      Entry: 7
+      Data: 31|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_4
+    - Name: ko
+      Entry: 1
+      Data: "\uC220\uB9C8\uC2DC\uBA74 \uADFC\uC190\uC2E4\uC628\uB2E4. \uB300\uCDA9
+        \uB458\uB7EC\uB300\uBA70 \uAE30\uD504\uD2F0\uCF58\uC774\uB098 \uD558\uB098
+        \uC120\uBB3C\uD574\uC92C\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_4
+    - Name: $v
+      Entry: 7
+      Data: 32|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_4
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 +1, \uBAA8\uB4E0 \uADFC\uB825 -5"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_4
+    - Name: $v
+      Entry: 7
+      Data: 33|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_4
+    - Name: ko
+      Entry: 1
+      Data: "\uB3C8 -3\uB9CC\uC6D0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_5
+    - Name: $v
+      Entry: 7
+      Data: 34|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_5
+    - Name: ko
+      Entry: 1
+      Data: "\uB2ED\uAC00\uC2B4\uC0B4"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_5
+    - Name: $v
+      Entry: 7
+      Data: 35|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_5
+    - Name: ko
+      Entry: 1
+      Data: "\uC9C4\uACF5 \uD3EC\uC7A5\uB418\uC5B4 \uC788\uB358 \uB2ED\uAC00\uC2B4\uC0B4\uC758
+        \uD3EC\uC7A5\uC9C0\uAC00 \uD33D\uCC3D\uD588\uB2E4. \uBA39\uC5B4\uB3C4 \uB418\uB294\uAC78\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_5
+    - Name: $v
+      Entry: 7
+      Data: 36|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_5
+    - Name: ko
+      Entry: 1
+      Data: "\uBA39\uB294\uB2E4"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_5
+    - Name: $v
+      Entry: 7
+      Data: 37|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_5
+    - Name: ko
+      Entry: 1
+      Data: "\uBC84\uB9B0\uB2E4"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_5
+    - Name: $v
+      Entry: 7
+      Data: 38|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_5
+    - Name: ko
+      Entry: 1
+      Data: "\uD3C9\uC18C\uBCF4\uB2E4 \uD654\uC7A5\uC2E4\uC744 \uC880 \uB354 \uAC00\uAE34
+        \uD558\uC9C0\uB9CC, \uB2E4\uD589\uD788 \uAD1C\uCC2E\uC740 \uAC83 \uAC19\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_5
+    - Name: $v
+      Entry: 7
+      Data: 39|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_5
+    - Name: ko
+      Entry: 1
+      Data: "\uBC84\uB9AC\uACE0 \uC0C8\uB85C \uC0AC\uC57C\uACA0\uB2E4. \uC544\uAE4C\uC6B4
+        \uB0B4 \uB3C8"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_5
+    - Name: $v
+      Entry: 7
+      Data: 40|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_5
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_5
+    - Name: $v
+      Entry: 7
+      Data: 41|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_5
+    - Name: ko
+      Entry: 1
+      Data: "-10\uB9CC\uC6D0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_6
+    - Name: $v
+      Entry: 7
+      Data: 42|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_6
+    - Name: ko
+      Entry: 1
+      Data: "\uAC78\uC2E0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_6
+    - Name: $v
+      Entry: 7
+      Data: 43|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_6
+    - Name: ko
+      Entry: 1
+      Data: "\uBC30\uC5D0 \uAC70\uC9C0\uAC00 \uB4E4\uC5C8\uB294\uC9C0, \uC2DD\uC695\uC774
+        \uB118\uCE5C\uB2E4. \uB354 \uBA39\uC744\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_6
+    - Name: $v
+      Entry: 7
+      Data: 44|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_6
+    - Name: ko
+      Entry: 1
+      Data: "\uADF8\uB7EC\uC790"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_6
+    - Name: $v
+      Entry: 7
+      Data: 45|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_6
+    - Name: ko
+      Entry: 1
+      Data: "\uCC38\uC790"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_6
+    - Name: $v
+      Entry: 7
+      Data: 46|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_6
+    - Name: ko
+      Entry: 1
+      Data: "\uADFC\uC721\uC774 \uC601\uC591\uC18C\uB97C \uBD80\uB974\uB294\uAC70\uC57C!
+        \uBC30\uACE0\uD50C\uB550 \uBA39\uC5B4\uC57C\uC9C0."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_6
+    - Name: $v
+      Entry: 7
+      Data: 47|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_6
+    - Name: ko
+      Entry: 1
+      Data: "\uB3C8\uB3C4 \uC5C6\uB294\uB370 \uC544\uB07C\uC790.."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_6
+    - Name: $v
+      Entry: 7
+      Data: 48|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_6
+    - Name: ko
+      Entry: 1
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 +7, \uB3C8 -5\uB9CC\uC6D0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_6
+    - Name: $v
+      Entry: 7
+      Data: 49|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_6
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_7
+    - Name: $v
+      Entry: 7
+      Data: 50|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_7
+    - Name: ko
+      Entry: 1
+      Data: "\uC0AC\uACE0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_7
+    - Name: $v
+      Entry: 7
+      Data: 51|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_7
+    - Name: ko
+      Entry: 1
+      Data: "\uAC11\uC790\uAE30 \uB0B4 \uC55E\uC73C\uB85C \uBE60\uB974\uAC8C \uB2EC\uB824\uC624\uB294
+        \uC790\uC804\uAC70\uAC00 \uC788\uB2E4. \uC5B4\uB5BB\uAC8C \uD560\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_7
+    - Name: $v
+      Entry: 7
+      Data: 52|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_7
+    - Name: ko
+      Entry: 1
+      Data: "\uC7AC\uBE60\uB974\uAC8C \uD53C\uD55C\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_7
+    - Name: $v
+      Entry: 7
+      Data: 53|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_7
+    - Name: ko
+      Entry: 1
+      Data: "\uAC00\uB9CC\uD788 \uC788\uB294\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_7
+    - Name: $v
+      Entry: 7
+      Data: 54|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_7
+    - Name: ko
+      Entry: 1
+      Data: "\uC7AC\uBE60\uB974\uAC8C \uC804\uBD07\uB300\uC5D0 \uBA38\uB9AC\uB97C
+        \uBC15\uACE0 \uB118\uC5B4\uC84C\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_7
+    - Name: $v
+      Entry: 7
+      Data: 55|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_7
+    - Name: ko
+      Entry: 1
+      Data: "\uAC00\uB9CC\uD788 \uC788\uB294\uAC74 \uC815\uB9D0\uB85C \uBA4D\uCCAD\uD55C
+        \uC9D3\uC774\uC5C8\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_7
+    - Name: $v
+      Entry: 7
+      Data: 56|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_7
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 -1"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_7
+    - Name: $v
+      Entry: 7
+      Data: 57|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_7
+    - Name: ko
+      Entry: 1
+      Data: "\uB2E4\uC74C \uB2EC \uC6B4\uB3D9 \uAE08\uC9C0, \uB3C8 -5\uB9CC\uC6D0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_8
+    - Name: $v
+      Entry: 7
+      Data: 58|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_8
+    - Name: ko
+      Entry: 1
+      Data: "\uB300\uD0C0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_8
+    - Name: $v
+      Entry: 7
+      Data: 59|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_8
+    - Name: ko
+      Entry: 1
+      Data: "\uCE5C\uAD6C\uAC00 \uBC84\uB987\uC5C6\uC774 \uC5EC\uC790\uCE5C\uAD6C\uB791
+        \uB180\uB7EC \uAC00\uC57C\uD55C\uB2E4\uACE0 \uC544\uB974\uBC14\uC774\uD2B8\uB97C
+        \uD558\uB8E8\uB9CC \uB300\uC2E0 \uD574\uB2EC\uB77C\uACE0 \uBD80\uD0C1\uD55C\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_8
+    - Name: $v
+      Entry: 7
+      Data: 60|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_8
+    - Name: ko
+      Entry: 1
+      Data: "\uD574\uC8FC\uC790"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_8
+    - Name: $v
+      Entry: 7
+      Data: 61|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_8
+    - Name: ko
+      Entry: 1
+      Data: "\uC5B4\uB9BC\uB3C4 \uC5C6\uC9C0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_8
+    - Name: $v
+      Entry: 7
+      Data: 62|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_8
+    - Name: ko
+      Entry: 1
+      Data: "\uB3C8\uB3C4 \uBC8C\uC5C8\uACE0 \uB098\uC058\uC9C4 \uC54A\uC558\uB2E4.
+        \uD53C\uACE4\uD558\uAE34 \uD558\uC9C0\uB9CC."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_8
+    - Name: $v
+      Entry: 7
+      Data: 63|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_8
+    - Name: ko
+      Entry: 1
+      Data: "\uAC1C\uAC19\uC774 \uAC70\uC808\uD588\uB2E4. \uCE5C\uAD6C\uB294 \uC6B8\uC0C1\uC744
+        \uC9D3\uACE0 \uB0B4\uAC8C \uBB34\uC218\uD55C \uBE44\uB09C\uC744 \uB358\uC84C\uB2E4.
+        \uC5B4\uCA4C\uB77C\uACE0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_8
+    - Name: $v
+      Entry: 7
+      Data: 64|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_8
+    - Name: ko
+      Entry: 1
+      Data: "\uB3C8 +20\uB9CC\uC6D0, \uD53C\uB85C\uB3C4 +15"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_8
+    - Name: $v
+      Entry: 7
+      Data: 65|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_8
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 +1"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoName_9
+    - Name: $v
+      Entry: 7
+      Data: 66|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoName_9
+    - Name: ko
+      Entry: 1
+      Data: "\uB0AE\uC7A0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoComment_9
+    - Name: $v
+      Entry: 7
+      Data: 67|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoComment_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC624\uB298\uC740 \uC0C8\uBCBD\uC5D0 \uC7A0\uC774 \uAE68\uC11C \uB0AE\uC774
+        \uB418\uB2C8 \uC878\uB9AC\uB2E4. \uB0AE\uC7A0\uC774\uB77C\uB3C4 \uC798\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_9
+    - Name: $v
+      Entry: 7
+      Data: 68|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_9
+    - Name: ko
+      Entry: 1
+      Data: "\uBABB \uCC38\uC9C0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_9
+    - Name: $v
+      Entry: 7
+      Data: 69|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_9
+    - Name: ko
+      Entry: 1
+      Data: "\uBB50\uB77C\uB3C4 \uD558\uC790"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_9
+    - Name: $v
+      Entry: 7
+      Data: 70|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_Comment_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC790\uACE0 \uC77C\uC5B4\uB098\uB2C8 \uBC24\uC774\uB2E4. \uC9C0\uAE08
+        \uC77C\uC5B4\uB098\uBA74 \uC5B8\uC81C \uC790\uAC8C \uB420\uAE4C."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_9
+    - Name: $v
+      Entry: 7
+      Data: 71|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_Comment_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC7A0\uC774\uB77C\uB3C4 \uAE68\uB824\uACE0 \uB9E8\uBAB8\uC6B4\uB3D9\uC744
+        \uD588\uB2E4. \uC774\uAC83\uB3C4 \uAF64 \uB9DB\uC788\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_9
+    - Name: $v
+      Entry: 7
+      Data: 72|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusComment_9
+    - Name: ko
+      Entry: 1
+      Data: "\uD53C\uB85C\uB3C4 -40, \uC815\uC2E0\uB825 +1"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_9
+    - Name: $v
+      Entry: 7
+      Data: 73|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusComment_9
+    - Name: ko
+      Entry: 1
+      Data: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 +5"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_1
+    - Name: $v
+      Entry: 7
+      Data: 74|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_1
+    - Name: ko
+      Entry: 1
+      Data: "\uBC1C\uAC00\uB77D"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_1
+    - Name: $v
+      Entry: 7
+      Data: 75|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_1
+    - Name: ko
+      Entry: 1
+      Data: "\uCC45\uC0C1 \uB2E4\uB9AC\uC5D0 \uBC1C\uAC00\uB77D\uC744 \uCC27\uC5C8\uB2E4!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_1
+    - Name: $v
+      Entry: 7
+      Data: 76|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_1
+    - Name: ko
+      Entry: 1
+      Data: "\uAD1C\uCC2E\uB098..?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_1
+    - Name: $v
+      Entry: 7
+      Data: 77|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_1
+    - Name: ko
+      Entry: 1
+      Data: "\uB2E4\uD589\uD788 \uBC1C\uAC00\uB77D\uC740 \uC628\uC804\uD788 \uBD99\uC5B4\uC788\uC5C8\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_1
+    - Name: $v
+      Entry: 7
+      Data: 78|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_1
+    - Name: ko
+      Entry: 1
+      Data: "\uC548 \uAD1C\uCC2E\uB2E4. 30\uBD84\uC740 \uBC14\uB2E5\uC744 \uB4B9\uAD70
+        \uAC83 \uAC19\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_1
+    - Name: $v
+      Entry: 7
+      Data: 79|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_1
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_1
+    - Name: $v
+      Entry: 7
+      Data: 80|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_1
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 -1, \uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC6B4\uB3D9
+        \uAE08\uC9C0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_2
+    - Name: $v
+      Entry: 7
+      Data: 81|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_2
+    - Name: ko
+      Entry: 1
+      Data: "\uACE0\uC911\uB7C9"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_2
+    - Name: $v
+      Entry: 7
+      Data: 82|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_2
+    - Name: ko
+      Entry: 1
+      Data: "\uAC11\uC790\uAE30 \uB098\uC758 \uD55C\uACC4\uB97C \uC54C\uC544\uBCF4\uAE30
+        \uC704\uD574 \uACE0\uC911\uB7C9\uC73C\uB85C \uC6B4\uB3D9\uD558\uACE0 \uC2F6\uC5B4\uC84C\uB2E4.
+        \uD574\uBCFC\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_2
+    - Name: $v
+      Entry: 7
+      Data: 83|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_2
+    - Name: ko
+      Entry: 1
+      Data: "\uD55C\uACC4\uB3CC\uD30C!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_2
+    - Name: $v
+      Entry: 7
+      Data: 84|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_2
+    - Name: ko
+      Entry: 1
+      Data: "\uB0B4\uAC8C \uBC85\uCC2C \uBB34\uAC8C\uB97C \uB4E4\uC5B4\uB0B4\uB294
+        \uAC83\uC740 \uBAB9\uC2DC \uC9DC\uB9BF\uD55C \uC77C\uC774\uC5C8\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_2
+    - Name: $v
+      Entry: 7
+      Data: 85|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_2
+    - Name: ko
+      Entry: 1
+      Data: "\uC790\uC138\uB97C \uC720\uC9C0\uD558\uC9C0 \uBABB\uD558\uACE0 \uAE54\uB824\uBC84\uB838\uB2E4.
+        \uD5EC\uC2A4\uC7A5 \uD615\uB2D8\uB4E4\uC774 \uB3C4\uC640\uC918\uC11C \uB2E4\uD589\uD788
+        \uB2E4\uCE58\uC9C4 \uC54A\uC558\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_2
+    - Name: $v
+      Entry: 7
+      Data: 86|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_2
+    - Name: ko
+      Entry: 1
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 +10"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_2
+    - Name: $v
+      Entry: 7
+      Data: 87|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_2
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_3
+    - Name: $v
+      Entry: 7
+      Data: 88|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_3
+    - Name: ko
+      Entry: 1
+      Data: "\uB4F1\uC0B0"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_3
+    - Name: $v
+      Entry: 7
+      Data: 89|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_3
+    - Name: ko
+      Entry: 1
+      Data: "\uAC11\uC790\uAE30 \uC9D1 \uB4A4\uC758 \uC0B0\uC744 \uC624\uB974\uACE0
+        \uC2F6\uC5B4\uC84C\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_3
+    - Name: $v
+      Entry: 7
+      Data: 90|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_3
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC0C1\uC73C\uB85C!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_3
+    - Name: $v
+      Entry: 7
+      Data: 91|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_3
+    - Name: ko
+      Entry: 1
+      Data: "\uC0B0\uC758 \uC815\uC0C1\uC740 \uB9E4\uC6B0 \uC0C1\uCF8C\uD588\uB2E4.
+        \uC57C\uD638~"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_3
+    - Name: $v
+      Entry: 7
+      Data: 92|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_3
+    - Name: ko
+      Entry: 1
+      Data: "\uAC70\uC9D3\uB9D0\uAC19\uC9C0\uB9CC \uBA67\uB3FC\uC9C0\uB97C \uB9C8\uC8FC\uCCE4\uB2E4.
+        \uD63C\uC2E0\uC744 \uB2E4\uD574 \uC8FD\uC740\uCC99\uC744 \uD588\uB354\uB2C8
+        \uB2E4\uD589\uD788 \uB2E4\uAC00\uC624\uC9C0 \uC54A\uC558\uB2E4. \uC778\uAC04\uC758
+        \uC874\uC5C4\uC774 \uBB34\uB108\uC9C0\uB294 \uC21C\uAC04\uC774\uC5C8\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_3
+    - Name: $v
+      Entry: 7
+      Data: 93|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_3
+    - Name: ko
+      Entry: 1
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 +5, \uC815\uC2E0\uB825 +1"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_3
+    - Name: $v
+      Entry: 7
+      Data: 94|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_3
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 -2, \uD53C\uB85C\uB3C4 +20"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_4
+    - Name: $v
+      Entry: 7
+      Data: 95|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_4
+    - Name: ko
+      Entry: 1
+      Data: "\uC9C8\uD22C\uC2EC"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_4
+    - Name: $v
+      Entry: 7
+      Data: 96|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_4
+    - Name: ko
+      Entry: 1
+      Data: "\uADF8\uB140\uAC00 \uD1B5\uD654\uD558\uB294\uB370 \uB0A8\uC790 \uBAA9\uC18C\uB9AC\uAC00
+        \uB4E4\uB9B0\uB2E4. \uAD81\uAE08\uD558\uB2E4. \uB204\uAD74\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_4
+    - Name: $v
+      Entry: 7
+      Data: 97|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_4
+    - Name: ko
+      Entry: 1
+      Data: "\uBB3C\uC5B4\uBCF4\uC790"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_4
+    - Name: $v
+      Entry: 7
+      Data: 98|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_4
+    - Name: ko
+      Entry: 1
+      Data: "\uC870\uC2EC\uC2A4\uB7FD\uAC8C \uBB3C\uC5B4\uBCF4\uB824\uB294 \uB098\uC758
+        \uD45C\uC815\uC744 \uBCF4\uB354\uB2C8 \uADF8\uB140\uB294 \uC7A5\uB09C\uB07C
+        \uBA38\uAE08\uC740 \uC5BC\uAD74\uB85C '\uADF8\uB0E5 \uCE5C\uAD6C~'\uB77C\uACE0
+        \uB2F5\uD588\uB2E4. \uC9C8\uD22C\uB098\uB124"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_4
+    - Name: $v
+      Entry: 7
+      Data: 99|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_4
+    - Name: ko
+      Entry: 1
+      Data: "\uBC14\uBCF4\uAC19\uC774 \uC5B4\uBC84\uBC84\uB314\uB2E4. \uADF8\uB140\uB294
+        \uAC38\uC6B0\uB6B1\uD558\uB2E4\uAC00 \uC6C3\uC5C8\uB2E4. \uBD80\uB044\uB7FD\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_4
+    - Name: $v
+      Entry: 7
+      Data: 100|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_4
+    - Name: ko
+      Entry: 1
+      Data: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 1.5\uBC30 \uC0C1\uC2B9"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_4
+    - Name: $v
+      Entry: 7
+      Data: 101|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_4
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_5
+    - Name: $v
+      Entry: 7
+      Data: 102|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_5
+    - Name: ko
+      Entry: 1
+      Data: "\uB354\uC704"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_5
+    - Name: $v
+      Entry: 7
+      Data: 103|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_5
+    - Name: ko
+      Entry: 1
+      Data: "\uBC24\uC778\uB370\uB3C4 \uC9D1 \uC548\uC774 \uB108\uBB34 \uB365\uB2E4.
+        \uC5D0\uC5B4\uCEE8\uC744 \uC7A0\uC2DC\uB9CC \uD2C0\uC5B4\uB193\uC790."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_5
+    - Name: $v
+      Entry: 7
+      Data: 104|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_5
+    - Name: ko
+      Entry: 1
+      Data: "\uC5B4?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_5
+    - Name: $v
+      Entry: 7
+      Data: 105|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_5
+    - Name: ko
+      Entry: 1
+      Data: "\uC5ED\uC2DC \uC774\uAC83\uC774 \uAE30\uC220\uB825\uC758 \uB9DB\uC778\uAC00.
+        \uC9D1 \uC548\uC774 \uC2DC\uC6D0\uD574\uC84C\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_5
+    - Name: $v
+      Entry: 7
+      Data: 106|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_5
+    - Name: ko
+      Entry: 1
+      Data: "\uC2E4\uC218\uB85C \uC548\uB044\uACE0 \uC7A0\uC774 \uB4E4\uC5B4\uBC84\uB824
+        \uAC10\uAE30\uC5D0 \uAC78\uB824\uBC84\uB838\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_5
+    - Name: $v
+      Entry: 7
+      Data: 107|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_5
+    - Name: ko
+      Entry: 1
+      Data: "\uD53C\uB85C\uB3C4 -10"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_5
+    - Name: $v
+      Entry: 7
+      Data: 108|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_5
+    - Name: ko
+      Entry: 1
+      Data: "\uD53C\uB85C\uB3C4 +25"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_6
+    - Name: $v
+      Entry: 7
+      Data: 109|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_6
+    - Name: ko
+      Entry: 1
+      Data: "\uC6B0\uC6B8"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_6
+    - Name: $v
+      Entry: 7
+      Data: 110|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_6
+    - Name: ko
+      Entry: 1
+      Data: "\uC694\uC998 \uC544\uBB34\uAC83\uB3C4 \uD558\uAE30\uAC00 \uC2EB\uB2E4.
+        \uC774\uACA8\uB0BC \uC218 \uC788\uC744\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_6
+    - Name: $v
+      Entry: 7
+      Data: 111|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_6
+    - Name: ko
+      Entry: 1
+      Data: "\uD6C4.."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_6
+    - Name: $v
+      Entry: 7
+      Data: 112|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_6
+    - Name: ko
+      Entry: 1
+      Data: "\uC721\uCCB4\uAC00 \uAC74\uAC15\uD574\uC9C0\uB294 \uB9CC\uD07C \uC815\uC2E0\uB3C4
+        \uAC74\uAC15\uD574\uC838\uC57C\uC9C0!! \uBC84\uD2F0\uACE0 \uACAC\uB38C\uB77C"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_6
+    - Name: $v
+      Entry: 7
+      Data: 113|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_6
+    - Name: ko
+      Entry: 1
+      Data: "\uC5ED\uC2DC \uC6B0\uC6B8\uD558\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_6
+    - Name: $v
+      Entry: 7
+      Data: 114|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_6
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 +1"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_6
+    - Name: $v
+      Entry: 7
+      Data: 115|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_6
+    - Name: ko
+      Entry: 1
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 -2, (\uC131\uACF5\uD560 \uB54C\uAE4C\uC9C0
+        \uBC18\uBCF5)"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_7
+    - Name: $v
+      Entry: 7
+      Data: 116|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_7
+    - Name: ko
+      Entry: 1
+      Data: "\uD55C\uACC4"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_7
+    - Name: $v
+      Entry: 7
+      Data: 117|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_7
+    - Name: ko
+      Entry: 1
+      Data: "\uC624\uB298\uC740 \uD55C\uACC4\uAE4C\uC9C0 \uC6B4\uB3D9\uD574\uBCFC\uAE4C?
+        \uAE54\uB9AC\uAE30 \uC804\uAE4C\uC9C4 \uD6C4\uD1F4\uB780 \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_7
+    - Name: $v
+      Entry: 7
+      Data: 118|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_7
+    - Name: ko
+      Entry: 1
+      Data: "\uD574\uBCF4\uC790!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_7
+    - Name: $v
+      Entry: 7
+      Data: 119|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_7
+    - Name: ko
+      Entry: 1
+      Data: "\uC8FD\uB294\uC904 \uC54C\uC558\uC9C0\uB9CC, \uB098\uC758 \uADFC\uC721\uC740
+        \uBD88\uD0C0\uC62C\uB790\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_7
+    - Name: $v
+      Entry: 7
+      Data: 120|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_7
+    - Name: ko
+      Entry: 1
+      Data: "\uC5FC\uB77C\uB300\uC655\uC774\uB791 \uC545\uC218\uD558\uACE0 \uC654\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_7
+    - Name: $v
+      Entry: 7
+      Data: 121|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_7
+    - Name: ko
+      Entry: 1
+      Data: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 +10"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_7
+    - Name: $v
+      Entry: 7
+      Data: 122|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_7
+    - Name: ko
+      Entry: 1
+      Data: "\uD53C\uB85C\uB3C4 +30"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_8
+    - Name: $v
+      Entry: 7
+      Data: 123|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_8
+    - Name: ko
+      Entry: 1
+      Data: "\uBC25\uC57D\uC18D"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_8
+    - Name: $v
+      Entry: 7
+      Data: 124|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_8
+    - Name: ko
+      Entry: 1
+      Data: "\uADF8\uB140\uC5D0\uAC8C \uC624\uB79C\uB9CC\uC5D0 \uBC25\uBA39\uC790\uACE0
+        \uD574\uBCFC\uAE4C?"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_8
+    - Name: $v
+      Entry: 7
+      Data: 125|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_8
+    - Name: ko
+      Entry: 1
+      Data: "\uC81C\uBC1C..!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_8
+    - Name: $v
+      Entry: 7
+      Data: 126|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_8
+    - Name: ko
+      Entry: 1
+      Data: "\uB9C8\uCE68 \uC2DC\uAC04\uC774 \uB09C\uB2E4\uACE0 \uD574\uC11C \uADFC\uCC98
+        \uACE0\uAE43\uC9D1\uC5D0\uC11C \uAC19\uC774 \uBC25\uC744 \uBA39\uC5C8\uB2E4.
+        \uC774\uB7F0 \uB0A0\uB4E4\uC774 \uACC4\uC18D \uB418\uC5C8\uC73C\uBA74."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_8
+    - Name: $v
+      Entry: 7
+      Data: 127|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_8
+    - Name: ko
+      Entry: 1
+      Data: "\uD558\uD544 \uADF8\uB140\uB294 \uD68C\uC2DD\uC774 \uC7A1\uD78C \uB0A0\uC774\uC5C8\uACE0,
+        \uB2E4\uC74C\uC5D0 \uBA39\uC790\uACE0 \uD558\uC600\uB2E4. \uC5B4\uCA54 \uC218
+        \uC5C6\uC9C0\uB9CC, \uC870\uAE08 \uC2AC\uD504\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_8
+    - Name: $v
+      Entry: 7
+      Data: 128|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_8
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 +2, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+        1.3\uBC30"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_8
+    - Name: $v
+      Entry: 7
+      Data: 129|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_8
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 -1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+        0.8\uBC30"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_9
+    - Name: $v
+      Entry: 7
+      Data: 130|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC0B0\uCC45"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_9
+    - Name: $v
+      Entry: 7
+      Data: 131|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC880 \uD53C\uACE4\uD558\uAE34 \uD574\uB3C4 \uC624\uB79C\uB9CC\uC5D0
+        \uC0B0\uCC45\uC774\uB098 \uAC14\uB2E4\uC62C\uAE4C? \uBB34\uC2A8 \uC7AC\uBC0C\uB294
+        \uC77C\uC774 \uC77C\uC5B4\uB0A0 \uC218\uB3C4 \uC788\uC73C\uB2C8\uAE4C."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_9
+    - Name: $v
+      Entry: 7
+      Data: 132|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_9
+    - Name: ko
+      Entry: 1
+      Data: "\uAC00\uBCF4\uC790"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_9
+    - Name: $v
+      Entry: 7
+      Data: 133|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uB9D0 \uC6B0\uC5F0\uD788\uB3C4 \uBC18\uB824\uB3D9\uBB3C\uACFC
+        \uC0B0\uCC45 \uC911\uC774\uB358 \uCD5C\uC560 \uADFC\uC721\uC9C8 \uB9C8\uCD08
+        \uBC30\uC6B0\uB97C \uB9C8\uC8FC\uCCE4\uB2E4. \uC2F8\uC778\uAE4C\uC9C0 \uBC1B\uC558\uB2E4!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_9
+    - Name: $v
+      Entry: 7
+      Data: 134|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC5ED\uC2DC \uC544\uBB34 \uC77C\uB3C4 \uC77C\uC5B4\uB098\uC9C0 \uC54A\uC558\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_9
+    - Name: $v
+      Entry: 7
+      Data: 135|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_9
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 +1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+        1.5\uBC30"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_9
+    - Name: $v
+      Entry: 7
+      Data: 136|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_9
+    - Name: ko
+      Entry: 1
+      Data: "\uD53C\uB85C\uB3C4 +5"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoNameP_10
+    - Name: $v
+      Entry: 7
+      Data: 137|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoNameP_10
+    - Name: ko
+      Entry: 1
+      Data: "\uAC00\uC704"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventInfoCommentP_10
+    - Name: $v
+      Entry: 7
+      Data: 138|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventInfoCommentP_10
+    - Name: ko
+      Entry: 1
+      Data: "\uC7A0\uC790\uB2E4\uAC00 \uAC00\uC704\uC5D0 \uB20C\uB838\uB2E4. \uBC97\uC5B4\uB098\uACE0
+        \uC2F6\uC5B4..!"
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_10
+    - Name: $v
+      Entry: 7
+      Data: 139|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_10
+    - Name: ko
+      Entry: 1
+      Data: "\uC73C.."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_10
+    - Name: $v
+      Entry: 7
+      Data: 140|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_CommentP_10
+    - Name: ko
+      Entry: 1
+      Data: "\uC190\uAC00\uB77D\uBD80\uD130 \uCC28\uADFC\uCC28\uADFC \uC6C0\uC9C1\uC774\uAC8C
+        \uB418\uB354\uB2C8 \uAC00\uC704\uAC00 \uD480\uB838\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_10
+    - Name: $v
+      Entry: 7
+      Data: 141|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_CommentP_10
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uC740 \uB9D1\uC740\uB370 \uBAB8\uC740 \uBB34\uAC81\uB358
+        \uBB34\uC11C\uC6B4 \uBC24\uC774\uC5C8\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_10
+    - Name: $v
+      Entry: 7
+      Data: 142|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_StatusCommentP_10
+    - Name: ko
+      Entry: 1
+      Data: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    - Name: en
+      Entry: 1
+      Data: 
+    - Name: Jp
+      Entry: 1
+      Data: 
+    - Name: Ch
+      Entry: 1
+      Data: 
+    - Name: TW
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_10
+    - Name: $v
+      Entry: 7
+      Data: 143|LocalizeData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_StatusCommentP_10
+    - Name: ko
+      Entry: 1
+      Data: "\uC815\uC2E0\uB825 -1, \uD53C\uB85C\uB3C4 +15"
     - Name: en
       Entry: 1
       Data: 
@@ -309,13 +4799,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   dataArr:
-  - Key: Lo_test_EventInfoName_1
+  - Key: Lo_EventInfoName_1
     ko: "\uADFC\uC721\uD1B5"
     en: 
     Jp: 
     Ch: 
     TW: 
-  - Key: Lo_test_EventInfoComment_1
+  - Key: Lo_EventInfoComment_1
     ko: "\uC694\uC998 \uC6B4\uB3D9\uC744 \uB108\uBB34 \uC5F4\uC2EC\uD788 \uD588\uB294\uC9C0
       \uD558\uCCB4\uC5D0 \uC2EC\uD55C \uADFC\uC721\uD1B5\uC774 \uCC3E\uC544\uC654\uB2E4.
       \uB2E4\uC74C\uB2EC\uC740 \uD558\uCCB4\uB97C \uC26C\uC5B4\uC57C \uD560\uAE4C?"
@@ -323,49 +4813,1049 @@ MonoBehaviour:
     Jp: 
     Ch: 
     TW: 
-  - Key: Lo_test_EventIfo_1_Btn_1
+  - Key: Lo_EventIfo_1_Btn_1
     ko: "\uC270\uB2E4"
     en: 
     Jp: 
     Ch: 
     TW: 
-  - Key: Lo_test_EventIfo_1_Btn_2
+  - Key: Lo_EventIfo_2_Btn_1
     ko: "\uC544\uB2C8\uB2E4"
     en: 
     Jp: 
     Ch: 
     TW: 
-  - Key: Lo_test_EventIfo_1_Btn_Comment_1
+  - Key: Lo_EventIfo_1_Btn_Comment_1
     ko: "\uADF8\uB798 \uC880 \uC26C\uC5B4\uC57C\uC9C0"
     en: 
     Jp: 
     Ch: 
     TW: 
-  - Key: Lo_test_EventIfo_1_Btn_Comment_2
+  - Key: Lo_EventIfo_2_Btn_Comment_1
     ko: "\uC57D\uD558\uAC8C\uB77C\uB3C4 \uD574\uC57C\uC9C0 \uBB50."
     en: 
     Jp: 
     Ch: 
     TW: 
-  - Key: Lo_test_EventIfo_1_Btn_StatusComment_1
-    ko: "\uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC2A4\uCF00\uC904\uB9C1 \uBD88\uAC00,
-      \uB2E4\uC74C \uB2EC \uD734\uC2DD \uC2DC \uD53C\uB85C\uB3C4 \uAC10\uC18C 1.5\uBC30"
+  - Key: Lo_EventIfo_1_Btn_StatusComment_1
+    ko: "\uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC6B4\uB3D9 \uAE08\uC9C0, \uD53C\uB85C\uB3C4
+      -40"
     en: 
     Jp: 
     Ch: 
     TW: 
-  - Key: Lo_test_EventIfo_1_Btn_StatusComment_2
+  - Key: Lo_EventIfo_2_Btn_StatusComment_1
     ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
     en: 
     Jp: 
     Ch: 
     TW: 
+  - Key: Lo_EventInfoName_2
+    ko: "\uAE30\uBD84\uC804\uD658"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_2
+    ko: "\uC624\uB298\uC740 \uC660\uC9C0 \uAE30\uBD84\uC774 \uAFC0\uAFC0\uD558\uB2E4.
+      \uC637\uC774\uB098 \uC0AC\uBCFC\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_2
+    ko: "\uC0AC\uB7EC\uAC00\uC790"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_2
+    ko: "\uC548\uB41C\uB2E4"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_2
+    ko: "\uC637\uC744 \uACE0\uB974\uB2E4\uBCF4\uB2C8 \uB108\uBB34 \uB9CE\uC774 \uC368\uBC84\uB838\uB2E4!
+      \uD558\uC9C0\uB9CC \uAE30\uBD84\uC740 \uC88B\uC544\uC84C\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_2
+    ko: "\uAD1C\uD55C \uC9C0\uCD9C\uD558\uC9C0 \uB9D0\uC790."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_2
+    ko: "\uB3C8 -10\uB9CC\uC6D0, \uC815\uC2E0\uB825 +2"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_2
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoName_3
+    ko: "\uC601\uC591\uC81C"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_3
+    ko: "\uCE5C\uCC99\uACE0\uBAA8\uAC00 \uC6B4\uB3D9\uD560 \uB54C \uC88B\uC744\uAC70\uB77C\uBA70
+      \uC601\uC591\uC81C\uB97C \uD558\uB098 \uC120\uBB3C\uD574\uC8FC\uC168\uB2E4.
+      \uADFC\uB370 \uBB54\uAC00 \uB9CE\uC774 \uC774\uC0C1\uD558\uAC8C \uC0DD\uACBC\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_3
+    ko: "\uAC10\uC0AC\uD569\uB2C8\uB2E4!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_3
+    ko: "\uBA39\uC9C4 \uB9D0\uC544\uC57C\uC9C0."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_3
+    ko: "\uB9DB\uB3C4, \uC0DD\uAE34 \uAC83\uB3C4 \uC774\uC0C1\uD588\uC9C0\uB9CC \uC815\uB9D0
+      \uC6B4\uB3D9 \uC218\uD589 \uB2A5\uB825\uC774 \uC88B\uC544\uC9C4 \uAC83 \uAC19\uB2E4!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_3
+    ko: "\uC8FC\uC2E0 \uB9C8\uC74C\uC740 \uC815\uB9D0 \uAC10\uC0AC\uD558\uC9C0\uB9CC,
+      \uC870\uC2EC\uD574\uC57C\uC9C0."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_3
+    ko: "\uC77C\uC2DC\uC801\uC73C\uB85C \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+      1.3\uBC30"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_3
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoName_4
+    ko: "\uC220\uC790\uB9AC"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_4
+    ko: "\uCE5C\uAD6C\uAC00 \uCDE8\uC5C5\uD588\uB2E4\uBA70 \uC220\uC744 \uC0AC\uC900\uB2E4\uACE0
+      \uBD88\uB800\uB2E4. \uAC00\uC57C\uD560\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_4
+    ko: "\uB2F9\uC5F0\uD788 \uAC00\uC57C\uC9C0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_4
+    ko: "\uBB54 \uC220\uC774\uC57C"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_4
+    ko: "\uCE5C\uAD6C\uAC00 \uBB34\uB824 \uCDE8\uC5C5\uC744 \uD588\uB2E4\uB294\uB370
+      \uAC00\uC57C\uC9C0!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_4
+    ko: "\uC220\uB9C8\uC2DC\uBA74 \uADFC\uC190\uC2E4\uC628\uB2E4. \uB300\uCDA9 \uB458\uB7EC\uB300\uBA70
+      \uAE30\uD504\uD2F0\uCF58\uC774\uB098 \uD558\uB098 \uC120\uBB3C\uD574\uC92C\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_4
+    ko: "\uC815\uC2E0\uB825 +1, \uBAA8\uB4E0 \uADFC\uB825 -5"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_4
+    ko: "\uB3C8 -3\uB9CC\uC6D0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoName_5
+    ko: "\uB2ED\uAC00\uC2B4\uC0B4"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_5
+    ko: "\uC9C4\uACF5 \uD3EC\uC7A5\uB418\uC5B4 \uC788\uB358 \uB2ED\uAC00\uC2B4\uC0B4\uC758
+      \uD3EC\uC7A5\uC9C0\uAC00 \uD33D\uCC3D\uD588\uB2E4. \uBA39\uC5B4\uB3C4 \uB418\uB294\uAC78\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_5
+    ko: "\uBA39\uB294\uB2E4"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_5
+    ko: "\uBC84\uB9B0\uB2E4"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_5
+    ko: "\uD3C9\uC18C\uBCF4\uB2E4 \uD654\uC7A5\uC2E4\uC744 \uC880 \uB354 \uAC00\uAE34
+      \uD558\uC9C0\uB9CC, \uB2E4\uD589\uD788 \uAD1C\uCC2E\uC740 \uAC83 \uAC19\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_5
+    ko: "\uBC84\uB9AC\uACE0 \uC0C8\uB85C \uC0AC\uC57C\uACA0\uB2E4. \uC544\uAE4C\uC6B4
+      \uB0B4 \uB3C8"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_5
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_5
+    ko: "-10\uB9CC\uC6D0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoName_6
+    ko: "\uAC78\uC2E0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_6
+    ko: "\uBC30\uC5D0 \uAC70\uC9C0\uAC00 \uB4E4\uC5C8\uB294\uC9C0, \uC2DD\uC695\uC774
+      \uB118\uCE5C\uB2E4. \uB354 \uBA39\uC744\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_6
+    ko: "\uADF8\uB7EC\uC790"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_6
+    ko: "\uCC38\uC790"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_6
+    ko: "\uADFC\uC721\uC774 \uC601\uC591\uC18C\uB97C \uBD80\uB974\uB294\uAC70\uC57C!
+      \uBC30\uACE0\uD50C\uB550 \uBA39\uC5B4\uC57C\uC9C0."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_6
+    ko: "\uB3C8\uB3C4 \uC5C6\uB294\uB370 \uC544\uB07C\uC790.."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_6
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 +7, \uB3C8 -5\uB9CC\uC6D0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_6
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoName_7
+    ko: "\uC0AC\uACE0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_7
+    ko: "\uAC11\uC790\uAE30 \uB0B4 \uC55E\uC73C\uB85C \uBE60\uB974\uAC8C \uB2EC\uB824\uC624\uB294
+      \uC790\uC804\uAC70\uAC00 \uC788\uB2E4. \uC5B4\uB5BB\uAC8C \uD560\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_7
+    ko: "\uC7AC\uBE60\uB974\uAC8C \uD53C\uD55C\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_7
+    ko: "\uAC00\uB9CC\uD788 \uC788\uB294\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_7
+    ko: "\uC7AC\uBE60\uB974\uAC8C \uC804\uBD07\uB300\uC5D0 \uBA38\uB9AC\uB97C \uBC15\uACE0
+      \uB118\uC5B4\uC84C\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_7
+    ko: "\uAC00\uB9CC\uD788 \uC788\uB294\uAC74 \uC815\uB9D0\uB85C \uBA4D\uCCAD\uD55C
+      \uC9D3\uC774\uC5C8\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_7
+    ko: "\uC815\uC2E0\uB825 -1"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_7
+    ko: "\uB2E4\uC74C \uB2EC \uC6B4\uB3D9 \uAE08\uC9C0, \uB3C8 -5\uB9CC\uC6D0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoName_8
+    ko: "\uB300\uD0C0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_8
+    ko: "\uCE5C\uAD6C\uAC00 \uBC84\uB987\uC5C6\uC774 \uC5EC\uC790\uCE5C\uAD6C\uB791
+      \uB180\uB7EC \uAC00\uC57C\uD55C\uB2E4\uACE0 \uC544\uB974\uBC14\uC774\uD2B8\uB97C
+      \uD558\uB8E8\uB9CC \uB300\uC2E0 \uD574\uB2EC\uB77C\uACE0 \uBD80\uD0C1\uD55C\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_8
+    ko: "\uD574\uC8FC\uC790"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_8
+    ko: "\uC5B4\uB9BC\uB3C4 \uC5C6\uC9C0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_8
+    ko: "\uB3C8\uB3C4 \uBC8C\uC5C8\uACE0 \uB098\uC058\uC9C4 \uC54A\uC558\uB2E4. \uD53C\uACE4\uD558\uAE34
+      \uD558\uC9C0\uB9CC."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_8
+    ko: "\uAC1C\uAC19\uC774 \uAC70\uC808\uD588\uB2E4. \uCE5C\uAD6C\uB294 \uC6B8\uC0C1\uC744
+      \uC9D3\uACE0 \uB0B4\uAC8C \uBB34\uC218\uD55C \uBE44\uB09C\uC744 \uB358\uC84C\uB2E4.
+      \uC5B4\uCA4C\uB77C\uACE0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_8
+    ko: "\uB3C8 +20\uB9CC\uC6D0, \uD53C\uB85C\uB3C4 +15"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_8
+    ko: "\uC815\uC2E0\uB825 +1"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoName_9
+    ko: "\uB0AE\uC7A0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoComment_9
+    ko: "\uC624\uB298\uC740 \uC0C8\uBCBD\uC5D0 \uC7A0\uC774 \uAE68\uC11C \uB0AE\uC774
+      \uB418\uB2C8 \uC878\uB9AC\uB2E4. \uB0AE\uC7A0\uC774\uB77C\uB3C4 \uC798\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_9
+    ko: "\uBABB \uCC38\uC9C0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_9
+    ko: "\uBB50\uB77C\uB3C4 \uD558\uC790"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_Comment_9
+    ko: "\uC790\uACE0 \uC77C\uC5B4\uB098\uB2C8 \uBC24\uC774\uB2E4. \uC9C0\uAE08 \uC77C\uC5B4\uB098\uBA74
+      \uC5B8\uC81C \uC790\uAC8C \uB420\uAE4C."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_Comment_9
+    ko: "\uC7A0\uC774\uB77C\uB3C4 \uAE68\uB824\uACE0 \uB9E8\uBAB8\uC6B4\uB3D9\uC744
+      \uD588\uB2E4. \uC774\uAC83\uB3C4 \uAF64 \uB9DB\uC788\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusComment_9
+    ko: "\uD53C\uB85C\uB3C4 -40, \uC815\uC2E0\uB825 +1"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusComment_9
+    ko: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 +5"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_1
+    ko: "\uBC1C\uAC00\uB77D"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_1
+    ko: "\uCC45\uC0C1 \uB2E4\uB9AC\uC5D0 \uBC1C\uAC00\uB77D\uC744 \uCC27\uC5C8\uB2E4!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_1
+    ko: "\uAD1C\uCC2E\uB098..?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_1
+    ko: "\uB2E4\uD589\uD788 \uBC1C\uAC00\uB77D\uC740 \uC628\uC804\uD788 \uBD99\uC5B4\uC788\uC5C8\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_1
+    ko: "\uC548 \uAD1C\uCC2E\uB2E4. 30\uBD84\uC740 \uBC14\uB2E5\uC744 \uB4B9\uAD70
+      \uAC83 \uAC19\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_1
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_1
+    ko: "\uC815\uC2E0\uB825 -1, \uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC6B4\uB3D9 \uAE08\uC9C0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_2
+    ko: "\uACE0\uC911\uB7C9"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_2
+    ko: "\uAC11\uC790\uAE30 \uB098\uC758 \uD55C\uACC4\uB97C \uC54C\uC544\uBCF4\uAE30
+      \uC704\uD574 \uACE0\uC911\uB7C9\uC73C\uB85C \uC6B4\uB3D9\uD558\uACE0 \uC2F6\uC5B4\uC84C\uB2E4.
+      \uD574\uBCFC\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_2
+    ko: "\uD55C\uACC4\uB3CC\uD30C!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_2
+    ko: "\uB0B4\uAC8C \uBC85\uCC2C \uBB34\uAC8C\uB97C \uB4E4\uC5B4\uB0B4\uB294 \uAC83\uC740
+      \uBAB9\uC2DC \uC9DC\uB9BF\uD55C \uC77C\uC774\uC5C8\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_2
+    ko: "\uC790\uC138\uB97C \uC720\uC9C0\uD558\uC9C0 \uBABB\uD558\uACE0 \uAE54\uB824\uBC84\uB838\uB2E4.
+      \uD5EC\uC2A4\uC7A5 \uD615\uB2D8\uB4E4\uC774 \uB3C4\uC640\uC918\uC11C \uB2E4\uD589\uD788
+      \uB2E4\uCE58\uC9C4 \uC54A\uC558\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_2
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 +10"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_2
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_3
+    ko: "\uB4F1\uC0B0"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_3
+    ko: "\uAC11\uC790\uAE30 \uC9D1 \uB4A4\uC758 \uC0B0\uC744 \uC624\uB974\uACE0 \uC2F6\uC5B4\uC84C\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_3
+    ko: "\uC815\uC0C1\uC73C\uB85C!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_3
+    ko: "\uC0B0\uC758 \uC815\uC0C1\uC740 \uB9E4\uC6B0 \uC0C1\uCF8C\uD588\uB2E4. \uC57C\uD638~"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_3
+    ko: "\uAC70\uC9D3\uB9D0\uAC19\uC9C0\uB9CC \uBA67\uB3FC\uC9C0\uB97C \uB9C8\uC8FC\uCCE4\uB2E4.
+      \uD63C\uC2E0\uC744 \uB2E4\uD574 \uC8FD\uC740\uCC99\uC744 \uD588\uB354\uB2C8
+      \uB2E4\uD589\uD788 \uB2E4\uAC00\uC624\uC9C0 \uC54A\uC558\uB2E4. \uC778\uAC04\uC758
+      \uC874\uC5C4\uC774 \uBB34\uB108\uC9C0\uB294 \uC21C\uAC04\uC774\uC5C8\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_3
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 +5, \uC815\uC2E0\uB825 +1"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_3
+    ko: "\uC815\uC2E0\uB825 -2, \uD53C\uB85C\uB3C4 +20"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_4
+    ko: "\uC9C8\uD22C\uC2EC"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_4
+    ko: "\uADF8\uB140\uAC00 \uD1B5\uD654\uD558\uB294\uB370 \uB0A8\uC790 \uBAA9\uC18C\uB9AC\uAC00
+      \uB4E4\uB9B0\uB2E4. \uAD81\uAE08\uD558\uB2E4. \uB204\uAD74\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_4
+    ko: "\uBB3C\uC5B4\uBCF4\uC790"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_4
+    ko: "\uC870\uC2EC\uC2A4\uB7FD\uAC8C \uBB3C\uC5B4\uBCF4\uB824\uB294 \uB098\uC758
+      \uD45C\uC815\uC744 \uBCF4\uB354\uB2C8 \uADF8\uB140\uB294 \uC7A5\uB09C\uB07C
+      \uBA38\uAE08\uC740 \uC5BC\uAD74\uB85C '\uADF8\uB0E5 \uCE5C\uAD6C~'\uB77C\uACE0
+      \uB2F5\uD588\uB2E4. \uC9C8\uD22C\uB098\uB124"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_4
+    ko: "\uBC14\uBCF4\uAC19\uC774 \uC5B4\uBC84\uBC84\uB314\uB2E4. \uADF8\uB140\uB294
+      \uAC38\uC6B0\uB6B1\uD558\uB2E4\uAC00 \uC6C3\uC5C8\uB2E4. \uBD80\uB044\uB7FD\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_4
+    ko: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 1.5\uBC30 \uC0C1\uC2B9"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_4
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_5
+    ko: "\uB354\uC704"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_5
+    ko: "\uBC24\uC778\uB370\uB3C4 \uC9D1 \uC548\uC774 \uB108\uBB34 \uB365\uB2E4.
+      \uC5D0\uC5B4\uCEE8\uC744 \uC7A0\uC2DC\uB9CC \uD2C0\uC5B4\uB193\uC790."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_5
+    ko: "\uC5B4?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_5
+    ko: "\uC5ED\uC2DC \uC774\uAC83\uC774 \uAE30\uC220\uB825\uC758 \uB9DB\uC778\uAC00.
+      \uC9D1 \uC548\uC774 \uC2DC\uC6D0\uD574\uC84C\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_5
+    ko: "\uC2E4\uC218\uB85C \uC548\uB044\uACE0 \uC7A0\uC774 \uB4E4\uC5B4\uBC84\uB824
+      \uAC10\uAE30\uC5D0 \uAC78\uB824\uBC84\uB838\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_5
+    ko: "\uD53C\uB85C\uB3C4 -10"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_5
+    ko: "\uD53C\uB85C\uB3C4 +25"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_6
+    ko: "\uC6B0\uC6B8"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_6
+    ko: "\uC694\uC998 \uC544\uBB34\uAC83\uB3C4 \uD558\uAE30\uAC00 \uC2EB\uB2E4. \uC774\uACA8\uB0BC
+      \uC218 \uC788\uC744\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_6
+    ko: "\uD6C4.."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_6
+    ko: "\uC721\uCCB4\uAC00 \uAC74\uAC15\uD574\uC9C0\uB294 \uB9CC\uD07C \uC815\uC2E0\uB3C4
+      \uAC74\uAC15\uD574\uC838\uC57C\uC9C0!! \uBC84\uD2F0\uACE0 \uACAC\uB38C\uB77C"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_6
+    ko: "\uC5ED\uC2DC \uC6B0\uC6B8\uD558\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_6
+    ko: "\uC815\uC2E0\uB825 +1"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_6
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 -2, (\uC131\uACF5\uD560 \uB54C\uAE4C\uC9C0 \uBC18\uBCF5)"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_7
+    ko: "\uD55C\uACC4"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_7
+    ko: "\uC624\uB298\uC740 \uD55C\uACC4\uAE4C\uC9C0 \uC6B4\uB3D9\uD574\uBCFC\uAE4C?
+      \uAE54\uB9AC\uAE30 \uC804\uAE4C\uC9C4 \uD6C4\uD1F4\uB780 \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_7
+    ko: "\uD574\uBCF4\uC790!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_7
+    ko: "\uC8FD\uB294\uC904 \uC54C\uC558\uC9C0\uB9CC, \uB098\uC758 \uADFC\uC721\uC740
+      \uBD88\uD0C0\uC62C\uB790\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_7
+    ko: "\uC5FC\uB77C\uB300\uC655\uC774\uB791 \uC545\uC218\uD558\uACE0 \uC654\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_7
+    ko: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 +10"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_7
+    ko: "\uD53C\uB85C\uB3C4 +30"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_8
+    ko: "\uBC25\uC57D\uC18D"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_8
+    ko: "\uADF8\uB140\uC5D0\uAC8C \uC624\uB79C\uB9CC\uC5D0 \uBC25\uBA39\uC790\uACE0
+      \uD574\uBCFC\uAE4C?"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_8
+    ko: "\uC81C\uBC1C..!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_8
+    ko: "\uB9C8\uCE68 \uC2DC\uAC04\uC774 \uB09C\uB2E4\uACE0 \uD574\uC11C \uADFC\uCC98
+      \uACE0\uAE43\uC9D1\uC5D0\uC11C \uAC19\uC774 \uBC25\uC744 \uBA39\uC5C8\uB2E4.
+      \uC774\uB7F0 \uB0A0\uB4E4\uC774 \uACC4\uC18D \uB418\uC5C8\uC73C\uBA74."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_8
+    ko: "\uD558\uD544 \uADF8\uB140\uB294 \uD68C\uC2DD\uC774 \uC7A1\uD78C \uB0A0\uC774\uC5C8\uACE0,
+      \uB2E4\uC74C\uC5D0 \uBA39\uC790\uACE0 \uD558\uC600\uB2E4. \uC5B4\uCA54 \uC218
+      \uC5C6\uC9C0\uB9CC, \uC870\uAE08 \uC2AC\uD504\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_8
+    ko: "\uC815\uC2E0\uB825 +2, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+      1.3\uBC30"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_8
+    ko: "\uC815\uC2E0\uB825 -1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+      0.8\uBC30"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_9
+    ko: "\uC0B0\uCC45"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_9
+    ko: "\uC880 \uD53C\uACE4\uD558\uAE34 \uD574\uB3C4 \uC624\uB79C\uB9CC\uC5D0 \uC0B0\uCC45\uC774\uB098
+      \uAC14\uB2E4\uC62C\uAE4C? \uBB34\uC2A8 \uC7AC\uBC0C\uB294 \uC77C\uC774 \uC77C\uC5B4\uB0A0
+      \uC218\uB3C4 \uC788\uC73C\uB2C8\uAE4C."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_9
+    ko: "\uAC00\uBCF4\uC790"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_9
+    ko: "\uC815\uB9D0 \uC6B0\uC5F0\uD788\uB3C4 \uBC18\uB824\uB3D9\uBB3C\uACFC \uC0B0\uCC45
+      \uC911\uC774\uB358 \uCD5C\uC560 \uADFC\uC721\uC9C8 \uB9C8\uCD08 \uBC30\uC6B0\uB97C
+      \uB9C8\uC8FC\uCCE4\uB2E4. \uC2F8\uC778\uAE4C\uC9C0 \uBC1B\uC558\uB2E4!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_9
+    ko: "\uC5ED\uC2DC \uC544\uBB34 \uC77C\uB3C4 \uC77C\uC5B4\uB098\uC9C0 \uC54A\uC558\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_9
+    ko: "\uC815\uC2E0\uB825 +1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
+      1.5\uBC30"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_9
+    ko: "\uD53C\uB85C\uB3C4 +5"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoNameP_10
+    ko: "\uAC00\uC704"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventInfoCommentP_10
+    ko: "\uC7A0\uC790\uB2E4\uAC00 \uAC00\uC704\uC5D0 \uB20C\uB838\uB2E4. \uBC97\uC5B4\uB098\uACE0
+      \uC2F6\uC5B4..!"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_BtnP_10
+    ko: "\uC73C.."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_CommentP_10
+    ko: "\uC190\uAC00\uB77D\uBD80\uD130 \uCC28\uADFC\uCC28\uADFC \uC6C0\uC9C1\uC774\uAC8C
+      \uB418\uB354\uB2C8 \uAC00\uC704\uAC00 \uD480\uB838\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_CommentP_10
+    ko: "\uC815\uC2E0\uC740 \uB9D1\uC740\uB370 \uBAB8\uC740 \uBB34\uAC81\uB358 \uBB34\uC11C\uC6B4
+      \uBC24\uC774\uC5C8\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_1_Btn_StatusCommentP_10
+    ko: "\uC544\uBB34 \uC77C \uC5C6\uB2E4."
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
+  - Key: Lo_EventIfo_2_Btn_StatusCommentP_10
+    ko: "\uC815\uC2E0\uB825 -1, \uD53C\uB85C\uB3C4 +15"
+    en: 
+    Jp: 
+    Ch: 
+    TW: 
   keyArr:
-  - Lo_test_EventInfoName_1
-  - Lo_test_EventInfoComment_1
-  - Lo_test_EventIfo_1_Btn_1
-  - Lo_test_EventIfo_1_Btn_2
-  - Lo_test_EventIfo_1_Btn_Comment_1
-  - Lo_test_EventIfo_1_Btn_Comment_2
-  - Lo_test_EventIfo_1_Btn_StatusComment_1
-  - Lo_test_EventIfo_1_Btn_StatusComment_2
+  - Lo_EventInfoName_1
+  - Lo_EventInfoComment_1
+  - Lo_EventIfo_1_Btn_1
+  - Lo_EventIfo_2_Btn_1
+  - Lo_EventIfo_1_Btn_Comment_1
+  - Lo_EventIfo_2_Btn_Comment_1
+  - Lo_EventIfo_1_Btn_StatusComment_1
+  - Lo_EventIfo_2_Btn_StatusComment_1
+  - Lo_EventInfoName_2
+  - Lo_EventInfoComment_2
+  - Lo_EventIfo_1_Btn_2
+  - Lo_EventIfo_2_Btn_2
+  - Lo_EventIfo_1_Btn_Comment_2
+  - Lo_EventIfo_2_Btn_Comment_2
+  - Lo_EventIfo_1_Btn_StatusComment_2
+  - Lo_EventIfo_2_Btn_StatusComment_2
+  - Lo_EventInfoName_3
+  - Lo_EventInfoComment_3
+  - Lo_EventIfo_1_Btn_3
+  - Lo_EventIfo_2_Btn_3
+  - Lo_EventIfo_1_Btn_Comment_3
+  - Lo_EventIfo_2_Btn_Comment_3
+  - Lo_EventIfo_1_Btn_StatusComment_3
+  - Lo_EventIfo_2_Btn_StatusComment_3
+  - Lo_EventInfoName_4
+  - Lo_EventInfoComment_4
+  - Lo_EventIfo_1_Btn_4
+  - Lo_EventIfo_2_Btn_4
+  - Lo_EventIfo_1_Btn_Comment_4
+  - Lo_EventIfo_2_Btn_Comment_4
+  - Lo_EventIfo_1_Btn_StatusComment_4
+  - Lo_EventIfo_2_Btn_StatusComment_4
+  - Lo_EventInfoName_5
+  - Lo_EventInfoComment_5
+  - Lo_EventIfo_1_Btn_5
+  - Lo_EventIfo_2_Btn_5
+  - Lo_EventIfo_1_Btn_Comment_5
+  - Lo_EventIfo_2_Btn_Comment_5
+  - Lo_EventIfo_1_Btn_StatusComment_5
+  - Lo_EventIfo_2_Btn_StatusComment_5
+  - Lo_EventInfoName_6
+  - Lo_EventInfoComment_6
+  - Lo_EventIfo_1_Btn_6
+  - Lo_EventIfo_2_Btn_6
+  - Lo_EventIfo_1_Btn_Comment_6
+  - Lo_EventIfo_2_Btn_Comment_6
+  - Lo_EventIfo_1_Btn_StatusComment_6
+  - Lo_EventIfo_2_Btn_StatusComment_6
+  - Lo_EventInfoName_7
+  - Lo_EventInfoComment_7
+  - Lo_EventIfo_1_Btn_7
+  - Lo_EventIfo_2_Btn_7
+  - Lo_EventIfo_1_Btn_Comment_7
+  - Lo_EventIfo_2_Btn_Comment_7
+  - Lo_EventIfo_1_Btn_StatusComment_7
+  - Lo_EventIfo_2_Btn_StatusComment_7
+  - Lo_EventInfoName_8
+  - Lo_EventInfoComment_8
+  - Lo_EventIfo_1_Btn_8
+  - Lo_EventIfo_2_Btn_8
+  - Lo_EventIfo_1_Btn_Comment_8
+  - Lo_EventIfo_2_Btn_Comment_8
+  - Lo_EventIfo_1_Btn_StatusComment_8
+  - Lo_EventIfo_2_Btn_StatusComment_8
+  - Lo_EventInfoName_9
+  - Lo_EventInfoComment_9
+  - Lo_EventIfo_1_Btn_9
+  - Lo_EventIfo_2_Btn_9
+  - Lo_EventIfo_1_Btn_Comment_9
+  - Lo_EventIfo_2_Btn_Comment_9
+  - Lo_EventIfo_1_Btn_StatusComment_9
+  - Lo_EventIfo_2_Btn_StatusComment_9
+  - Lo_EventInfoNameP_1
+  - Lo_EventInfoCommentP_1
+  - Lo_EventIfo_BtnP_1
+  - Lo_EventIfo_1_Btn_CommentP_1
+  - Lo_EventIfo_2_Btn_CommentP_1
+  - Lo_EventIfo_1_Btn_StatusCommentP_1
+  - Lo_EventIfo_2_Btn_StatusCommentP_1
+  - Lo_EventInfoNameP_2
+  - Lo_EventInfoCommentP_2
+  - Lo_EventIfo_BtnP_2
+  - Lo_EventIfo_1_Btn_CommentP_2
+  - Lo_EventIfo_2_Btn_CommentP_2
+  - Lo_EventIfo_1_Btn_StatusCommentP_2
+  - Lo_EventIfo_2_Btn_StatusCommentP_2
+  - Lo_EventInfoNameP_3
+  - Lo_EventInfoCommentP_3
+  - Lo_EventIfo_BtnP_3
+  - Lo_EventIfo_1_Btn_CommentP_3
+  - Lo_EventIfo_2_Btn_CommentP_3
+  - Lo_EventIfo_1_Btn_StatusCommentP_3
+  - Lo_EventIfo_2_Btn_StatusCommentP_3
+  - Lo_EventInfoNameP_4
+  - Lo_EventInfoCommentP_4
+  - Lo_EventIfo_BtnP_4
+  - Lo_EventIfo_1_Btn_CommentP_4
+  - Lo_EventIfo_2_Btn_CommentP_4
+  - Lo_EventIfo_1_Btn_StatusCommentP_4
+  - Lo_EventIfo_2_Btn_StatusCommentP_4
+  - Lo_EventInfoNameP_5
+  - Lo_EventInfoCommentP_5
+  - Lo_EventIfo_BtnP_5
+  - Lo_EventIfo_1_Btn_CommentP_5
+  - Lo_EventIfo_2_Btn_CommentP_5
+  - Lo_EventIfo_1_Btn_StatusCommentP_5
+  - Lo_EventIfo_2_Btn_StatusCommentP_5
+  - Lo_EventInfoNameP_6
+  - Lo_EventInfoCommentP_6
+  - Lo_EventIfo_BtnP_6
+  - Lo_EventIfo_1_Btn_CommentP_6
+  - Lo_EventIfo_2_Btn_CommentP_6
+  - Lo_EventIfo_1_Btn_StatusCommentP_6
+  - Lo_EventIfo_2_Btn_StatusCommentP_6
+  - Lo_EventInfoNameP_7
+  - Lo_EventInfoCommentP_7
+  - Lo_EventIfo_BtnP_7
+  - Lo_EventIfo_1_Btn_CommentP_7
+  - Lo_EventIfo_2_Btn_CommentP_7
+  - Lo_EventIfo_1_Btn_StatusCommentP_7
+  - Lo_EventIfo_2_Btn_StatusCommentP_7
+  - Lo_EventInfoNameP_8
+  - Lo_EventInfoCommentP_8
+  - Lo_EventIfo_BtnP_8
+  - Lo_EventIfo_1_Btn_CommentP_8
+  - Lo_EventIfo_2_Btn_CommentP_8
+  - Lo_EventIfo_1_Btn_StatusCommentP_8
+  - Lo_EventIfo_2_Btn_StatusCommentP_8
+  - Lo_EventInfoNameP_9
+  - Lo_EventInfoCommentP_9
+  - Lo_EventIfo_BtnP_9
+  - Lo_EventIfo_1_Btn_CommentP_9
+  - Lo_EventIfo_2_Btn_CommentP_9
+  - Lo_EventIfo_1_Btn_StatusCommentP_9
+  - Lo_EventIfo_2_Btn_StatusCommentP_9
+  - Lo_EventInfoNameP_10
+  - Lo_EventInfoCommentP_10
+  - Lo_EventIfo_BtnP_10
+  - Lo_EventIfo_1_Btn_CommentP_10
+  - Lo_EventIfo_2_Btn_CommentP_10
+  - Lo_EventIfo_1_Btn_StatusCommentP_10
+  - Lo_EventIfo_2_Btn_StatusCommentP_10
