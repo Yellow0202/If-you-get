@@ -34,8 +34,8 @@ public class UI_Main_Script : MonoBehaviour
 
     [SerializeField, FoldoutGroup("스케쥴"), LabelText("스케쥴 이미지 리스트")] private List<Image> _scheduleIconDataList;
     [SerializeField, FoldoutGroup("스케쥴"), LabelText("스케쥴 지우기")] private Button _scheduleBackBtn;
-    [SerializeField, FoldoutGroup("스케쥴"), LabelText("현재 스케쥴 배열 변수")] private ScheduleType[] _curScheduleArr = new ScheduleType[DataBase_Manager.Instance.GetTable_Define.playDayData];
-    [SerializeField, FoldoutGroup("스케쥴"), LabelText("현재 스케쥴 난이도 변수")] private HealthValunceType[] _curHealthValunceArr = new HealthValunceType[DataBase_Manager.Instance.GetTable_Define.playDayData];
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("현재 스케쥴 배열 변수")] private ScheduleType[] _curScheduleArr;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("현재 스케쥴 난이도 변수")] private HealthValunceType[] _curHealthValunceArr;
     [SerializeField, FoldoutGroup("스케쥴"), LabelText("현재 선택된 난이도")] private HealthValunceType _selHealthValunce;
     [FoldoutGroup("스케쥴"), LabelText("현재까지 기록된 스케쥴")] private int _curScheduleNum;
 
@@ -45,9 +45,13 @@ public class UI_Main_Script : MonoBehaviour
     [SerializeField, FoldoutGroup("일정"), LabelText("치팅 버튼")] private Button _cheatBtn;
     [SerializeField, FoldoutGroup("일정"), LabelText("운동 밸런스 조절 버튼")] private List<Button> _valunceBtnDataList;
 
+    [SerializeField, LabelText("시작 버튼")] private Button _scheduleStartBtn;
+
     private void Awake()
     {
         Instance = this;
+        this._curScheduleArr = new ScheduleType[DataBase_Manager.Instance.GetTable_Define.playDayData];
+        this._curHealthValunceArr = new HealthValunceType[DataBase_Manager.Instance.GetTable_Define.playDayData];
     }
 
     // Start is called before the first frame update
@@ -72,6 +76,8 @@ public class UI_Main_Script : MonoBehaviour
         this.Set_BreakBtnDataList_Func();
         this.Set_BusinessBtn_Func();
         this.Set_CheatBtn_Func();
+
+        this._scheduleStartBtn.onClick.AddListener(Click_SchedulePlayStart_Func);
     }
 
     private void Set_ScheduleBackBtn_Func()
@@ -221,6 +227,9 @@ public class UI_Main_Script : MonoBehaviour
 
     private void Click_SchedulePlayStart_Func()
     {
+        if (this._curScheduleNum < this._curScheduleArr.Length)
+            return;
+
         ScheduleSystem_Manager.ScheduleClass a_CurSelSchedulData = new ScheduleClass(this._curScheduleArr, this._curHealthValunceArr);
         ScheduleSystem_Manager.Instance.Set_ScheduleData_Func(a_CurSelSchedulData);
     }

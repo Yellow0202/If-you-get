@@ -9,7 +9,7 @@ using Cargold.DB.TableImporter;
 
 public partial class DB_Table_DefineDataGroup
 {
-    [SerializeField, FoldoutGroup("기본값"), LabelText("지정 스케쥴 일 수"), ReadOnly] private int _playDayData = 7; public int playDayData => this._playDayData;
+    [SerializeField, FoldoutGroup("기본값"), LabelText("지정 스케쥴 일 수")] private int _playDayData; public int playDayData => this._playDayData;
 
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("등 운동")] private Sprite _uI_Icon_backMovement; public Sprite uI_Icon_backMovement => this._uI_Icon_backMovement;
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가슴 운동")] private Sprite _uI_Icon_chestExercises; public Sprite uI_Icon_chestExercises => this._uI_Icon_chestExercises;
