@@ -16,7 +16,7 @@ public enum CurWeekDayType
     MAX
 }
 
-public class ScheduleSystem_Manager : MonoBehaviour, GameSystem_Manager.IInitializer
+public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manager.IInitializer
 {
     public static ScheduleSystem_Manager Instance;
     public static CurWeekDayType s_curWeekDay = CurWeekDayType.¿ù¿äÀÏ;

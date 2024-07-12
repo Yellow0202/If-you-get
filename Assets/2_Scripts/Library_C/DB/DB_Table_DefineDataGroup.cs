@@ -20,6 +20,11 @@ public partial class DB_Table_DefineDataGroup
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("치팅")] private Sprite _uI_Icon_cheating; public Sprite uI_Icon_cheating => this._uI_Icon_cheating;
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("빈 공간")] private Sprite _uI_Icon_done; public Sprite uI_Icon_done => this._uI_Icon_done;
 
+    [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("시작 체력 값")] private float _level_StartHP; public float level_StartHP => this._level_StartHP;
+    [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("체력 증가 값")] private float _level_PlusHP; public float level_PlusHP => this._level_PlusHP;
+    [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("공격력 증가 조건 값")] private float _level_PlusAttackDmg; public float level_PlusAttackDmg => this._level_PlusAttackDmg;
+    [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("부하 값")] private float _level_Deley; public float level_Deley => this._level_Deley;
+
     protected override void Init_Project_Func()
     {
         base.Init_Project_Func();

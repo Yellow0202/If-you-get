@@ -1223,7 +1223,6 @@ MonoBehaviour:
     - {fileID: 1635396068}
     - {fileID: 1717574403}
     - {fileID: 1044957359}
-    - {fileID: 919271716}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -1311,8 +1310,8 @@ MonoBehaviour:
       Entry: 7
       Data: 7|Cargold.FrameWork.GameSystem_Manager+InitializeData, Assembly-CSharp
     - Name: iInitializer
-      Entry: 10
-      Data: 6
+      Entry: 6
+      Data: 
     - Name: typeNameStr
       Entry: 1
       Data: ScheduleSystem_Manager
@@ -1520,6 +1519,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339fc6d3bdd07c249befb9b7bbfb83e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _scheduleTypeToScriptDataDic
+      Entry: 6
+      Data: 
   _curScheduleData:
     _curScheduleArr: 
     _curHealthValunceArr: 
@@ -1642,6 +1653,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2f498315f77cf7499fab8dd9d0b521f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _scheduleTypeToGameObject
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[ScheduleType, Assembly-CSharp],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[ScheduleType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
 --- !u!1 &1044957357
 GameObject:
   m_ObjectHideFlags: 0
