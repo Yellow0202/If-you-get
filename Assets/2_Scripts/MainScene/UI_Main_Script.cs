@@ -6,6 +6,7 @@ using Sirenix.OdinInspector;
 using UnityEngine.XR;
 using static ScheduleSystem_Manager;
 using TMPro;
+using Cargold;
 
 public enum ScheduleType
 {
@@ -33,6 +34,8 @@ public class UI_Main_Script : MonoBehaviour
 {
     public static UI_Main_Script Instance;
 
+    public static HealthValunceType s_LastSelValunce = HealthValunceType.Easy;
+
     [SerializeField, FoldoutGroup("스케쥴"), LabelText("스케쥴 이미지 리스트")] private List<Image> _scheduleIconDataList;
     [SerializeField, FoldoutGroup("스케쥴"), LabelText("스케쥴 지우기")] private Button _scheduleBackBtn;
     [SerializeField, FoldoutGroup("스케쥴"), LabelText("현재 스케쥴 배열 변수")] private ScheduleType[] _curScheduleArr;
@@ -51,12 +54,19 @@ public class UI_Main_Script : MonoBehaviour
     [SerializeField, FoldoutGroup("일정"), LabelText("밸런스 조절 버튼 Off 컬러")] private Color _valunceOFFColor;
 
     [SerializeField, FoldoutGroup("스테이터스"), LabelText("등 근력 텍스트")] private TextMeshProUGUI _status_BackMovement_Text;
+    [SerializeField, FoldoutGroup("스테이터스"), LabelText("등 근력 텍스트2")] private TextMeshProUGUI _status_BackMovement2_Text;
     [SerializeField, FoldoutGroup("스테이터스"), LabelText("가슴 근력 텍스트")] private TextMeshProUGUI _status_ChestExercises_Text;
+    [SerializeField, FoldoutGroup("스테이터스"), LabelText("가슴 근력 텍스트2")] private TextMeshProUGUI _status_ChestExercises2_Text;
     [SerializeField, FoldoutGroup("스테이터스"), LabelText("하체 근력 텍스트")] private TextMeshProUGUI _status_LowerBodyExercises_Text;
+    [SerializeField, FoldoutGroup("스테이터스"), LabelText("하체 근력 텍스트2")] private TextMeshProUGUI _status_LowerBodyExercises2_Text;
+    [SerializeField, FoldoutGroup("스테이터스"), LabelText("총합 텍스트")] private TextMeshProUGUI _status_Total_Text;
     [SerializeField, FoldoutGroup("스테이터스"), LabelText("골드 텍스트")] private TextMeshProUGUI _status_Gold_Text;
     [SerializeField, FoldoutGroup("스테이터스"), LabelText("피로도 텍스트")] private TextMeshProUGUI _status_Stress_Text;
     [SerializeField, FoldoutGroup("스테이터스"), LabelText("피로도 게이지")] private Image _status_Stress_Img;
     [SerializeField, FoldoutGroup("스테이터스"), LabelText("정신력 오브젝트")] private List<GameObject> _status_Mental_List;
+
+    [SerializeField, FoldoutGroup("UI"), LabelText("월 텍스트")] private TextMeshProUGUI _curWeekDay_Text;
+    [SerializeField, FoldoutGroup("UI"), LabelText("피로도 텍스트")] private TextMeshProUGUI _valunceStress_Text;
 
     [SerializeField, LabelText("시작 버튼")] private Button _scheduleStartBtn;
 
@@ -82,8 +92,10 @@ public class UI_Main_Script : MonoBehaviour
 
     private void Start_MainUI_Func()
     {
+        this._curWeekDay_Text.text = GameSystem_Manager.Instance.curweekDay.ToString() + "월 스케쥴";
+
+        this.RendererUpdate_Func(s_LastSelValunce.ToInt());
         this.Set_BtnValue_Func();
-        UserSystem_Manager.Instance.wealth.TryGetWealthControl_Func(UserSystem_Manager.WealthControl.Earn, WealthType.Money, 500000);
         this.TextUpdate_Func();
         this._curScheduleNum = -1;
     }
@@ -93,8 +105,14 @@ public class UI_Main_Script : MonoBehaviour
         UserStatusData a_Status = UserSystem_Manager.Instance.status.Get_UserStatus_Func();
 
         this._status_BackMovement_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_BackMovementStrengthInfoDataList_Func(a_Status.backMovementSTR);
+        this._status_BackMovement2_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_BackMovementStrengthInfoDataList_Func(a_Status.backMovementSTR);
         this._status_ChestExercises_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_ChestExercisesStrengthInfoDataList_Func(a_Status.chestExercisesSTR);
+        this._status_ChestExercises2_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_ChestExercisesStrengthInfoDataList_Func(a_Status.chestExercisesSTR);
         this._status_LowerBodyExercises_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_LowerBodyExercises_CostStrengthInfoDataList_Func(a_Status.lowerBodyExercisesSTR);
+        this._status_LowerBodyExercises2_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_LowerBodyExercises_CostStrengthInfoDataList_Func(a_Status.lowerBodyExercisesSTR);
+
+        int a_Total = UserSystem_Manager.Instance.record.Get_BackMovement_Func() + UserSystem_Manager.Instance.record.Get_ChestExercises_Func() + UserSystem_Manager.Instance.record.Get_LowerBodyExercises_Func();
+        this._status_Total_Text.text = a_Total.ToString();
 
         this._status_Gold_Text.text = UserSystem_Manager.Instance.wealth.GetQuantity_Func(WealthType.Money).ToStringLong() + "원";
         this._status_Stress_Text.text = a_Status.stress + "/ 100";
@@ -154,6 +172,8 @@ public class UI_Main_Script : MonoBehaviour
                 this._valunceBtnObjDataList[0].transform.SetAsLastSibling();
                 this._valunceBtnTextDataList[0].color = this._valunceOnColor;
 
+                this._valunceStress_Text.text = DataBase_Manager.Instance.GetTable_Define.level_LowStress.ToString();
+
                 this._valunceBtnTextDataList[1].color = this._valunceOFFColor;
                 this._valunceBtnTextDataList[2].color = this._valunceOFFColor;
                 break;
@@ -161,6 +181,8 @@ public class UI_Main_Script : MonoBehaviour
             case 1:
                 this._valunceBtnObjDataList[1].transform.SetAsLastSibling();
                 this._valunceBtnTextDataList[1].color = this._valunceOnColor;
+
+                this._valunceStress_Text.text = DataBase_Manager.Instance.GetTable_Define.level_MidStress.ToString();
 
                 this._valunceBtnTextDataList[0].color = this._valunceOFFColor;
                 this._valunceBtnTextDataList[2].color = this._valunceOFFColor;
@@ -170,11 +192,15 @@ public class UI_Main_Script : MonoBehaviour
                 this._valunceBtnObjDataList[2].transform.SetAsLastSibling();
                 this._valunceBtnTextDataList[2].color = this._valunceOnColor;
 
+                this._valunceStress_Text.text = DataBase_Manager.Instance.GetTable_Define.level_HigtStress.ToString();
+
                 this._valunceBtnTextDataList[0].color = this._valunceOFFColor;
                 this._valunceBtnTextDataList[1].color = this._valunceOFFColor;
 
                 break;
         }
+
+        s_LastSelValunce = (HealthValunceType)i;
     }
 
     private void Set_HealthBtnDataList_Func()

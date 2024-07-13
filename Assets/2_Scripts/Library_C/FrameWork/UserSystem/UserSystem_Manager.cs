@@ -116,6 +116,10 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
             {
 
             }
+            else if(_layer == 2)
+            {
+                Instance.wealth.TryGetWealthControl_Func(UserSystem_Manager.WealthControl.Earn, WealthType.Money, 500000);
+            }
         }
 
         public UserStatusData Get_UserStatus_Func()

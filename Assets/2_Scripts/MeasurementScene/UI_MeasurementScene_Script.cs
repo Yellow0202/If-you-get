@@ -245,6 +245,7 @@ public class UI_MeasurementScene_Script : MonoBehaviour
 
             if (CONSTSTRIONG.INT_TIMEMAX <= this._schedule_Time)
             {
+                this._timerText.text = CONSTSTRIONG.INT_TIMEMAX.ToString("F2") + " ÃÊ";
                 break;
             }
 

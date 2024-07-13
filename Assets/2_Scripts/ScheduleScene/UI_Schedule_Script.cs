@@ -388,15 +388,15 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
                 break;
 
             case ScheduleType.Lowbreak:
-                this._resultCommentText.text = "´À±ßÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!\n\n" + "<color=red>ÇÇ·Îµµ -" + a_PlusValue + "</color>";
+                this._resultCommentText.text = "´À±ßÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!\n\n" + "<color=green>ÇÇ·Îµµ -" + a_PlusValue + "</color>";
                 break;
 
             case ScheduleType.Hardbreak:
-                this._resultCommentText.text = "È­·ÁÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!!\n\n" + "<color=red>ÇÇ·Îµµ -" + a_PlusValue + "  µ· -100,000" + "</color>";
+                this._resultCommentText.text = "È­·ÁÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!!\n\n" + "<color=green>ÇÇ·Îµµ -" + a_PlusValue + "</color><color=red>" + "  µ· -100,000" + "</color>";
                 break;
 
             case ScheduleType.Business:
-                this._resultCommentText.text = "¾÷¹«¸¦ ÁøÇàÇß´Ù\n\n" + "<color=green>µ· +" + a_PlusValue + "</color>";
+                this._resultCommentText.text = "¾÷¹«¸¦ ÁøÇàÇß´Ù\n\n" + "<color=green>µ· +" + a_PlusValue + "</color>" + "<color=green>ÇÇ·Îµµ +20</color>";
                 break;
 
             case ScheduleType.Cheating:
