@@ -7,7 +7,7 @@ using Cargold.DB.TableImporter;
 
 // 카라리 테이블 임포터에 의해 생성된 스크립트입니다.
 
-public partial class DB_EventSelSel_InfoDataGroup
+public partial class EventSelP_InfoData
 {
     protected override void Init_Project_Func()
     {

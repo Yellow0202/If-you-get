@@ -19,4 +19,7 @@ public static partial class TableDataKey_C
     public const string EventSel_Info_EventSel_Info_2_8 = "EventSel_Info_2_8";
     public const string EventSel_Info_EventSel_Info_1_9 = "EventSel_Info_1_9";
     public const string EventSel_Info_EventSel_Info_2_9 = "EventSel_Info_2_9";
+    public const string EventSel_Info_EventSel_Info_1_10 = "EventSel_Info_1_10";
+    public const string EventSel_Info_EventSel_Info_2_10 = "EventSel_Info_2_10";
+    public const string EventSel_Info_EventSel_Info_1_11 = "EventSel_Info_1_11";
 }

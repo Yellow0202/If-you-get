@@ -48,15 +48,15 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
             return this.eventSel_Info;
         }
     }
-    [InlineEditor, LabelText("EventSelSel_Info"), SerializeField] private DB_EventSelSel_InfoDataGroup eventSelSel_Info;
-    public DB_EventSelSel_InfoDataGroup GetEventSelSel_Info
+    [InlineEditor, LabelText("EventSelP_Info"), SerializeField] private DB_EventSelP_InfoDataGroup eventSelP_Info;
+    public DB_EventSelP_InfoDataGroup GetEventSelP_Info
     {
         get
         {
-            if (this.eventSelSel_Info == null)
-                this.eventSelSel_Info = Resources.Load<DB_EventSelSel_InfoDataGroup>(base.dataGroupSobjPath + "DB_EventSelSel_InfoDataGroup");
+            if (this.eventSelP_Info == null)
+                this.eventSelP_Info = Resources.Load<DB_EventSelP_InfoDataGroup>(base.dataGroupSobjPath + "DB_EventSelP_InfoDataGroup");
 
-            return this.eventSelSel_Info;
+            return this.eventSelP_Info;
         }
     }
     [InlineEditor, LabelText("Strength_Info"), SerializeField] private DB_Strength_InfoDataGroup strength_Info;
@@ -68,6 +68,17 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
                 this.strength_Info = Resources.Load<DB_Strength_InfoDataGroup>(base.dataGroupSobjPath + "DB_Strength_InfoDataGroup");
 
             return this.strength_Info;
+        }
+    }
+    [InlineEditor, LabelText("Measure_info"), SerializeField] private DB_Measure_infoDataGroup measure_info;
+    public DB_Measure_infoDataGroup GetMeasure_info
+    {
+        get
+        {
+            if (this.measure_info == null)
+                this.measure_info = Resources.Load<DB_Measure_infoDataGroup>(base.dataGroupSobjPath + "DB_Measure_infoDataGroup");
+
+            return this.measure_info;
         }
     }
     [InlineEditor, LabelText("Localize"), SerializeField] private DB_LocalizeDataGroup localize;
@@ -96,6 +107,8 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
 
     #region Library
     
+            public override Cargold.FrameWork.IDB_Localize GetLocalize_C => this.localize;
+            
     #endregion
 
     protected override Debug_C.PrintLogType GetPrintLogType => this.printLogType;
@@ -111,8 +124,9 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
             
             this.event_Info.Init_Func();
             this.eventSel_Info.Init_Func();
-            this.eventSelSel_Info.Init_Func();
+            this.eventSelP_Info.Init_Func();
             this.strength_Info.Init_Func();
+            this.measure_info.Init_Func();
             this.localize.Init_Func();
             this.table_Define.Init_Func();
         }
@@ -123,8 +137,9 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
     {
         this.GetEvent_Info.CallEdit_OnDataImportDone_Func();
         this.GetEventSel_Info.CallEdit_OnDataImportDone_Func();
-        this.GetEventSelSel_Info.CallEdit_OnDataImportDone_Func();
+        this.GetEventSelP_Info.CallEdit_OnDataImportDone_Func();
         this.GetStrength_Info.CallEdit_OnDataImportDone_Func();
+        this.GetMeasure_info.CallEdit_OnDataImportDone_Func();
         this.GetLocalize.CallEdit_OnDataImportDone_Func();
         this.GetTable_Define.CallEdit_OnDataImportDone_Func();
         

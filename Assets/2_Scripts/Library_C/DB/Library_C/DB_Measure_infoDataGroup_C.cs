@@ -8,7 +8,7 @@ using Cargold.DB.TableImporter;
 // 카라리 테이블 임포터에 의해 생성된 스크립트입니다.
 
 [System.Serializable]
-public partial class DB_EventSelSel_InfoDataGroup : DataGroup_C<EventSelSel_InfoData>
+public partial class DB_Measure_infoDataGroup : DataGroup_C<Measure_infoData>
 {
    
 }

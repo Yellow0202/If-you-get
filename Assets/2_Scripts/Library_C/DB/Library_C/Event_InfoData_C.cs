@@ -15,6 +15,9 @@ public partial class Event_InfoData : Data_C
      [LabelText("설명")] public string Comment;
      [LabelText("선택지")] public string[] Btn;
      [LabelText("퍼센트 버튼인지")] public bool is_PersentBtn;
+     [LabelText("조건부 이벤트여부")] public bool is_StatusEvent;
+     [LabelText("스테이터스 종류")] public StatusType Event_StatusType;
+     [LabelText("스테이터스 값")] public float Event_StatusValue;
 
     
 
@@ -28,6 +31,9 @@ public partial class Event_InfoData : Data_C
         Btn = new string[_strArr3.Length];
         Btn = _strArr3;
         is_PersentBtn = _cellDataArr[4].ToBool();
+        is_StatusEvent = _cellDataArr[5].ToBool();
+        Event_StatusType = _cellDataArr[6].ToEnum<StatusType>();
+        Event_StatusValue = _cellDataArr[7].ToFloat();
     }
 #endif
 }

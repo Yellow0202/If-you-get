@@ -1,0 +1,605 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b797c20bb3a47d48931a6980f84552c, type: 3}
+  m_Name: DB_Measure_infoDataGroup
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: dataDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Measure_infoData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_0
+    - Name: $v
+      Entry: 7
+      Data: 2|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_0
+    - Name: Weight_KG
+      Entry: 1
+      Data: 20
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 140
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_1
+    - Name: $v
+      Entry: 7
+      Data: 3|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_1
+    - Name: Weight_KG
+      Entry: 1
+      Data: 40
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_2
+    - Name: $v
+      Entry: 7
+      Data: 4|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_2
+    - Name: Weight_KG
+      Entry: 1
+      Data: 60
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 260
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_3
+    - Name: $v
+      Entry: 7
+      Data: 5|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_3
+    - Name: Weight_KG
+      Entry: 1
+      Data: 80
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 320
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_4
+    - Name: $v
+      Entry: 7
+      Data: 6|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_4
+    - Name: Weight_KG
+      Entry: 1
+      Data: 100
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 420
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_5
+    - Name: $v
+      Entry: 7
+      Data: 7|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_5
+    - Name: Weight_KG
+      Entry: 1
+      Data: 120
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 520
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_6
+    - Name: $v
+      Entry: 7
+      Data: 8|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_6
+    - Name: Weight_KG
+      Entry: 1
+      Data: 140
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 620
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_7
+    - Name: $v
+      Entry: 7
+      Data: 9|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_7
+    - Name: Weight_KG
+      Entry: 1
+      Data: 160
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 720
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_8
+    - Name: $v
+      Entry: 7
+      Data: 10|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_8
+    - Name: Weight_KG
+      Entry: 1
+      Data: 180
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 860
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_9
+    - Name: $v
+      Entry: 7
+      Data: 11|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_9
+    - Name: Weight_KG
+      Entry: 1
+      Data: 200
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_10
+    - Name: $v
+      Entry: 7
+      Data: 12|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_10
+    - Name: Weight_KG
+      Entry: 1
+      Data: 220
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 1140
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_11
+    - Name: $v
+      Entry: 7
+      Data: 13|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_11
+    - Name: Weight_KG
+      Entry: 1
+      Data: 240
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 1280
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_12
+    - Name: $v
+      Entry: 7
+      Data: 14|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_12
+    - Name: Weight_KG
+      Entry: 1
+      Data: 260
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 1460
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_13
+    - Name: $v
+      Entry: 7
+      Data: 15|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_13
+    - Name: Weight_KG
+      Entry: 1
+      Data: 280
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 1640
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_14
+    - Name: $v
+      Entry: 7
+      Data: 16|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_14
+    - Name: Weight_KG
+      Entry: 1
+      Data: 300
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 1820
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_15
+    - Name: $v
+      Entry: 7
+      Data: 17|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_15
+    - Name: Weight_KG
+      Entry: 1
+      Data: 320
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_16
+    - Name: $v
+      Entry: 7
+      Data: 18|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_16
+    - Name: Weight_KG
+      Entry: 1
+      Data: 340
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 2200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_17
+    - Name: $v
+      Entry: 7
+      Data: 19|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_17
+    - Name: Weight_KG
+      Entry: 1
+      Data: 360
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 2400
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_18
+    - Name: $v
+      Entry: 7
+      Data: 20|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_18
+    - Name: Weight_KG
+      Entry: 1
+      Data: 380
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 2600
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Measure_Info_19
+    - Name: $v
+      Entry: 7
+      Data: 21|Measure_infoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Measure_Info_19
+    - Name: Weight_KG
+      Entry: 1
+      Data: 400
+    - Name: BackMovement_HP
+      Entry: 3
+      Data: 2800
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  dataArr:
+  - Key: Measure_Info_0
+    Weight_KG: 20
+    BackMovement_HP: 140
+  - Key: Measure_Info_1
+    Weight_KG: 40
+    BackMovement_HP: 200
+  - Key: Measure_Info_2
+    Weight_KG: 60
+    BackMovement_HP: 260
+  - Key: Measure_Info_3
+    Weight_KG: 80
+    BackMovement_HP: 320
+  - Key: Measure_Info_4
+    Weight_KG: 100
+    BackMovement_HP: 420
+  - Key: Measure_Info_5
+    Weight_KG: 120
+    BackMovement_HP: 520
+  - Key: Measure_Info_6
+    Weight_KG: 140
+    BackMovement_HP: 620
+  - Key: Measure_Info_7
+    Weight_KG: 160
+    BackMovement_HP: 720
+  - Key: Measure_Info_8
+    Weight_KG: 180
+    BackMovement_HP: 860
+  - Key: Measure_Info_9
+    Weight_KG: 200
+    BackMovement_HP: 1000
+  - Key: Measure_Info_10
+    Weight_KG: 220
+    BackMovement_HP: 1140
+  - Key: Measure_Info_11
+    Weight_KG: 240
+    BackMovement_HP: 1280
+  - Key: Measure_Info_12
+    Weight_KG: 260
+    BackMovement_HP: 1460
+  - Key: Measure_Info_13
+    Weight_KG: 280
+    BackMovement_HP: 1640
+  - Key: Measure_Info_14
+    Weight_KG: 300
+    BackMovement_HP: 1820
+  - Key: Measure_Info_15
+    Weight_KG: 320
+    BackMovement_HP: 2000
+  - Key: Measure_Info_16
+    Weight_KG: 340
+    BackMovement_HP: 2200
+  - Key: Measure_Info_17
+    Weight_KG: 360
+    BackMovement_HP: 2400
+  - Key: Measure_Info_18
+    Weight_KG: 380
+    BackMovement_HP: 2600
+  - Key: Measure_Info_19
+    Weight_KG: 400
+    BackMovement_HP: 2800
+  keyArr:
+  - Measure_Info_0
+  - Measure_Info_1
+  - Measure_Info_2
+  - Measure_Info_3
+  - Measure_Info_4
+  - Measure_Info_5
+  - Measure_Info_6
+  - Measure_Info_7
+  - Measure_Info_8
+  - Measure_Info_9
+  - Measure_Info_10
+  - Measure_Info_11
+  - Measure_Info_12
+  - Measure_Info_13
+  - Measure_Info_14
+  - Measure_Info_15
+  - Measure_Info_16
+  - Measure_Info_17
+  - Measure_Info_18
+  - Measure_Info_19

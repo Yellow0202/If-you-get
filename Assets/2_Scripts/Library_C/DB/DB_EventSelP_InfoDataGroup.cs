@@ -7,10 +7,9 @@ using Cargold.DB.TableImporter;
 
 // 카라리 테이블 임포터에 의해 생성된 스크립트입니다.
 
-public partial class DB_EventSel_InfoDataGroup
+public partial class DB_EventSelP_InfoDataGroup
 {
-    [LabelText("이름 별 데이터 딕")] private Dictionary<string, EventSel_InfoData> _nameToEventSelDataDic;
-
+    [LabelText("이름 별 데이터 딕")] private Dictionary<string, List<EventSelP_InfoData>> _nameToEventSelPDataDic;
 
     protected override void Init_Project_Func()
     {
@@ -21,22 +20,32 @@ public partial class DB_EventSel_InfoDataGroup
          * 임의의 데이터 재가공을 원한다면 이 밑으로 코드를 작성하시면 됩니다.
          */
 
-        this.Set_NameToEventSelDataDic_Func();
+        this.Set_NameToEventSelPDataDic_Func();
     }
 
-    private void Set_NameToEventSelDataDic_Func()
+    private void Set_NameToEventSelPDataDic_Func()
     {
-        this._nameToEventSelDataDic = new Dictionary<string, EventSel_InfoData>();
+        this._nameToEventSelPDataDic = new Dictionary<string, List<EventSelP_InfoData>>();
 
-        foreach (EventSel_InfoData item in dataArr)
+        foreach (EventSelP_InfoData item in dataArr)
         {
-            this._nameToEventSelDataDic.Add(item.Btn, item);
+            if(this._nameToEventSelPDataDic.TryGetValue(item.Btn, out List<EventSelP_InfoData> a_ValueList) == true)
+            {
+                a_ValueList.Add(item);
+            }
+            else
+            {
+                List<EventSelP_InfoData> a_NewValueList = new List<EventSelP_InfoData>();
+                a_NewValueList.Add(item);
+
+                this._nameToEventSelPDataDic.Add(item.Btn, a_NewValueList);
+            }
         }
     }
 
-    public EventSel_InfoData Get_NameToEventSelDataDic_Func(string a_BtnName)
+    public List<EventSelP_InfoData> Get_NameToEventSelPDataDic_Func(string a_BtnName)
     {
-        if (this._nameToEventSelDataDic.TryGetValue(a_BtnName, out EventSel_InfoData a_Value) == true)
+        if (this._nameToEventSelPDataDic.TryGetValue(a_BtnName, out List<EventSelP_InfoData> a_Value) == true)
             return a_Value;
         else
             return null;

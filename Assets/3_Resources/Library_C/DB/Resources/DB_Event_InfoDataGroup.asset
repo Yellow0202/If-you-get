@@ -34,7 +34,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 14
+      Data: 25
     - Name: 
       Entry: 7
       Data: 
@@ -49,10 +49,10 @@ MonoBehaviour:
       Data: EventInfo_1
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_1
+      Data: Lo_EventInfoName_1
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_1
+      Data: Lo_EventInfoComment_1
     - Name: Btn
       Entry: 7
       Data: 3|System.String[], mscorlib
@@ -61,10 +61,10 @@ MonoBehaviour:
       Data: 2
     - Name: 
       Entry: 1
-      Data: Lo_test_EventIfo_1_Btn_1
+      Data: Lo_EventIfo_1_Btn_1
     - Name: 
       Entry: 1
-      Data: Lo_test_EventIfo_2_Btn_1
+      Data: Lo_EventIfo_2_Btn_1
     - Name: 
       Entry: 13
       Data: 
@@ -74,6 +74,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 2
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -94,19 +103,22 @@ MonoBehaviour:
       Data: EventInfo_2
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_2
+      Data: Lo_EventInfoName_2
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_2
+      Data: Lo_EventInfoComment_2
     - Name: Btn
       Entry: 7
       Data: 5|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_2
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_2
     - Name: 
       Entry: 13
       Data: 
@@ -115,7 +127,16 @@ MonoBehaviour:
       Data: 
     - Name: is_PersentBtn
       Entry: 5
-      Data: true
+      Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 3
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -136,19 +157,22 @@ MonoBehaviour:
       Data: EventInfo_3
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_3
+      Data: Lo_EventInfoName_3
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_3
+      Data: Lo_EventInfoComment_3
     - Name: Btn
       Entry: 7
       Data: 7|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_3
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_3
     - Name: 
       Entry: 13
       Data: 
@@ -158,6 +182,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 4
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -178,19 +211,22 @@ MonoBehaviour:
       Data: EventInfo_4
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_4
+      Data: Lo_EventInfoName_4
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_4
+      Data: Lo_EventInfoComment_4
     - Name: Btn
       Entry: 7
       Data: 9|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_4
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_4
     - Name: 
       Entry: 13
       Data: 
@@ -200,6 +236,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 5
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -220,19 +265,22 @@ MonoBehaviour:
       Data: EventInfo_5
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_5
+      Data: Lo_EventInfoName_5
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_5
+      Data: Lo_EventInfoComment_5
     - Name: Btn
       Entry: 7
       Data: 11|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_5
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_5
     - Name: 
       Entry: 13
       Data: 
@@ -242,6 +290,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 6
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -262,19 +319,22 @@ MonoBehaviour:
       Data: EventInfo_6
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_6
+      Data: Lo_EventInfoName_6
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_6
+      Data: Lo_EventInfoComment_6
     - Name: Btn
       Entry: 7
       Data: 13|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_6
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_6
     - Name: 
       Entry: 13
       Data: 
@@ -284,6 +344,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 7
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -304,19 +373,22 @@ MonoBehaviour:
       Data: EventInfo_7
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_7
+      Data: Lo_EventInfoName_7
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_7
+      Data: Lo_EventInfoComment_7
     - Name: Btn
       Entry: 7
       Data: 15|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_7
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_7
     - Name: 
       Entry: 13
       Data: 
@@ -326,6 +398,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -346,19 +427,22 @@ MonoBehaviour:
       Data: EventInfo_8
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_8
+      Data: Lo_EventInfoName_8
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_8
+      Data: Lo_EventInfoComment_8
     - Name: Btn
       Entry: 7
       Data: 17|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_8
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_8
     - Name: 
       Entry: 13
       Data: 
@@ -368,6 +452,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -388,19 +481,22 @@ MonoBehaviour:
       Data: EventInfo_9
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_9
+      Data: Lo_EventInfoName_9
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_9
+      Data: Lo_EventInfoComment_9
     - Name: Btn
       Entry: 7
       Data: 19|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_1_Btn_9
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_9
     - Name: 
       Entry: 13
       Data: 
@@ -410,6 +506,15 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -430,10 +535,10 @@ MonoBehaviour:
       Data: EventInfo_10
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_10
+      Data: Lo_EventInfoNameP_1
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_10
+      Data: Lo_EventInfoCommentP_1
     - Name: Btn
       Entry: 7
       Data: 21|System.String[], mscorlib
@@ -442,7 +547,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_BtnP_1
     - Name: 
       Entry: 13
       Data: 
@@ -451,7 +556,16 @@ MonoBehaviour:
       Data: 
     - Name: is_PersentBtn
       Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
       Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -472,10 +586,10 @@ MonoBehaviour:
       Data: EventInfo_11
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_11
+      Data: Lo_EventInfoNameP_2
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_11
+      Data: Lo_EventInfoCommentP_2
     - Name: Btn
       Entry: 7
       Data: 23|System.String[], mscorlib
@@ -484,7 +598,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_BtnP_2
     - Name: 
       Entry: 13
       Data: 
@@ -493,7 +607,16 @@ MonoBehaviour:
       Data: 
     - Name: is_PersentBtn
       Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
       Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -514,10 +637,10 @@ MonoBehaviour:
       Data: EventInfo_12
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_12
+      Data: Lo_EventInfoNameP_3
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_12
+      Data: Lo_EventInfoCommentP_3
     - Name: Btn
       Entry: 7
       Data: 25|System.String[], mscorlib
@@ -526,7 +649,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_BtnP_3
     - Name: 
       Entry: 13
       Data: 
@@ -535,7 +658,16 @@ MonoBehaviour:
       Data: 
     - Name: is_PersentBtn
       Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
       Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -556,10 +688,10 @@ MonoBehaviour:
       Data: EventInfo_13
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_13
+      Data: Lo_EventInfoNameP_4
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_13
+      Data: Lo_EventInfoCommentP_4
     - Name: Btn
       Entry: 7
       Data: 27|System.String[], mscorlib
@@ -568,7 +700,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 1
-      Data: 
+      Data: Lo_EventIfo_BtnP_4
     - Name: 
       Entry: 13
       Data: 
@@ -577,7 +709,16 @@ MonoBehaviour:
       Data: 
     - Name: is_PersentBtn
       Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
       Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -598,10 +739,10 @@ MonoBehaviour:
       Data: EventInfo_14
     - Name: Name
       Entry: 1
-      Data: Lo_test_EventInfoName_14
+      Data: Lo_EventInfoNameP_5
     - Name: Comment
       Entry: 1
-      Data: Lo_test_EventInfoComment_14
+      Data: Lo_EventInfoCommentP_5
     - Name: Btn
       Entry: 7
       Data: 29|System.String[], mscorlib
@@ -610,7 +751,316 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 1
+      Data: Lo_EventIfo_BtnP_5
+    - Name: 
+      Entry: 13
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_15
+    - Name: $v
+      Entry: 7
+      Data: 30|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_15
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_6
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_6
+    - Name: Btn
+      Entry: 7
+      Data: 31|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_16
+    - Name: $v
+      Entry: 7
+      Data: 32|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_16
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_7
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_7
+    - Name: Btn
+      Entry: 7
+      Data: 33|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_17
+    - Name: $v
+      Entry: 7
+      Data: 34|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_17
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_8
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_8
+    - Name: Btn
+      Entry: 7
+      Data: 35|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_8
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_18
+    - Name: $v
+      Entry: 7
+      Data: 36|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_18
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_9
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_9
+    - Name: Btn
+      Entry: 7
+      Data: 37|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_9
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_19
+    - Name: $v
+      Entry: 7
+      Data: 38|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_19
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_10
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_10
+    - Name: Btn
+      Entry: 7
+      Data: 39|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: false
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 1
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_20
+    - Name: $v
+      Entry: 7
+      Data: 40|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_20
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoName_10
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoComment_10
+    - Name: Btn
+      Entry: 7
+      Data: 41|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_10
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_2_Btn_10
     - Name: 
       Entry: 13
       Data: 
@@ -620,6 +1070,270 @@ MonoBehaviour:
     - Name: is_PersentBtn
       Entry: 5
       Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: true
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 7
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 1500000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_21
+    - Name: $v
+      Entry: 7
+      Data: 42|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_21
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_11
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_11
+    - Name: Btn
+      Entry: 7
+      Data: 43|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: true
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 8
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_22
+    - Name: $v
+      Entry: 7
+      Data: 44|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_22
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoName_11
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoComment_11
+    - Name: Btn
+      Entry: 7
+      Data: 45|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_1_Btn_11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: false
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: true
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 8
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 400
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_23
+    - Name: $v
+      Entry: 7
+      Data: 46|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_23
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_12
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_12
+    - Name: Btn
+      Entry: 7
+      Data: 47|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: true
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 6
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 80
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_24
+    - Name: $v
+      Entry: 7
+      Data: 48|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_24
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_13
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_13
+    - Name: Btn
+      Entry: 7
+      Data: 49|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_13
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: true
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 6
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventInfo_25
+    - Name: $v
+      Entry: 7
+      Data: 50|Event_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventInfo_25
+    - Name: Name
+      Entry: 1
+      Data: Lo_EventInfoNameP_14
+    - Name: Comment
+      Entry: 1
+      Data: Lo_EventInfoCommentP_14
+    - Name: Btn
+      Entry: 7
+      Data: 51|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Lo_EventIfo_BtnP_14
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: is_PersentBtn
+      Entry: 5
+      Data: true
+    - Name: is_StatusEvent
+      Entry: 5
+      Data: true
+    - Name: Event_StatusType
+      Entry: 3
+      Data: 6
+    - Name: Event_StatusValue
+      Entry: 4
+      Data: 150
     - Name: 
       Entry: 8
       Data: 
@@ -634,90 +1348,240 @@ MonoBehaviour:
       Data: 
   dataArr:
   - Key: EventInfo_1
-    Name: Lo_test_EventInfoName_1
-    Comment: Lo_test_EventInfoComment_1
+    Name: Lo_EventInfoName_1
+    Comment: Lo_EventInfoComment_1
     Btn:
-    - Lo_test_EventIfo_1_Btn_1
-    - Lo_test_EventIfo_2_Btn_1
+    - Lo_EventIfo_1_Btn_1
+    - Lo_EventIfo_2_Btn_1
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 2
+    Event_StatusValue: 0
   - Key: EventInfo_2
-    Name: Lo_test_EventInfoName_2
-    Comment: Lo_test_EventInfoComment_2
+    Name: Lo_EventInfoName_2
+    Comment: Lo_EventInfoComment_2
     Btn:
-    - 
-    is_PersentBtn: 1
+    - Lo_EventIfo_1_Btn_2
+    - Lo_EventIfo_2_Btn_2
+    is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 3
+    Event_StatusValue: 0
   - Key: EventInfo_3
-    Name: Lo_test_EventInfoName_3
-    Comment: Lo_test_EventInfoComment_3
+    Name: Lo_EventInfoName_3
+    Comment: Lo_EventInfoComment_3
     Btn:
-    - 
+    - Lo_EventIfo_1_Btn_3
+    - Lo_EventIfo_2_Btn_3
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 4
+    Event_StatusValue: 0
   - Key: EventInfo_4
-    Name: Lo_test_EventInfoName_4
-    Comment: Lo_test_EventInfoComment_4
+    Name: Lo_EventInfoName_4
+    Comment: Lo_EventInfoComment_4
     Btn:
-    - 
+    - Lo_EventIfo_1_Btn_4
+    - Lo_EventIfo_2_Btn_4
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 5
+    Event_StatusValue: 0
   - Key: EventInfo_5
-    Name: Lo_test_EventInfoName_5
-    Comment: Lo_test_EventInfoComment_5
+    Name: Lo_EventInfoName_5
+    Comment: Lo_EventInfoComment_5
     Btn:
-    - 
+    - Lo_EventIfo_1_Btn_5
+    - Lo_EventIfo_2_Btn_5
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 6
+    Event_StatusValue: 0
   - Key: EventInfo_6
-    Name: Lo_test_EventInfoName_6
-    Comment: Lo_test_EventInfoComment_6
+    Name: Lo_EventInfoName_6
+    Comment: Lo_EventInfoComment_6
     Btn:
-    - 
+    - Lo_EventIfo_1_Btn_6
+    - Lo_EventIfo_2_Btn_6
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 7
+    Event_StatusValue: 0
   - Key: EventInfo_7
-    Name: Lo_test_EventInfoName_7
-    Comment: Lo_test_EventInfoComment_7
+    Name: Lo_EventInfoName_7
+    Comment: Lo_EventInfoComment_7
     Btn:
-    - 
+    - Lo_EventIfo_1_Btn_7
+    - Lo_EventIfo_2_Btn_7
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
   - Key: EventInfo_8
-    Name: Lo_test_EventInfoName_8
-    Comment: Lo_test_EventInfoComment_8
+    Name: Lo_EventInfoName_8
+    Comment: Lo_EventInfoComment_8
     Btn:
-    - 
+    - Lo_EventIfo_1_Btn_8
+    - Lo_EventIfo_2_Btn_8
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
   - Key: EventInfo_9
-    Name: Lo_test_EventInfoName_9
-    Comment: Lo_test_EventInfoComment_9
+    Name: Lo_EventInfoName_9
+    Comment: Lo_EventInfoComment_9
     Btn:
-    - 
+    - Lo_EventIfo_1_Btn_9
+    - Lo_EventIfo_2_Btn_9
     is_PersentBtn: 0
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
   - Key: EventInfo_10
-    Name: Lo_test_EventInfoName_10
-    Comment: Lo_test_EventInfoComment_10
+    Name: Lo_EventInfoNameP_1
+    Comment: Lo_EventInfoCommentP_1
     Btn:
-    - 
-    is_PersentBtn: 0
+    - Lo_EventIfo_BtnP_1
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
   - Key: EventInfo_11
-    Name: Lo_test_EventInfoName_11
-    Comment: Lo_test_EventInfoComment_11
+    Name: Lo_EventInfoNameP_2
+    Comment: Lo_EventInfoCommentP_2
     Btn:
-    - 
-    is_PersentBtn: 0
+    - Lo_EventIfo_BtnP_2
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
   - Key: EventInfo_12
-    Name: Lo_test_EventInfoName_12
-    Comment: Lo_test_EventInfoComment_12
+    Name: Lo_EventInfoNameP_3
+    Comment: Lo_EventInfoCommentP_3
     Btn:
-    - 
-    is_PersentBtn: 0
+    - Lo_EventIfo_BtnP_3
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
   - Key: EventInfo_13
-    Name: Lo_test_EventInfoName_13
-    Comment: Lo_test_EventInfoComment_13
+    Name: Lo_EventInfoNameP_4
+    Comment: Lo_EventInfoCommentP_4
     Btn:
-    - 
-    is_PersentBtn: 0
+    - Lo_EventIfo_BtnP_4
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
   - Key: EventInfo_14
-    Name: Lo_test_EventInfoName_14
-    Comment: Lo_test_EventInfoComment_14
+    Name: Lo_EventInfoNameP_5
+    Comment: Lo_EventInfoCommentP_5
     Btn:
-    - 
+    - Lo_EventIfo_BtnP_5
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
+  - Key: EventInfo_15
+    Name: Lo_EventInfoNameP_6
+    Comment: Lo_EventInfoCommentP_6
+    Btn:
+    - Lo_EventIfo_BtnP_6
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
+  - Key: EventInfo_16
+    Name: Lo_EventInfoNameP_7
+    Comment: Lo_EventInfoCommentP_7
+    Btn:
+    - Lo_EventIfo_BtnP_7
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
+  - Key: EventInfo_17
+    Name: Lo_EventInfoNameP_8
+    Comment: Lo_EventInfoCommentP_8
+    Btn:
+    - Lo_EventIfo_BtnP_8
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
+  - Key: EventInfo_18
+    Name: Lo_EventInfoNameP_9
+    Comment: Lo_EventInfoCommentP_9
+    Btn:
+    - Lo_EventIfo_BtnP_9
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
+  - Key: EventInfo_19
+    Name: Lo_EventInfoNameP_10
+    Comment: Lo_EventInfoCommentP_10
+    Btn:
+    - Lo_EventIfo_BtnP_10
+    is_PersentBtn: 1
+    is_StatusEvent: 0
+    Event_StatusType: 1
+    Event_StatusValue: 0
+  - Key: EventInfo_20
+    Name: Lo_EventInfoName_10
+    Comment: Lo_EventInfoComment_10
+    Btn:
+    - Lo_EventIfo_1_Btn_10
+    - Lo_EventIfo_2_Btn_10
     is_PersentBtn: 0
+    is_StatusEvent: 1
+    Event_StatusType: 7
+    Event_StatusValue: 1500000
+  - Key: EventInfo_21
+    Name: Lo_EventInfoNameP_11
+    Comment: Lo_EventInfoCommentP_11
+    Btn:
+    - Lo_EventIfo_BtnP_11
+    is_PersentBtn: 1
+    is_StatusEvent: 1
+    Event_StatusType: 8
+    Event_StatusValue: 200
+  - Key: EventInfo_22
+    Name: Lo_EventInfoName_11
+    Comment: Lo_EventInfoComment_11
+    Btn:
+    - Lo_EventIfo_1_Btn_11
+    is_PersentBtn: 0
+    is_StatusEvent: 1
+    Event_StatusType: 8
+    Event_StatusValue: 400
+  - Key: EventInfo_23
+    Name: Lo_EventInfoNameP_12
+    Comment: Lo_EventInfoCommentP_12
+    Btn:
+    - Lo_EventIfo_BtnP_12
+    is_PersentBtn: 1
+    is_StatusEvent: 1
+    Event_StatusType: 6
+    Event_StatusValue: 80
+  - Key: EventInfo_24
+    Name: Lo_EventInfoNameP_13
+    Comment: Lo_EventInfoCommentP_13
+    Btn:
+    - Lo_EventIfo_BtnP_13
+    is_PersentBtn: 1
+    is_StatusEvent: 1
+    Event_StatusType: 6
+    Event_StatusValue: 120
+  - Key: EventInfo_25
+    Name: Lo_EventInfoNameP_14
+    Comment: Lo_EventInfoCommentP_14
+    Btn:
+    - Lo_EventIfo_BtnP_14
+    is_PersentBtn: 1
+    is_StatusEvent: 1
+    Event_StatusType: 6
+    Event_StatusValue: 150
   keyArr:
   - EventInfo_1
   - EventInfo_2
@@ -733,3 +1597,14 @@ MonoBehaviour:
   - EventInfo_12
   - EventInfo_13
   - EventInfo_14
+  - EventInfo_15
+  - EventInfo_16
+  - EventInfo_17
+  - EventInfo_18
+  - EventInfo_19
+  - EventInfo_20
+  - EventInfo_21
+  - EventInfo_22
+  - EventInfo_23
+  - EventInfo_24
+  - EventInfo_25

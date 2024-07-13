@@ -4,20 +4,11 @@ using UnityEngine;
 using Cargold;
 using Sirenix.OdinInspector;
 using Cargold.DB.TableImporter;
-using Cargold.Dialogue;
-using Cargold.FrameWork;
-using Cargold.SDK.Purchase;
 
 // 카라리 테이블 임포터에 의해 생성된 스크립트입니다.
 
-public partial class DataBase_Manager
+public partial class DB_Measure_infoDataGroup
 {
-    public override IDB_Dialogue GetDialogue_C => throw new System.NotImplementedException();
-
-    //public override IDB_Localize GetLocalize_C => throw new System.NotImplementedException();
-
-    public override IDB_Inapp GetInapp_C => throw new System.NotImplementedException();
-
     protected override void Init_Project_Func()
     {
         base.Init_Project_Func();

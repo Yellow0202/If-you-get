@@ -1629,6 +1629,7 @@ RectTransform:
   - {fileID: 1425378008}
   - {fileID: 630721482}
   - {fileID: 665022479}
+  - {fileID: 800484680}
   m_Father: {fileID: 1860032119}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1714,6 +1715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1135594030}
     m_Modifications:
+    - target: {fileID: 3943913644815840503, guid: 512a9c56a99f9aa4480bd57633adc33b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4508328428795035713, guid: 512a9c56a99f9aa4480bd57633adc33b, type: 3}
       propertyPath: m_Name
       value: Schedule_Obj
@@ -3019,6 +3024,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665022478}
   m_CullTransparentMesh: 1
+--- !u!1 &800484679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800484680}
+  - component: {fileID: 800484682}
+  - component: {fileID: 800484681}
+  m_Layer: 5
+  m_Name: EX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &800484680
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800484679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 279289377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &800484681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800484679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &800484682
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800484679}
+  m_CullTransparentMesh: 1
 --- !u!1001 &817810374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3285,6 +3365,7 @@ MonoBehaviour:
     - {fileID: 1717574403}
     - {fileID: 1044957359}
     - {fileID: 919271716}
+    - {fileID: 932271421}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -3295,7 +3376,7 @@ MonoBehaviour:
       Data: 0|Cargold.FrameWork.GameSystem_Manager+InitializeData[], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 7
+      Data: 8
     - Name: 
       Entry: 7
       Data: 1|Cargold.FrameWork.GameSystem_Manager+InitializeData, Assembly-CSharp
@@ -3381,6 +3462,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 8|Cargold.FrameWork.GameSystem_Manager+InitializeData, Assembly-CSharp
+    - Name: iInitializer
+      Entry: 10
+      Data: 7
+    - Name: typeNameStr
+      Entry: 1
+      Data: EventSettingSystem_Manager
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -3408,6 +3501,7 @@ Transform:
   - {fileID: 1717574402}
   - {fileID: 1044957358}
   - {fileID: 919271717}
+  - {fileID: 932271420}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &898885360
@@ -3695,6 +3789,36 @@ MonoBehaviour:
   _curScheduleData:
     _curScheduleArr: 
     _curHealthValunceArr: 
+  _plusStatus:
+    mentalCount: -1
+    backStr: 40
+    chestStr: 40
+    lowerbodyStr: 40
+    stress: 75
+    breakCost:
+      currentDigit: 2
+      values:
+        _val1: 100
+        _val2: 0
+        _val3: 0
+        _val4Ex: 0
+        _val5Ex: 0
+    eventCost:
+      currentDigit: 2
+      values:
+        _val1: 100
+        _val2: 0
+        _val3: 0
+        _val4Ex: 0
+        _val5Ex: 0
+    businessGold:
+      currentDigit: 2
+      values:
+        _val1: 100
+        _val2: 0
+        _val3: 0
+        _val4Ex: 0
+        _val5Ex: 0
   _scheduleScriptDataList:
   - {fileID: 1634311784}
   - {fileID: 65448304}
@@ -3770,6 +3894,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _myschedulType: 2
+--- !u!1 &932271419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 932271420}
+  - component: {fileID: 932271421}
+  m_Layer: 0
+  m_Name: EventSettingSystem_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &932271420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932271419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 892769732}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &932271421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932271419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf93ab419030864e93bfbb39253496f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
 --- !u!1 &1044957357
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,7 +4018,7 @@ MonoBehaviour:
       backMovementSTR: 10
       chestExercisesSTR: 10
       lowerBodyExercisesSTR: 10
-      fatiguelevel: 0
+      stress: 0
 --- !u!1 &1116017307
 GameObject:
   m_ObjectHideFlags: 0

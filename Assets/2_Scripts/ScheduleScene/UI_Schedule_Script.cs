@@ -37,7 +37,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
     [SerializeField, FoldoutGroup("정산"), LabelText("이전 정신력 리스트")] private List<GameObject> _oldMentalObjList;
     [SerializeField, FoldoutGroup("정산"), LabelText("변화 정신력 리스트")] private List<GameObject> _newMentalObjList;
     [SerializeField, FoldoutGroup("정산"), LabelText("연출_근력 애니메이션")] private Animation _strengthAnim;
-    [SerializeField, FoldoutGroup("정산"), LabelText("연출_피로도 애니메이션")] private Animation _streesAnim;
+    [SerializeField, FoldoutGroup("정산"), LabelText("연출_피로도 애니메이션")] private Animation _stressAnim;
     [SerializeField, FoldoutGroup("정산"), LabelText("연출_정신력 애니메이션")] private Animation _mentalAnim;
     [SerializeField, FoldoutGroup("정산"), LabelText("정산 소모 코스트 나열 배열")] private TotalCostObj_Script[] _totalCostObjArr;
     [SerializeField, FoldoutGroup("정산"), LabelText("메인 이동 버튼")] private Button _goToMainBtn;
@@ -165,8 +165,21 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         this._resultObj.SetActive(false);
 
         //일정 확률로 이벤트가 발생했다면 이벤트 처리를 우선
+        if(EventSettingSystem_Manager.Instance.Is_EventCall_Func() == true)
+        {
+            //이벤트 발생
+            EventSettingSystem_Manager.Instance.EventCall_Func();
+        }
+        else
+        {
+            ScheduleSystem_Manager.Instance.Set_NestWeekDay_Func();
+        }
+    }
 
-        ScheduleSystem_Manager.Instance.Set_NestWeekDay_Func();
+    public void EventObjOpen_Func(Event_InfoData a_CurEventData)
+    {
+        //이벤트 오브젝트를 오픈해주고 해당 이벤트를 진행하기.
+        EventUI_Script.Instance.EventStart_Func(a_CurEventData);
     }
 
     public void TotalResult_Func()
@@ -247,7 +260,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         {
             this._strengthAnim.Play("Schedule_Str_Anim");
             yield return Coroutine_C.GetWaitForSeconds_Cor(0.5f);
-            this._streesAnim.Play("Schedule_Stress_Anim");
+            this._stressAnim.Play("Schedule_Stress_Anim");
             yield return Coroutine_C.GetWaitForSeconds_Cor(0.5f);
             this._mentalAnim.Play("Schedule_Mental_Anim");
         }   //스테이터스 연출 시작

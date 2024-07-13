@@ -130,3 +130,4 @@ MonoBehaviour:
   _level_Deley: 10
   _totalCost_HealthCost: 80000
   _totalCost_MealsCost: 300000
+  _event_CallPersent: 99
