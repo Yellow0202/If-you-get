@@ -79,7 +79,7 @@ MonoBehaviour:
       Data: false
     - Name: Event_StatusType
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: Event_StatusValue
       Entry: 4
       Data: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
       Data: false
     - Name: Event_StatusType
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: Event_StatusValue
       Entry: 4
       Data: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
       Data: false
     - Name: Event_StatusType
       Entry: 3
-      Data: 4
+      Data: 1
     - Name: Event_StatusValue
       Entry: 4
       Data: 0
@@ -241,7 +241,7 @@ MonoBehaviour:
       Data: false
     - Name: Event_StatusType
       Entry: 3
-      Data: 5
+      Data: 1
     - Name: Event_StatusValue
       Entry: 4
       Data: 0
@@ -295,7 +295,7 @@ MonoBehaviour:
       Data: false
     - Name: Event_StatusType
       Entry: 3
-      Data: 6
+      Data: 1
     - Name: Event_StatusValue
       Entry: 4
       Data: 0
@@ -349,7 +349,7 @@ MonoBehaviour:
       Data: false
     - Name: Event_StatusType
       Entry: 3
-      Data: 7
+      Data: 1
     - Name: Event_StatusValue
       Entry: 4
       Data: 0
@@ -1355,7 +1355,7 @@ MonoBehaviour:
     - Lo_EventIfo_2_Btn_1
     is_PersentBtn: 0
     is_StatusEvent: 0
-    Event_StatusType: 2
+    Event_StatusType: 1
     Event_StatusValue: 0
   - Key: EventInfo_2
     Name: Lo_EventInfoName_2
@@ -1365,7 +1365,7 @@ MonoBehaviour:
     - Lo_EventIfo_2_Btn_2
     is_PersentBtn: 0
     is_StatusEvent: 0
-    Event_StatusType: 3
+    Event_StatusType: 1
     Event_StatusValue: 0
   - Key: EventInfo_3
     Name: Lo_EventInfoName_3
@@ -1375,7 +1375,7 @@ MonoBehaviour:
     - Lo_EventIfo_2_Btn_3
     is_PersentBtn: 0
     is_StatusEvent: 0
-    Event_StatusType: 4
+    Event_StatusType: 1
     Event_StatusValue: 0
   - Key: EventInfo_4
     Name: Lo_EventInfoName_4
@@ -1385,7 +1385,7 @@ MonoBehaviour:
     - Lo_EventIfo_2_Btn_4
     is_PersentBtn: 0
     is_StatusEvent: 0
-    Event_StatusType: 5
+    Event_StatusType: 1
     Event_StatusValue: 0
   - Key: EventInfo_5
     Name: Lo_EventInfoName_5
@@ -1395,7 +1395,7 @@ MonoBehaviour:
     - Lo_EventIfo_2_Btn_5
     is_PersentBtn: 0
     is_StatusEvent: 0
-    Event_StatusType: 6
+    Event_StatusType: 1
     Event_StatusValue: 0
   - Key: EventInfo_6
     Name: Lo_EventInfoName_6
@@ -1405,7 +1405,7 @@ MonoBehaviour:
     - Lo_EventIfo_2_Btn_6
     is_PersentBtn: 0
     is_StatusEvent: 0
-    Event_StatusType: 7
+    Event_StatusType: 1
     Event_StatusValue: 0
   - Key: EventInfo_7
     Name: Lo_EventInfoName_7

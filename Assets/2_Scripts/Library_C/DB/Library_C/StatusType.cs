@@ -3,12 +3,12 @@ public enum StatusType
 {
     None = 0,
 
-    Mentality = 2,
-    BackMovementStr = 3,
-    ChestExercisesStr = 4,
-    LowerBodyExercisesStr = 5,
-    Stress = 6,
-    Money = 7,
     Done = 1,
+    Money = 7,
     StrSum = 8,
+    Stress = 6,
+    Mentality = 9,
+    BackMovementStr = 10,
+    ChestExercisesStr = 11,
+    LowerBodyExercisesStr = 12,
 }

@@ -84,7 +84,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         this._inGameOnOffGameObject.SetActive(false);
         this._resultNextDayBtn.onClick.AddListener(NextBtnClick_Func);
 
-        this._goToMainBtn.onClick.AddListener(() => { SceneManager.LoadScene("MainScene"); });
+        this._goToMainBtn.onClick.AddListener(() => { SceneManager.LoadScene("MainScene_2"); });
 
         this._totalObj.SetActive(false);
 
@@ -179,14 +179,14 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         {
             switch (this._schedule_HealthType)
             {
-                case HealthType.BackMovement:
+                case HealthType.ChestExercises:
                     this._curHealthHpData =
                         DataBase_Manager.Instance.GetBackSchedule.Get_TypeToBackScheduleDataDic_Func(ScheduleSystem_Manager.Instance.curScheduleData._curHealthValunceArr[ScheduleSystem_Manager.s_curWeekDay.ToInt()]);
 
                     this._curHealthTypeStr = CONSTSTRIONG.STR_BENCHPRESS;
                     break;
 
-                case HealthType.ChestExercises:
+                case HealthType.BackMovement:
                     this._curHealthHpData =
                         DataBase_Manager.Instance.GetChestSchedule.Get_TypeToChestScheduleDDataDic_Func(ScheduleSystem_Manager.Instance.curScheduleData._curHealthValunceArr[ScheduleSystem_Manager.s_curWeekDay.ToInt()]);
 
@@ -359,34 +359,34 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         switch(a_ClearData.myschedulType)
         {
             case ScheduleType.BackMovement:
-                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n" +
-                                               "µî ±ÙÀ° +" + a_PlusValue;
+                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n\n" +
+                                               "<color=green>µî ±ÙÀ° +" + a_PlusValue + "</color>";
                 break;
 
             case ScheduleType.ChestExercises:
-                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n" +
-                               "°¡½¿ ±ÙÀ° +" + a_PlusValue;
+                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n\n" +
+                               "<color=green>°¡½¿ ±ÙÀ° +" + a_PlusValue + "</color>";
                 break;
 
             case ScheduleType.LowerBodyExercises:
-                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n" +
-                               "ÇÏÃ¼ ±ÙÀ° +" + a_PlusValue;
+                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n\n" +
+                               "<color=green>ÇÏÃ¼ ±ÙÀ° +" + a_PlusValue + "</color>";
                 break;
 
             case ScheduleType.Lowbreak:
-                this._resultCommentText.text = "´À±ßÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!\n" + "ÇÇ·Îµµ -" + a_PlusValue;
+                this._resultCommentText.text = "´À±ßÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!\n\n" + "<color=red>ÇÇ·Îµµ -" + a_PlusValue + "</color>";
                 break;
 
             case ScheduleType.Hardbreak:
-                this._resultCommentText.text = "È­·ÁÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!!\n" + "ÇÇ·Îµµ -" + a_PlusValue + "  µ· -100,000";
+                this._resultCommentText.text = "È­·ÁÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!!\n\n" + "<color=red>ÇÇ·Îµµ -" + a_PlusValue + "  µ· -100,000" + "</color>";
                 break;
 
             case ScheduleType.Business:
-                this._resultCommentText.text = "¾÷¹«¸¦ ÁøÇàÇß´Ù\n" + "µ· +" + a_PlusValue;
+                this._resultCommentText.text = "¾÷¹«¸¦ ÁøÇàÇß´Ù\n\n" + "<color=green>µ· +" + a_PlusValue + "</color>";
                 break;
 
             case ScheduleType.Cheating:
-                this._resultCommentText.text = "¾÷¹«¸¦ ÁøÇàÇß´Ù\n" + "Á¤½Å·Â +" + a_PlusValue + "  µ· -50,000" + "  ·£´ý±Ù·Â -5";
+                this._resultCommentText.text = "Ä¡Å² ¸ÀÀÖ´Ù\n\n" + "<color=green>Á¤½Å·Â +" + a_PlusValue + "</color>  <color=red>µ· -50,000" + "\n·£´ý±Ù·Â -5</color>";
                 break;
         }
 
@@ -546,13 +546,13 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
 
             if (ScheduleSystem_Manager.Instance.plusStatus.businessGold != 0)
             {
-                this._totalCostObjArr[4].Call_Func(ScheduleSystem_Manager.Instance.plusStatus.businessGold, TotalCostType._Break);
+                this._totalCostObjArr[4].Call_Func(ScheduleSystem_Manager.Instance.plusStatus.businessGold, TotalCostType._Business);
                 yield return Coroutine_C.GetWaitForSeconds_Cor(0.5f);
             }
         }   //Á¤»êÇ¥ ¿¬Ãâ ¹× ±âÀÔ
 
         yield return Coroutine_C.GetWaitForSeconds_Cor(0.65f);
-        this._resultCost.text = "³²Àº ±Ý¾× : " + UserSystem_Manager.Instance.wealth.GetQuantity_Func(WealthType.Money);
+        this._resultCost.text = "³²Àº ±Ý¾× : " + UserSystem_Manager.Instance.wealth.GetQuantity_Func(WealthType.Money).ToStringLong();
         this._resultCost.gameObject.SetActive(true);
         yield return Coroutine_C.GetWaitForSeconds_Cor(0.75f);
         this._goToMainBtn.transform.parent.gameObject.SetActive(true);

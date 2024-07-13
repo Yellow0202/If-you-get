@@ -121,9 +121,9 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
         public int chestStr;
         public int lowerbodyStr;
         public float stress;
-        public Infinite breakCost;
-        public Infinite eventCost;
-        public Infinite businessGold;
+        public int breakCost;
+        public int eventCost;
+        public int businessGold;
 
         public PlusStatus()
         {

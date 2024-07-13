@@ -28,7 +28,7 @@ public class Schedule_Cheating : ScheduleBase
         yield return new WaitForSeconds(1.5f);
 
         StatusSystem_Manager.Instance.Set_MentalCountPlus_Func(1);
-        StatusSystem_Manager.Instance.Set_BusinessGoldPlus_Func(-50000);;
+        StatusSystem_Manager.Instance.Set_BreakGoldPlus_Func(50000);;
 
         int a_Random = Random.Range(0, 3);
 

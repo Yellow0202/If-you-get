@@ -83,7 +83,7 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uC694\uC998 \uC6B4\uB3D9\uC744 \uB108\uBB34 \uC5F4\uC2EC\uD788 \uD588\uB294\uC9C0
-        \uD558\uCCB4\uC5D0 \uC2EC\uD55C \uADFC\uC721\uD1B5\uC774 \uCC3E\uC544\uC654\uB2E4.
+        \uD558\uCCB4\uC5D0 <b>\uC2EC\uD55C \uADFC\uC721\uD1B5</b>\uC774 \uCC3E\uC544\uC654\uB2E4.
         \uB2E4\uC74C\uB2EC\uC740 \uD558\uCCB4\uB97C \uC26C\uC5B4\uC57C \uD560\uAE4C?"
     - Name: en
       Entry: 1
@@ -249,8 +249,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_1
     - Name: ko
       Entry: 1
-      Data: "\uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC6B4\uB3D9 \uAE08\uC9C0, \uD53C\uB85C\uB3C4
-        -40"
+      Data: "\uD53C\uB85C\uB3C4 <color=green>-40</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -349,7 +348,7 @@ MonoBehaviour:
       Data: Lo_EventInfoComment_2
     - Name: ko
       Entry: 1
-      Data: "\uC624\uB298\uC740 \uC660\uC9C0 \uAE30\uBD84\uC774 \uAFC0\uAFC0\uD558\uB2E4.
+      Data: "\uC624\uB298\uC740 \uC660\uC9C0 \uAE30\uBD84\uC774 <b>\uAFC0\uAFC0</b>\uD558\uB2E4.
         \uC637\uC774\uB098 \uC0AC\uBCFC\uAE4C?"
     - Name: en
       Entry: 1
@@ -516,7 +515,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_2
     - Name: ko
       Entry: 1
-      Data: "\uB3C8 -10\uB9CC\uC6D0, \uC815\uC2E0\uB825 +2"
+      Data: "\uB3C8 <color=red>-10\uB9CC\uC6D0</color>, \uC815\uC2E0\uB825 <color=green>+2</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -616,7 +615,7 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uCE5C\uCC99\uACE0\uBAA8\uAC00 \uC6B4\uB3D9\uD560 \uB54C \uC88B\uC744\uAC70\uB77C\uBA70
-        \uC601\uC591\uC81C\uB97C \uD558\uB098 \uC120\uBB3C\uD574\uC8FC\uC168\uB2E4.
+        <b>\uC601\uC591\uC81C</b>\uB97C \uD558\uB098 \uC120\uBB3C\uD574\uC8FC\uC168\uB2E4.
         \uADFC\uB370 \uBB54\uAC00 \uB9CE\uC774 \uC774\uC0C1\uD558\uAC8C \uC0DD\uACBC\uB2E4."
     - Name: en
       Entry: 1
@@ -785,8 +784,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_3
     - Name: ko
       Entry: 1
-      Data: "\uC77C\uC2DC\uC801\uC73C\uB85C \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-        1.3\uBC30"
+      Data: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 <color=green>1.3\uBC30</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -885,8 +883,8 @@ MonoBehaviour:
       Data: Lo_EventInfoComment_4
     - Name: ko
       Entry: 1
-      Data: "\uCE5C\uAD6C\uAC00 \uCDE8\uC5C5\uD588\uB2E4\uBA70 \uC220\uC744 \uC0AC\uC900\uB2E4\uACE0
-        \uBD88\uB800\uB2E4. \uAC00\uC57C\uD560\uAE4C?"
+      Data: "\uCE5C\uAD6C\uAC00 <b>\uCDE8\uC5C5</b>\uD588\uB2E4\uBA70 \uC220\uC744
+        \uC0AC\uC900\uB2E4\uACE0 \uBD88\uB800\uB2E4. \uAC00\uC57C\uD560\uAE4C?"
     - Name: en
       Entry: 1
       Data: 
@@ -1054,7 +1052,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_4
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 +1, \uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uAC10\uC18C"
+      Data: "\uC815\uC2E0\uB825 <color=green>+1</color>, \uBAA8\uB4E0 \uADFC\uB825
+        <color=red>\uC18C\uD3ED \uAC10\uC18C</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -1087,7 +1086,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusComment_4
     - Name: ko
       Entry: 1
-      Data: "\uB3C8 -3\uB9CC\uC6D0"
+      Data: "\uB3C8 <color=red>-3\uB9CC\uC6D0</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -1154,7 +1153,8 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uC9C4\uACF5 \uD3EC\uC7A5\uB418\uC5B4 \uC788\uB358 \uB2ED\uAC00\uC2B4\uC0B4\uC758
-        \uD3EC\uC7A5\uC9C0\uAC00 \uD33D\uCC3D\uD588\uB2E4. \uBA39\uC5B4\uB3C4 \uB418\uB294\uAC78\uAE4C?"
+        \uD3EC\uC7A5\uC9C0\uAC00 <b>\uD33D\uCC3D</b>\uD588\uB2E4. \uBA39\uC5B4\uB3C4
+        \uB418\uB294\uAC78\uAE4C?"
     - Name: en
       Entry: 1
       Data: 
@@ -1354,7 +1354,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusComment_5
     - Name: ko
       Entry: 1
-      Data: "-10\uB9CC\uC6D0"
+      Data: "<color=red>-10\uB9CC\uC6D0</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -1420,7 +1420,7 @@ MonoBehaviour:
       Data: Lo_EventInfoComment_6
     - Name: ko
       Entry: 1
-      Data: "\uBC30\uC5D0 \uAC70\uC9C0\uAC00 \uB4E4\uC5C8\uB294\uC9C0, \uC2DD\uC695\uC774
+      Data: "\uBC30\uC5D0 \uAC70\uC9C0\uAC00 \uB4E4\uC5C8\uB294\uC9C0, <b>\uC2DD\uC695</b>\uC774
         \uB118\uCE5C\uB2E4. \uB354 \uBA39\uC744\uAE4C?"
     - Name: en
       Entry: 1
@@ -1587,7 +1587,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_6
     - Name: ko
       Entry: 1
-      Data: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00, \uB3C8 -5\uB9CC\uC6D0"
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 <color=green>\uC18C\uD3ED \uC99D\uAC00</color>,
+        \uB3C8 <color=red>-5\uB9CC\uC6D0</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -1687,7 +1688,7 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uAC11\uC790\uAE30 \uB0B4 \uC55E\uC73C\uB85C \uBE60\uB974\uAC8C \uB2EC\uB824\uC624\uB294
-        \uC790\uC804\uAC70\uAC00 \uC788\uB2E4. \uC5B4\uB5BB\uAC8C \uD560\uAE4C?"
+        <b>\uC790\uC804\uAC70</b>\uAC00 \uC788\uB2E4. \uC5B4\uB5BB\uAC8C \uD560\uAE4C?"
     - Name: en
       Entry: 1
       Data: 
@@ -1854,7 +1855,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_7
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 -1"
+      Data: "\uC815\uC2E0\uB825 <color=red>-1</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -1887,7 +1888,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusComment_7
     - Name: ko
       Entry: 1
-      Data: "\uB2E4\uC74C \uB2EC \uC6B4\uB3D9 \uAE08\uC9C0, \uB3C8 -5\uB9CC\uC6D0"
+      Data: "\uB3C8 <color=red>-5\uB9CC\uC6D0</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -1954,7 +1955,7 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uCE5C\uAD6C\uAC00 \uBC84\uB987\uC5C6\uC774 \uC5EC\uC790\uCE5C\uAD6C\uB791
-        \uB180\uB7EC \uAC00\uC57C\uD55C\uB2E4\uACE0 \uC544\uB974\uBC14\uC774\uD2B8\uB97C
+        \uB180\uB7EC \uAC00\uC57C\uD55C\uB2E4\uACE0 <b>\uC544\uB974\uBC14\uC774\uD2B8</b>\uB97C
         \uD558\uB8E8\uB9CC \uB300\uC2E0 \uD574\uB2EC\uB77C\uACE0 \uBD80\uD0C1\uD55C\uB2E4."
     - Name: en
       Entry: 1
@@ -2123,7 +2124,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_8
     - Name: ko
       Entry: 1
-      Data: "\uB3C8 +20\uB9CC\uC6D0, \uD53C\uB85C\uB3C4 +15"
+      Data: "\uB3C8 <color=green>+20\uB9CC\uC6D0</color>, \uD53C\uB85C\uB3C4 <color=red>+15</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -2156,7 +2157,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusComment_8
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 +1"
+      Data: "\uC815\uC2E0\uB825 <color=green>+1</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -2223,7 +2224,7 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uC624\uB298\uC740 \uC0C8\uBCBD\uC5D0 \uC7A0\uC774 \uAE68\uC11C \uB0AE\uC774
-        \uB418\uB2C8 \uC878\uB9AC\uB2E4. \uB0AE\uC7A0\uC774\uB77C\uB3C4 \uC798\uAE4C?"
+        \uB418\uB2C8 \uC878\uB9AC\uB2E4. <b>\uB0AE\uC7A0</b>\uC774\uB77C\uB3C4 \uC798\uAE4C?"
     - Name: en
       Entry: 1
       Data: 
@@ -2390,7 +2391,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_9
     - Name: ko
       Entry: 1
-      Data: "\uD53C\uB85C\uB3C4 -40, \uC815\uC2E0\uB825 +1"
+      Data: "\uD53C\uB85C\uB3C4 <color=green>-40</color>, \uC815\uC2E0\uB825 <color=green>+1</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -2423,7 +2424,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusComment_9
     - Name: ko
       Entry: 1
-      Data: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00"
+      Data: "\uD53C\uB85C\uB3C4 <color=red>+10</color>, <color=green>\uBAA8\uB4E0
+        \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -2489,7 +2491,7 @@ MonoBehaviour:
       Data: Lo_EventInfoCommentP_1
     - Name: ko
       Entry: 1
-      Data: "\uCC45\uC0C1 \uB2E4\uB9AC\uC5D0 \uBC1C\uAC00\uB77D\uC744 \uCC27\uC5C8\uB2E4!"
+      Data: "\uCC45\uC0C1 \uB2E4\uB9AC\uC5D0 <b>\uBC1C\uAC00\uB77D</b>\uC744 \uCC27\uC5C8\uB2E4!"
     - Name: en
       Entry: 1
       Data: 
@@ -2655,8 +2657,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_1
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 -1, \uD53C\uB85C\uB3C4 +20, \uB2E4\uC74C \uB2EC \uD558\uCCB4
-        \uC6B4\uB3D9 \uAE08\uC9C0"
+      Data: "\uC815\uC2E0\uB825<color=red>-1</color>, <color=red>\uD53C\uB85C\uB3C4
+        +20</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -2723,8 +2725,8 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uAC11\uC790\uAE30 \uB098\uC758 \uD55C\uACC4\uB97C \uC54C\uC544\uBCF4\uAE30
-        \uC704\uD574 \uACE0\uC911\uB7C9\uC73C\uB85C \uC2A4\uCFFC\uD2B8\uB97C \uD558\uACE0
-        \uC2F6\uC5B4\uC84C\uB2E4. \uD574\uBCFC\uAE4C?"
+        \uC704\uD574 <b>\uACE0\uC911\uB7C9</b>\uC73C\uB85C \uC2A4\uCFFC\uD2B8\uB97C
+        \uD558\uACE0 \uC2F6\uC5B4\uC84C\uB2E4. \uD574\uBCFC\uAE4C?"
     - Name: en
       Entry: 1
       Data: 
@@ -2859,8 +2861,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_2
     - Name: ko
       Entry: 1
-      Data: "\uD558\uCCB4 \uADFC\uB825 \uB300\uD3ED \uC99D\uAC00, \uD53C\uB85C\uB3C4
-        +5"
+      Data: "\uD558\uCCB4 \uADFC\uB825 <color=blue>\uB300\uD3ED \uC99D\uAC00</color>,
+        <color=red>\uD53C\uB85C\uB3C4 +5</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -2959,7 +2961,7 @@ MonoBehaviour:
       Data: Lo_EventInfoCommentP_3
     - Name: ko
       Entry: 1
-      Data: "\uAC11\uC790\uAE30 \uC9D1 \uB4A4\uC758 \uC0B0\uC744 \uC624\uB974\uACE0
+      Data: "\uAC11\uC790\uAE30 \uC9D1 \uB4A4\uC758 <b>\uC0B0</b>\uC744 \uC624\uB974\uACE0
         \uC2F6\uC5B4\uC84C\uB2E4."
     - Name: en
       Entry: 1
@@ -3096,8 +3098,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_3
     - Name: ko
       Entry: 1
-      Data: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00, \uC815\uC2E0\uB825
-        +1"
+      Data: "<color=green>\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00</color>,
+        <color=green>\uC815\uC2E0\uB825 +1</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -3130,7 +3132,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_3
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 -2, \uD53C\uB85C\uB3C4 +20"
+      Data: "<color=red>\uC815\uC2E0\uB825 -2</color>, <color=red>\uD53C\uB85C\uB3C4
+        +20</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -3196,7 +3199,7 @@ MonoBehaviour:
       Data: Lo_EventInfoCommentP_4
     - Name: ko
       Entry: 1
-      Data: "\uADF8\uB140\uAC00 \uD1B5\uD654\uD558\uB294\uB370 \uB0A8\uC790 \uBAA9\uC18C\uB9AC\uAC00
+      Data: "\uADF8\uB140\uAC00 \uD1B5\uD654\uD558\uB294\uB370 <b>\uB0A8\uC790 \uBAA9\uC18C\uB9AC</b>\uAC00
         \uB4E4\uB9B0\uB2E4. \uAD81\uAE08\uD558\uB2E4. \uB204\uAD74\uAE4C?"
     - Name: en
       Entry: 1
@@ -3333,7 +3336,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_4
     - Name: ko
       Entry: 1
-      Data: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 1.5\uBC30 \uC0C1\uC2B9"
+      Data: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 <color=blue>1.5\uBC30
+        \uC0C1\uC2B9</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -3433,7 +3437,7 @@ MonoBehaviour:
     - Name: ko
       Entry: 1
       Data: "\uBC24\uC778\uB370\uB3C4 \uC9D1 \uC548\uC774 \uB108\uBB34 \uB365\uB2E4.
-        \uC5D0\uC5B4\uCEE8\uC744 \uC7A0\uC2DC\uB9CC \uD2C0\uC5B4\uB193\uC790."
+        <b>\uC5D0\uC5B4\uCEE8</b>\uC744 \uC7A0\uC2DC\uB9CC \uD2C0\uC5B4\uB193\uC790."
     - Name: en
       Entry: 1
       Data: 
@@ -3567,7 +3571,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_5
     - Name: ko
       Entry: 1
-      Data: "\uD53C\uB85C\uB3C4 -10"
+      Data: "\uD53C\uB85C\uB3C4 <color=green>-10</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -3600,7 +3604,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_5
     - Name: ko
       Entry: 1
-      Data: "\uD53C\uB85C\uB3C4 +25"
+      Data: "\uD53C\uB85C\uB3C4 <color=red>+25</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -3800,7 +3804,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_6
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 +1"
+      Data: "\uC815\uC2E0\uB825 <color=green>+1</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -3833,7 +3837,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_6
     - Name: ko
       Entry: 1
-      Data: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uAC10\uC18C"
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uC18C\uD3ED \uAC10\uC18C</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -3899,7 +3903,7 @@ MonoBehaviour:
       Data: Lo_EventInfoCommentP_7
     - Name: ko
       Entry: 1
-      Data: "\uC624\uB298\uC740 \uD55C\uACC4\uAE4C\uC9C0 \uC6B4\uB3D9\uD574\uBCFC\uAE4C?
+      Data: "\uC624\uB298\uC740 <b>\uD55C\uACC4</b>\uAE4C\uC9C0 \uC6B4\uB3D9\uD574\uBCFC\uAE4C?
         \uAE54\uB9AC\uAE30 \uC804\uAE4C\uC9C4 \uD6C4\uD1F4\uB780 \uC5C6\uB2E4."
     - Name: en
       Entry: 1
@@ -4033,7 +4037,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_7
     - Name: ko
       Entry: 1
-      Data: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 \uB300\uD3ED \uC99D\uAC00"
+      Data: "\uD53C\uB85C\uB3C4 <color=red>+10</color>, \uBAA8\uB4E0 \uADFC\uB825
+        <color=blue>\uB300\uD3ED \uC99D\uAC00</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -4066,7 +4071,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_7
     - Name: ko
       Entry: 1
-      Data: "\uD53C\uB85C\uB3C4 +30"
+      Data: "\uD53C\uB85C\uB3C4 <color=red>+30</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -4269,8 +4274,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_8
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 +2, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-        1.3\uBC30"
+      Data: "\uC815\uC2E0\uB825 <color=green>+2</color>, \uB2E4\uC74C \uB2EC \uD68D\uB4DD
+        \uADFC\uB825\uCE58 <color=green>1.3\uBC30</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -4303,8 +4308,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_8
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 -1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-        0.8\uBC30"
+      Data: "\uC815\uC2E0\uB825 <color=red>-1</color>, \uB2E4\uC74C \uB2EC \uD68D\uB4DD
+        \uADFC\uB825\uCE58 <color=red>0.8\uBC30</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -4506,8 +4511,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_9
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 +1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-        1.5\uBC30"
+      Data: "\uC815\uC2E0\uB825 <color=green>+1</color>, \uB2E4\uC74C \uB2EC \uD68D\uB4DD
+        \uADFC\uB825\uCE58 <color=blue>1.5\uBC30</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -4540,7 +4545,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_9
     - Name: ko
       Entry: 1
-      Data: "\uD53C\uB85C\uB3C4 +5"
+      Data: "\uD53C\uB85C\uB3C4 <color=red>+5</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -4606,8 +4611,8 @@ MonoBehaviour:
       Data: Lo_EventInfoCommentP_10
     - Name: ko
       Entry: 1
-      Data: "\uC7A0\uC790\uB2E4\uAC00 \uAC00\uC704\uC5D0 \uB20C\uB838\uB2E4. \uBC97\uC5B4\uB098\uACE0
-        \uC2F6\uC5B4..!"
+      Data: "\uC7A0\uC790\uB2E4\uAC00 <b>\uAC00\uC704</b>\uC5D0 \uB20C\uB838\uB2E4.
+        \uBC97\uC5B4\uB098\uACE0 \uC2F6\uC5B4..!"
     - Name: en
       Entry: 1
       Data: 
@@ -4774,7 +4779,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_10
     - Name: ko
       Entry: 1
-      Data: "\uC815\uC2E0\uB825 -1, \uD53C\uB85C\uB3C4 +15"
+      Data: "\uC815\uC2E0\uB825 <color=red>-1</color>, \uD53C\uB85C\uB3C4 <color=red>+15</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -5009,7 +5014,8 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_10
     - Name: ko
       Entry: 1
-      Data: "\uB3C8 -40\uB9CC\uC6D0, \uBAA8\uB4E0 \uADFC\uB825 \uB300\uD3ED \uC99D\uAC00"
+      Data: "\uB3C8 <color=red>-40\uB9CC\uC6D0</color>, \uBAA8\uB4E0 \uADFC\uB825
+        <color=blue>\uB300\uD3ED \uC99D\uAC00</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -5042,7 +5048,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusComment_10
     - Name: ko
       Entry: 1
-      Data: "\uB3C8 -40\uB9CC\uC6D0, \uC815\uC2E0\uB825 -1"
+      Data: "\uB3C8 <color=red>-40\uB9CC\uC6D0</color>, \uC815\uC2E0\uB825 <color=red>-1</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -5110,7 +5116,7 @@ MonoBehaviour:
       Entry: 1
       Data: "\uBAB0\uB77C\uBCF4\uAC8C \uC815\uB9D0 \uBAB8\uC774 \uC88B\uC544\uC84C\uB2E4.
         \uD558\uC9C0\uB9CC \uACC4\uC18D\uB418\uB294 \uC695\uC2EC\uC740 \uBA48\uCD9C
-        \uC218\uAC00 \uC5C6\uB2E4. \uC8FC\uC0AC\uB97C \uB9DE\uC544\uBCFC\uAE4C..?"
+        \uC218\uAC00 \uC5C6\uB2E4. <color=red>\uC8FC\uC0AC</color>\uB97C \uB9DE\uC544\uBCFC\uAE4C..?"
     - Name: en
       Entry: 1
       Data: 
@@ -5209,7 +5215,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_11
     - Name: ko
       Entry: 1
-      Data: "\uBAA8\uB4E0 \uADFC\uB825 \uB9E4\uC6B0 \uB300\uD3ED \uC99D\uAC00"
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 <color=blue>\uB9E4\uC6B0 \uB300\uD3ED \uC99D\uAC00</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -5411,7 +5417,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusCommentP_11
     - Name: ko
       Entry: 1
-      Data: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 1.3\uBC30"
+      Data: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 <color=green>1.3\uBC30</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -5676,7 +5682,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_12
     - Name: ko
       Entry: 1
-      Data: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uAC10\uC18C"
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uC18C\uD3ED \uAC10\uC18C</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -5908,7 +5914,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_13
     - Name: ko
       Entry: 1
-      Data: "\uBAA8\uB4E0 \uADFC\uB825 \uB300\uD3ED \uAC10\uC18C"
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uB300\uD3ED \uAC10\uC18C</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -6140,7 +6146,7 @@ MonoBehaviour:
       Data: Lo_EventIfo_2_Btn_StatusCommentP_14
     - Name: ko
       Entry: 1
-      Data: "\uBAA8\uB4E0 \uADFC\uB825 \uB9E4\uC6B0 \uB300\uD3ED \uAC10\uC18C"
+      Data: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uB9E4\uC6B0 \uB300\uD3ED \uAC10\uC18C</color>"
     - Name: en
       Entry: 1
       Data: 
@@ -6174,7 +6180,7 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoComment_1
     ko: "\uC694\uC998 \uC6B4\uB3D9\uC744 \uB108\uBB34 \uC5F4\uC2EC\uD788 \uD588\uB294\uC9C0
-      \uD558\uCCB4\uC5D0 \uC2EC\uD55C \uADFC\uC721\uD1B5\uC774 \uCC3E\uC544\uC654\uB2E4.
+      \uD558\uCCB4\uC5D0 <b>\uC2EC\uD55C \uADFC\uC721\uD1B5</b>\uC774 \uCC3E\uC544\uC654\uB2E4.
       \uB2E4\uC74C\uB2EC\uC740 \uD558\uCCB4\uB97C \uC26C\uC5B4\uC57C \uD560\uAE4C?"
     en: 
     Jp: 
@@ -6205,8 +6211,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_1
-    ko: "\uB2E4\uC74C \uB2EC \uD558\uCCB4 \uC6B4\uB3D9 \uAE08\uC9C0, \uD53C\uB85C\uB3C4
-      -40"
+    ko: "\uD53C\uB85C\uB3C4 <color=green>-40</color>"
     en: 
     Jp: 
     Ch: 
@@ -6224,7 +6229,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoComment_2
-    ko: "\uC624\uB298\uC740 \uC660\uC9C0 \uAE30\uBD84\uC774 \uAFC0\uAFC0\uD558\uB2E4.
+    ko: "\uC624\uB298\uC740 \uC660\uC9C0 \uAE30\uBD84\uC774 <b>\uAFC0\uAFC0</b>\uD558\uB2E4.
       \uC637\uC774\uB098 \uC0AC\uBCFC\uAE4C?"
     en: 
     Jp: 
@@ -6256,7 +6261,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_2
-    ko: "\uB3C8 -10\uB9CC\uC6D0, \uC815\uC2E0\uB825 +2"
+    ko: "\uB3C8 <color=red>-10\uB9CC\uC6D0</color>, \uC815\uC2E0\uB825 <color=green>+2</color>"
     en: 
     Jp: 
     Ch: 
@@ -6275,7 +6280,7 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoComment_3
     ko: "\uCE5C\uCC99\uACE0\uBAA8\uAC00 \uC6B4\uB3D9\uD560 \uB54C \uC88B\uC744\uAC70\uB77C\uBA70
-      \uC601\uC591\uC81C\uB97C \uD558\uB098 \uC120\uBB3C\uD574\uC8FC\uC168\uB2E4.
+      <b>\uC601\uC591\uC81C</b>\uB97C \uD558\uB098 \uC120\uBB3C\uD574\uC8FC\uC168\uB2E4.
       \uADFC\uB370 \uBB54\uAC00 \uB9CE\uC774 \uC774\uC0C1\uD558\uAC8C \uC0DD\uACBC\uB2E4."
     en: 
     Jp: 
@@ -6308,8 +6313,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_3
-    ko: "\uC77C\uC2DC\uC801\uC73C\uB85C \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-      1.3\uBC30"
+    ko: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 <color=green>1.3\uBC30</color>"
     en: 
     Jp: 
     Ch: 
@@ -6327,7 +6331,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoComment_4
-    ko: "\uCE5C\uAD6C\uAC00 \uCDE8\uC5C5\uD588\uB2E4\uBA70 \uC220\uC744 \uC0AC\uC900\uB2E4\uACE0
+    ko: "\uCE5C\uAD6C\uAC00 <b>\uCDE8\uC5C5</b>\uD588\uB2E4\uBA70 \uC220\uC744 \uC0AC\uC900\uB2E4\uACE0
       \uBD88\uB800\uB2E4. \uAC00\uC57C\uD560\uAE4C?"
     en: 
     Jp: 
@@ -6360,13 +6364,14 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_4
-    ko: "\uC815\uC2E0\uB825 +1, \uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uAC10\uC18C"
+    ko: "\uC815\uC2E0\uB825 <color=green>+1</color>, \uBAA8\uB4E0 \uADFC\uB825 <color=red>\uC18C\uD3ED
+      \uAC10\uC18C</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusComment_4
-    ko: "\uB3C8 -3\uB9CC\uC6D0"
+    ko: "\uB3C8 <color=red>-3\uB9CC\uC6D0</color>"
     en: 
     Jp: 
     Ch: 
@@ -6379,7 +6384,8 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoComment_5
     ko: "\uC9C4\uACF5 \uD3EC\uC7A5\uB418\uC5B4 \uC788\uB358 \uB2ED\uAC00\uC2B4\uC0B4\uC758
-      \uD3EC\uC7A5\uC9C0\uAC00 \uD33D\uCC3D\uD588\uB2E4. \uBA39\uC5B4\uB3C4 \uB418\uB294\uAC78\uAE4C?"
+      \uD3EC\uC7A5\uC9C0\uAC00 <b>\uD33D\uCC3D</b>\uD588\uB2E4. \uBA39\uC5B4\uB3C4
+      \uB418\uB294\uAC78\uAE4C?"
     en: 
     Jp: 
     Ch: 
@@ -6417,7 +6423,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusComment_5
-    ko: "-10\uB9CC\uC6D0"
+    ko: "<color=red>-10\uB9CC\uC6D0</color>"
     en: 
     Jp: 
     Ch: 
@@ -6429,7 +6435,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoComment_6
-    ko: "\uBC30\uC5D0 \uAC70\uC9C0\uAC00 \uB4E4\uC5C8\uB294\uC9C0, \uC2DD\uC695\uC774
+    ko: "\uBC30\uC5D0 \uAC70\uC9C0\uAC00 \uB4E4\uC5C8\uB294\uC9C0, <b>\uC2DD\uC695</b>\uC774
       \uB118\uCE5C\uB2E4. \uB354 \uBA39\uC744\uAE4C?"
     en: 
     Jp: 
@@ -6461,7 +6467,8 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_6
-    ko: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00, \uB3C8 -5\uB9CC\uC6D0"
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 <color=green>\uC18C\uD3ED \uC99D\uAC00</color>,
+      \uB3C8 <color=red>-5\uB9CC\uC6D0</color>"
     en: 
     Jp: 
     Ch: 
@@ -6480,7 +6487,7 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoComment_7
     ko: "\uAC11\uC790\uAE30 \uB0B4 \uC55E\uC73C\uB85C \uBE60\uB974\uAC8C \uB2EC\uB824\uC624\uB294
-      \uC790\uC804\uAC70\uAC00 \uC788\uB2E4. \uC5B4\uB5BB\uAC8C \uD560\uAE4C?"
+      <b>\uC790\uC804\uAC70</b>\uAC00 \uC788\uB2E4. \uC5B4\uB5BB\uAC8C \uD560\uAE4C?"
     en: 
     Jp: 
     Ch: 
@@ -6512,13 +6519,13 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_7
-    ko: "\uC815\uC2E0\uB825 -1"
+    ko: "\uC815\uC2E0\uB825 <color=red>-1</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusComment_7
-    ko: "\uB2E4\uC74C \uB2EC \uC6B4\uB3D9 \uAE08\uC9C0, \uB3C8 -5\uB9CC\uC6D0"
+    ko: "\uB3C8 <color=red>-5\uB9CC\uC6D0</color>"
     en: 
     Jp: 
     Ch: 
@@ -6531,7 +6538,7 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoComment_8
     ko: "\uCE5C\uAD6C\uAC00 \uBC84\uB987\uC5C6\uC774 \uC5EC\uC790\uCE5C\uAD6C\uB791
-      \uB180\uB7EC \uAC00\uC57C\uD55C\uB2E4\uACE0 \uC544\uB974\uBC14\uC774\uD2B8\uB97C
+      \uB180\uB7EC \uAC00\uC57C\uD55C\uB2E4\uACE0 <b>\uC544\uB974\uBC14\uC774\uD2B8</b>\uB97C
       \uD558\uB8E8\uB9CC \uB300\uC2E0 \uD574\uB2EC\uB77C\uACE0 \uBD80\uD0C1\uD55C\uB2E4."
     en: 
     Jp: 
@@ -6565,13 +6572,13 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_8
-    ko: "\uB3C8 +20\uB9CC\uC6D0, \uD53C\uB85C\uB3C4 +15"
+    ko: "\uB3C8 <color=green>+20\uB9CC\uC6D0</color>, \uD53C\uB85C\uB3C4 <color=red>+15</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusComment_8
-    ko: "\uC815\uC2E0\uB825 +1"
+    ko: "\uC815\uC2E0\uB825 <color=green>+1</color>"
     en: 
     Jp: 
     Ch: 
@@ -6584,7 +6591,7 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoComment_9
     ko: "\uC624\uB298\uC740 \uC0C8\uBCBD\uC5D0 \uC7A0\uC774 \uAE68\uC11C \uB0AE\uC774
-      \uB418\uB2C8 \uC878\uB9AC\uB2E4. \uB0AE\uC7A0\uC774\uB77C\uB3C4 \uC798\uAE4C?"
+      \uB418\uB2C8 \uC878\uB9AC\uB2E4. <b>\uB0AE\uC7A0</b>\uC774\uB77C\uB3C4 \uC798\uAE4C?"
     en: 
     Jp: 
     Ch: 
@@ -6616,13 +6623,14 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_9
-    ko: "\uD53C\uB85C\uB3C4 -40, \uC815\uC2E0\uB825 +1"
+    ko: "\uD53C\uB85C\uB3C4 <color=green>-40</color>, \uC815\uC2E0\uB825 <color=green>+1</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusComment_9
-    ko: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00"
+    ko: "\uD53C\uB85C\uB3C4 <color=red>+10</color>, <color=green>\uBAA8\uB4E0 \uADFC\uB825
+      \uC18C\uD3ED \uC99D\uAC00</color>"
     en: 
     Jp: 
     Ch: 
@@ -6634,7 +6642,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoCommentP_1
-    ko: "\uCC45\uC0C1 \uB2E4\uB9AC\uC5D0 \uBC1C\uAC00\uB77D\uC744 \uCC27\uC5C8\uB2E4!"
+    ko: "\uCC45\uC0C1 \uB2E4\uB9AC\uC5D0 <b>\uBC1C\uAC00\uB77D</b>\uC744 \uCC27\uC5C8\uB2E4!"
     en: 
     Jp: 
     Ch: 
@@ -6665,8 +6673,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_1
-    ko: "\uC815\uC2E0\uB825 -1, \uD53C\uB85C\uB3C4 +20, \uB2E4\uC74C \uB2EC \uD558\uCCB4
-      \uC6B4\uB3D9 \uAE08\uC9C0"
+    ko: "\uC815\uC2E0\uB825<color=red>-1</color>, <color=red>\uD53C\uB85C\uB3C4 +20</color>"
     en: 
     Jp: 
     Ch: 
@@ -6679,8 +6686,8 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoCommentP_2
     ko: "\uAC11\uC790\uAE30 \uB098\uC758 \uD55C\uACC4\uB97C \uC54C\uC544\uBCF4\uAE30
-      \uC704\uD574 \uACE0\uC911\uB7C9\uC73C\uB85C \uC2A4\uCFFC\uD2B8\uB97C \uD558\uACE0
-      \uC2F6\uC5B4\uC84C\uB2E4. \uD574\uBCFC\uAE4C?"
+      \uC704\uD574 <b>\uACE0\uC911\uB7C9</b>\uC73C\uB85C \uC2A4\uCFFC\uD2B8\uB97C
+      \uD558\uACE0 \uC2F6\uC5B4\uC84C\uB2E4. \uD574\uBCFC\uAE4C?"
     en: 
     Jp: 
     Ch: 
@@ -6707,8 +6714,8 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_2
-    ko: "\uD558\uCCB4 \uADFC\uB825 \uB300\uD3ED \uC99D\uAC00, \uD53C\uB85C\uB3C4
-      +5"
+    ko: "\uD558\uCCB4 \uADFC\uB825 <color=blue>\uB300\uD3ED \uC99D\uAC00</color>,
+      <color=red>\uD53C\uB85C\uB3C4 +5</color>"
     en: 
     Jp: 
     Ch: 
@@ -6726,7 +6733,8 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoCommentP_3
-    ko: "\uAC11\uC790\uAE30 \uC9D1 \uB4A4\uC758 \uC0B0\uC744 \uC624\uB974\uACE0 \uC2F6\uC5B4\uC84C\uB2E4."
+    ko: "\uAC11\uC790\uAE30 \uC9D1 \uB4A4\uC758 <b>\uC0B0</b>\uC744 \uC624\uB974\uACE0
+      \uC2F6\uC5B4\uC84C\uB2E4."
     en: 
     Jp: 
     Ch: 
@@ -6753,14 +6761,15 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_3
-    ko: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00, \uC815\uC2E0\uB825
-      +1"
+    ko: "<color=green>\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uC99D\uAC00</color>,
+      <color=green>\uC815\uC2E0\uB825 +1</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_3
-    ko: "\uC815\uC2E0\uB825 -2, \uD53C\uB85C\uB3C4 +20"
+    ko: "<color=red>\uC815\uC2E0\uB825 -2</color>, <color=red>\uD53C\uB85C\uB3C4
+      +20</color>"
     en: 
     Jp: 
     Ch: 
@@ -6772,7 +6781,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoCommentP_4
-    ko: "\uADF8\uB140\uAC00 \uD1B5\uD654\uD558\uB294\uB370 \uB0A8\uC790 \uBAA9\uC18C\uB9AC\uAC00
+    ko: "\uADF8\uB140\uAC00 \uD1B5\uD654\uD558\uB294\uB370 <b>\uB0A8\uC790 \uBAA9\uC18C\uB9AC</b>\uAC00
       \uB4E4\uB9B0\uB2E4. \uAD81\uAE08\uD558\uB2E4. \uB204\uAD74\uAE4C?"
     en: 
     Jp: 
@@ -6801,7 +6810,8 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_4
-    ko: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 1.5\uBC30 \uC0C1\uC2B9"
+    ko: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 <color=blue>1.5\uBC30
+      \uC0C1\uC2B9</color>"
     en: 
     Jp: 
     Ch: 
@@ -6820,7 +6830,7 @@ MonoBehaviour:
     TW: 
   - Key: Lo_EventInfoCommentP_5
     ko: "\uBC24\uC778\uB370\uB3C4 \uC9D1 \uC548\uC774 \uB108\uBB34 \uB365\uB2E4.
-      \uC5D0\uC5B4\uCEE8\uC744 \uC7A0\uC2DC\uB9CC \uD2C0\uC5B4\uB193\uC790."
+      <b>\uC5D0\uC5B4\uCEE8</b>\uC744 \uC7A0\uC2DC\uB9CC \uD2C0\uC5B4\uB193\uC790."
     en: 
     Jp: 
     Ch: 
@@ -6846,13 +6856,13 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_5
-    ko: "\uD53C\uB85C\uB3C4 -10"
+    ko: "\uD53C\uB85C\uB3C4 <color=green>-10</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_5
-    ko: "\uD53C\uB85C\uB3C4 +25"
+    ko: "\uD53C\uB85C\uB3C4 <color=red>+25</color>"
     en: 
     Jp: 
     Ch: 
@@ -6890,13 +6900,13 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_6
-    ko: "\uC815\uC2E0\uB825 +1"
+    ko: "\uC815\uC2E0\uB825 <color=green>+1</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_6
-    ko: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uAC10\uC18C"
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uC18C\uD3ED \uAC10\uC18C</color>"
     en: 
     Jp: 
     Ch: 
@@ -6908,7 +6918,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoCommentP_7
-    ko: "\uC624\uB298\uC740 \uD55C\uACC4\uAE4C\uC9C0 \uC6B4\uB3D9\uD574\uBCFC\uAE4C?
+    ko: "\uC624\uB298\uC740 <b>\uD55C\uACC4</b>\uAE4C\uC9C0 \uC6B4\uB3D9\uD574\uBCFC\uAE4C?
       \uAE54\uB9AC\uAE30 \uC804\uAE4C\uC9C4 \uD6C4\uD1F4\uB780 \uC5C6\uB2E4."
     en: 
     Jp: 
@@ -6934,13 +6944,14 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_7
-    ko: "\uD53C\uB85C\uB3C4 +10, \uBAA8\uB4E0 \uADFC\uB825 \uB300\uD3ED \uC99D\uAC00"
+    ko: "\uD53C\uB85C\uB3C4 <color=red>+10</color>, \uBAA8\uB4E0 \uADFC\uB825 <color=blue>\uB300\uD3ED
+      \uC99D\uAC00</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_7
-    ko: "\uD53C\uB85C\uB3C4 +30"
+    ko: "\uD53C\uB85C\uB3C4 <color=red>+30</color>"
     en: 
     Jp: 
     Ch: 
@@ -6981,15 +6992,15 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_8
-    ko: "\uC815\uC2E0\uB825 +2, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-      1.3\uBC30"
+    ko: "\uC815\uC2E0\uB825 <color=green>+2</color>, \uB2E4\uC74C \uB2EC \uD68D\uB4DD
+      \uADFC\uB825\uCE58 <color=green>1.3\uBC30</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_8
-    ko: "\uC815\uC2E0\uB825 -1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-      0.8\uBC30"
+    ko: "\uC815\uC2E0\uB825 <color=red>-1</color>, \uB2E4\uC74C \uB2EC \uD68D\uB4DD
+      \uADFC\uB825\uCE58 <color=red>0.8\uBC30</color>"
     en: 
     Jp: 
     Ch: 
@@ -7029,14 +7040,14 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_9
-    ko: "\uC815\uC2E0\uB825 +1, \uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58
-      1.5\uBC30"
+    ko: "\uC815\uC2E0\uB825 <color=green>+1</color>, \uB2E4\uC74C \uB2EC \uD68D\uB4DD
+      \uADFC\uB825\uCE58 <color=blue>1.5\uBC30</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_9
-    ko: "\uD53C\uB85C\uB3C4 +5"
+    ko: "\uD53C\uB85C\uB3C4 <color=red>+5</color>"
     en: 
     Jp: 
     Ch: 
@@ -7048,7 +7059,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventInfoCommentP_10
-    ko: "\uC7A0\uC790\uB2E4\uAC00 \uAC00\uC704\uC5D0 \uB20C\uB838\uB2E4. \uBC97\uC5B4\uB098\uACE0
+    ko: "\uC7A0\uC790\uB2E4\uAC00 <b>\uAC00\uC704</b>\uC5D0 \uB20C\uB838\uB2E4. \uBC97\uC5B4\uB098\uACE0
       \uC2F6\uC5B4..!"
     en: 
     Jp: 
@@ -7081,7 +7092,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_10
-    ko: "\uC815\uC2E0\uB825 -1, \uD53C\uB85C\uB3C4 +15"
+    ko: "\uC815\uC2E0\uB825 <color=red>-1</color>, \uD53C\uB85C\uB3C4 <color=red>+15</color>"
     en: 
     Jp: 
     Ch: 
@@ -7127,13 +7138,14 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_10
-    ko: "\uB3C8 -40\uB9CC\uC6D0, \uBAA8\uB4E0 \uADFC\uB825 \uB300\uD3ED \uC99D\uAC00"
+    ko: "\uB3C8 <color=red>-40\uB9CC\uC6D0</color>, \uBAA8\uB4E0 \uADFC\uB825 <color=blue>\uB300\uD3ED
+      \uC99D\uAC00</color>"
     en: 
     Jp: 
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusComment_10
-    ko: "\uB3C8 -40\uB9CC\uC6D0, \uC815\uC2E0\uB825 -1"
+    ko: "\uB3C8 <color=red>-40\uB9CC\uC6D0</color>, \uC815\uC2E0\uB825 <color=red>-1</color>"
     en: 
     Jp: 
     Ch: 
@@ -7147,7 +7159,7 @@ MonoBehaviour:
   - Key: Lo_EventInfoComment_11
     ko: "\uBAB0\uB77C\uBCF4\uAC8C \uC815\uB9D0 \uBAB8\uC774 \uC88B\uC544\uC84C\uB2E4.
       \uD558\uC9C0\uB9CC \uACC4\uC18D\uB418\uB294 \uC695\uC2EC\uC740 \uBA48\uCD9C
-      \uC218\uAC00 \uC5C6\uB2E4. \uC8FC\uC0AC\uB97C \uB9DE\uC544\uBCFC\uAE4C..?"
+      \uC218\uAC00 \uC5C6\uB2E4. <color=red>\uC8FC\uC0AC</color>\uB97C \uB9DE\uC544\uBCFC\uAE4C..?"
     en: 
     Jp: 
     Ch: 
@@ -7165,7 +7177,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusComment_11
-    ko: "\uBAA8\uB4E0 \uADFC\uB825 \uB9E4\uC6B0 \uB300\uD3ED \uC99D\uAC00"
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 <color=blue>\uB9E4\uC6B0 \uB300\uD3ED \uC99D\uAC00</color>"
     en: 
     Jp: 
     Ch: 
@@ -7205,7 +7217,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_1_Btn_StatusCommentP_11
-    ko: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 1.3\uBC30"
+    ko: "\uB2E4\uC74C \uB2EC \uD68D\uB4DD \uADFC\uB825\uCE58 <color=green>1.3\uBC30</color>"
     en: 
     Jp: 
     Ch: 
@@ -7254,7 +7266,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_12
-    ko: "\uBAA8\uB4E0 \uADFC\uB825 \uC18C\uD3ED \uAC10\uC18C"
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uC18C\uD3ED \uAC10\uC18C</color>"
     en: 
     Jp: 
     Ch: 
@@ -7296,7 +7308,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_13
-    ko: "\uBAA8\uB4E0 \uADFC\uB825 \uB300\uD3ED \uAC10\uC18C"
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uB300\uD3ED \uAC10\uC18C</color>"
     en: 
     Jp: 
     Ch: 
@@ -7339,7 +7351,7 @@ MonoBehaviour:
     Ch: 
     TW: 
   - Key: Lo_EventIfo_2_Btn_StatusCommentP_14
-    ko: "\uBAA8\uB4E0 \uADFC\uB825 \uB9E4\uC6B0 \uB300\uD3ED \uAC10\uC18C"
+    ko: "\uBAA8\uB4E0 \uADFC\uB825 <color=red>\uB9E4\uC6B0 \uB300\uD3ED \uAC10\uC18C</color>"
     en: 
     Jp: 
     Ch: 

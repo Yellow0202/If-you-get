@@ -151,6 +151,11 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
         public void Set_Stress_Func(float a_Stress)
         {
             this.GetData.stress += a_Stress;
+
+            if (200 < this.GetData.stress)
+                this.GetData.stress = 200;
+            else if (this.GetData.stress < 0)
+                this.GetData.stress = 0;
         }
     }
     #endregion

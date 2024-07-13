@@ -193,7 +193,7 @@ MonoBehaviour:
       Data: true
     - Name: StatusType_1
       Entry: 3
-      Data: 2
+      Data: 9
     - Name: Status_ValueType_1
       Entry: 3
       Data: 1
@@ -322,10 +322,10 @@ MonoBehaviour:
       Data: Lo_EventIfo_1_Btn_StatusComment_3
     - Name: Is_Dual
       Entry: 5
-      Data: false
+      Data: true
     - Name: StatusType_1
       Entry: 3
-      Data: 3
+      Data: 10
     - Name: Status_ValueType_1
       Entry: 3
       Data: 3
@@ -334,7 +334,7 @@ MonoBehaviour:
       Data: 1.2
     - Name: StatusType_2
       Entry: 3
-      Data: 4
+      Data: 11
     - Name: Status_ValueType_2
       Entry: 3
       Data: 3
@@ -343,7 +343,7 @@ MonoBehaviour:
       Data: 1.2
     - Name: StatusType_3
       Entry: 3
-      Data: 5
+      Data: 12
     - Name: Status_ValueType_3
       Entry: 3
       Data: 3
@@ -457,7 +457,7 @@ MonoBehaviour:
       Data: true
     - Name: StatusType_1
       Entry: 3
-      Data: 2
+      Data: 9
     - Name: Status_ValueType_1
       Entry: 3
       Data: 1
@@ -466,7 +466,7 @@ MonoBehaviour:
       Data: 1
     - Name: StatusType_2
       Entry: 3
-      Data: 3
+      Data: 10
     - Name: Status_ValueType_2
       Entry: 3
       Data: 1
@@ -475,7 +475,7 @@ MonoBehaviour:
       Data: -10
     - Name: StatusType_3
       Entry: 3
-      Data: 4
+      Data: 11
     - Name: Status_ValueType_3
       Entry: 3
       Data: 1
@@ -484,7 +484,7 @@ MonoBehaviour:
       Data: -5
     - Name: StatusType_4
       Entry: 3
-      Data: 5
+      Data: 12
     - Name: Status_ValueType_4
       Entry: 3
       Data: 1
@@ -721,7 +721,7 @@ MonoBehaviour:
       Data: true
     - Name: StatusType_1
       Entry: 3
-      Data: 3
+      Data: 10
     - Name: Status_ValueType_1
       Entry: 3
       Data: 1
@@ -739,7 +739,7 @@ MonoBehaviour:
       Data: -50000
     - Name: StatusType_3
       Entry: 3
-      Data: 4
+      Data: 11
     - Name: Status_ValueType_3
       Entry: 3
       Data: 1
@@ -748,7 +748,7 @@ MonoBehaviour:
       Data: 5
     - Name: StatusType_4
       Entry: 3
-      Data: 5
+      Data: 12
     - Name: Status_ValueType_4
       Entry: 3
       Data: 1
@@ -853,7 +853,7 @@ MonoBehaviour:
       Data: false
     - Name: StatusType_1
       Entry: 3
-      Data: 2
+      Data: 9
     - Name: Status_ValueType_1
       Entry: 3
       Data: 1
@@ -1051,7 +1051,7 @@ MonoBehaviour:
       Data: false
     - Name: StatusType_1
       Entry: 3
-      Data: 2
+      Data: 9
     - Name: Status_ValueType_1
       Entry: 3
       Data: 1
@@ -1126,7 +1126,7 @@ MonoBehaviour:
       Data: -40
     - Name: StatusType_2
       Entry: 3
-      Data: 2
+      Data: 9
     - Name: Status_ValueType_2
       Entry: 3
       Data: 1
@@ -1192,7 +1192,7 @@ MonoBehaviour:
       Data: 10
     - Name: StatusType_2
       Entry: 3
-      Data: 3
+      Data: 10
     - Name: Status_ValueType_2
       Entry: 3
       Data: 1
@@ -1201,7 +1201,7 @@ MonoBehaviour:
       Data: 10
     - Name: StatusType_3
       Entry: 3
-      Data: 4
+      Data: 11
     - Name: Status_ValueType_3
       Entry: 3
       Data: 1
@@ -1210,7 +1210,7 @@ MonoBehaviour:
       Data: 6
     - Name: StatusType_4
       Entry: 3
-      Data: 5
+      Data: 12
     - Name: Status_ValueType_4
       Entry: 3
       Data: 1
@@ -1258,7 +1258,7 @@ MonoBehaviour:
       Data: -400000
     - Name: StatusType_2
       Entry: 3
-      Data: 3
+      Data: 10
     - Name: Status_ValueType_2
       Entry: 3
       Data: 1
@@ -1267,7 +1267,7 @@ MonoBehaviour:
       Data: 40
     - Name: StatusType_3
       Entry: 3
-      Data: 4
+      Data: 11
     - Name: Status_ValueType_3
       Entry: 3
       Data: 1
@@ -1276,7 +1276,7 @@ MonoBehaviour:
       Data: 25
     - Name: StatusType_4
       Entry: 3
-      Data: 5
+      Data: 12
     - Name: Status_ValueType_4
       Entry: 3
       Data: 1
@@ -1324,7 +1324,7 @@ MonoBehaviour:
       Data: -400000
     - Name: StatusType_2
       Entry: 3
-      Data: 2
+      Data: 9
     - Name: Status_ValueType_2
       Entry: 3
       Data: 1
@@ -1381,7 +1381,7 @@ MonoBehaviour:
       Data: true
     - Name: StatusType_1
       Entry: 3
-      Data: 3
+      Data: 10
     - Name: Status_ValueType_1
       Entry: 3
       Data: 1
@@ -1390,7 +1390,7 @@ MonoBehaviour:
       Data: 60
     - Name: StatusType_2
       Entry: 3
-      Data: 4
+      Data: 11
     - Name: Status_ValueType_2
       Entry: 3
       Data: 1
@@ -1399,7 +1399,7 @@ MonoBehaviour:
       Data: 40
     - Name: StatusType_3
       Entry: 3
-      Data: 5
+      Data: 12
     - Name: Status_ValueType_3
       Entry: 3
       Data: 1
@@ -1467,7 +1467,7 @@ MonoBehaviour:
     Comment: Lo_EventIfo_1_Btn_Comment_2
     Status_change_Str: Lo_EventIfo_1_Btn_StatusComment_2
     Is_Dual: 1
-    StatusType_1: 2
+    StatusType_1: 9
     Status_ValueType_1: 1
     Status_Change_Value_1: 2
     StatusType_2: 7
@@ -1500,14 +1500,14 @@ MonoBehaviour:
     Btn: Lo_EventIfo_1_Btn_3
     Comment: Lo_EventIfo_1_Btn_Comment_3
     Status_change_Str: Lo_EventIfo_1_Btn_StatusComment_3
-    Is_Dual: 0
-    StatusType_1: 3
+    Is_Dual: 1
+    StatusType_1: 10
     Status_ValueType_1: 3
     Status_Change_Value_1: 1.2
-    StatusType_2: 4
+    StatusType_2: 11
     Status_ValueType_2: 3
     Status_Change_Value_2: 1.2
-    StatusType_3: 5
+    StatusType_3: 12
     Status_ValueType_3: 3
     Status_Change_Value_3: 1.2
     StatusType_4: 1
@@ -1535,16 +1535,16 @@ MonoBehaviour:
     Comment: Lo_EventIfo_1_Btn_Comment_4
     Status_change_Str: Lo_EventIfo_1_Btn_StatusComment_4
     Is_Dual: 1
-    StatusType_1: 2
+    StatusType_1: 9
     Status_ValueType_1: 1
     Status_Change_Value_1: 1
-    StatusType_2: 3
+    StatusType_2: 10
     Status_ValueType_2: 1
     Status_Change_Value_2: -10
-    StatusType_3: 4
+    StatusType_3: 11
     Status_ValueType_3: 1
     Status_Change_Value_3: -5
-    StatusType_4: 5
+    StatusType_4: 12
     Status_ValueType_4: 1
     Status_Change_Value_4: -7
   - Key: EventSel_Info_2_4
@@ -1603,16 +1603,16 @@ MonoBehaviour:
     Comment: Lo_EventIfo_1_Btn_Comment_6
     Status_change_Str: Lo_EventIfo_1_Btn_StatusComment_6
     Is_Dual: 1
-    StatusType_1: 3
+    StatusType_1: 10
     Status_ValueType_1: 1
     Status_Change_Value_1: 10
     StatusType_2: 7
     Status_ValueType_2: 1
     Status_Change_Value_2: -50000
-    StatusType_3: 4
+    StatusType_3: 11
     Status_ValueType_3: 1
     Status_Change_Value_3: 5
-    StatusType_4: 5
+    StatusType_4: 12
     Status_ValueType_4: 1
     Status_Change_Value_4: 7
   - Key: EventSel_Info_2_6
@@ -1637,7 +1637,7 @@ MonoBehaviour:
     Comment: Lo_EventIfo_1_Btn_Comment_7
     Status_change_Str: Lo_EventIfo_1_Btn_StatusComment_7
     Is_Dual: 0
-    StatusType_1: 2
+    StatusType_1: 9
     Status_ValueType_1: 1
     Status_Change_Value_1: -1
     StatusType_2: 1
@@ -1688,7 +1688,7 @@ MonoBehaviour:
     Comment: Lo_EventIfo_2_Btn_Comment_8
     Status_change_Str: Lo_EventIfo_2_Btn_StatusComment_8
     Is_Dual: 0
-    StatusType_1: 2
+    StatusType_1: 9
     Status_ValueType_1: 1
     Status_Change_Value_1: 1
     StatusType_2: 1
@@ -1708,7 +1708,7 @@ MonoBehaviour:
     StatusType_1: 6
     Status_ValueType_1: 1
     Status_Change_Value_1: -40
-    StatusType_2: 2
+    StatusType_2: 9
     Status_ValueType_2: 1
     Status_Change_Value_2: 1
     StatusType_3: 1
@@ -1725,13 +1725,13 @@ MonoBehaviour:
     StatusType_1: 6
     Status_ValueType_1: 1
     Status_Change_Value_1: 10
-    StatusType_2: 3
+    StatusType_2: 10
     Status_ValueType_2: 1
     Status_Change_Value_2: 10
-    StatusType_3: 4
+    StatusType_3: 11
     Status_ValueType_3: 1
     Status_Change_Value_3: 6
-    StatusType_4: 5
+    StatusType_4: 12
     Status_ValueType_4: 1
     Status_Change_Value_4: 6
   - Key: EventSel_Info_1_10
@@ -1742,13 +1742,13 @@ MonoBehaviour:
     StatusType_1: 7
     Status_ValueType_1: 1
     Status_Change_Value_1: -400000
-    StatusType_2: 3
+    StatusType_2: 10
     Status_ValueType_2: 1
     Status_Change_Value_2: 40
-    StatusType_3: 4
+    StatusType_3: 11
     Status_ValueType_3: 1
     Status_Change_Value_3: 25
-    StatusType_4: 5
+    StatusType_4: 12
     Status_ValueType_4: 1
     Status_Change_Value_4: 30
   - Key: EventSel_Info_2_10
@@ -1759,7 +1759,7 @@ MonoBehaviour:
     StatusType_1: 7
     Status_ValueType_1: 1
     Status_Change_Value_1: -400000
-    StatusType_2: 2
+    StatusType_2: 9
     Status_ValueType_2: 1
     Status_Change_Value_2: -1
     StatusType_3: 1
@@ -1773,13 +1773,13 @@ MonoBehaviour:
     Comment: Lo_EventIfo_1_Btn_Comment_11
     Status_change_Str: Lo_EventIfo_1_Btn_StatusComment_11
     Is_Dual: 1
-    StatusType_1: 3
+    StatusType_1: 10
     Status_ValueType_1: 1
     Status_Change_Value_1: 60
-    StatusType_2: 4
+    StatusType_2: 11
     Status_ValueType_2: 1
     Status_Change_Value_2: 40
-    StatusType_3: 5
+    StatusType_3: 12
     Status_ValueType_3: 1
     Status_Change_Value_3: 50
     StatusType_4: 1

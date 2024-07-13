@@ -69,6 +69,7 @@ public class EventUI_Script : MonoBehaviour
 
         this._eventNameText.text = "[" + LocalizeSystem_Manager.Instance.GetLcz_Func(this._curEventData.Name) + "]";
         this._eventCommentText.text = LocalizeSystem_Manager.Instance.GetLcz_Func(this._curEventData.Comment);
+        this._eventResultText.text = "";
 
         for (int i = 0; i < this._curEventData.Btn.Length; i++)
         {
@@ -123,8 +124,17 @@ public class EventUI_Script : MonoBehaviour
 
     public void LetMoveOn_Func()
     {
+        int a_CurMentalCount = UserSystem_Manager.Instance.status.Get_UserStatus_Func().mentality;
+        a_CurMentalCount += ScheduleSystem_Manager.Instance.plusStatus.mentalCount;
+
+        if (a_CurMentalCount <= 0)
+        {
+            return;
+        }
+
         this.BtnReSet_Func();
         this.Reset_Func();
+        StatusSystem_Manager.Instance.Set_MentalCountPlus_Func(-1);
         ScheduleSystem_Manager.Instance.Set_NestWeekDay_Func();
     }
 

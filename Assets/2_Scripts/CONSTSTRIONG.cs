@@ -5,7 +5,7 @@ using UnityEngine;
 public class CONSTSTRIONG
 {
     public const int INT_COUNTMAX = 10;
-    public const int INT_TIMEMAX = 10;
+    public const int INT_TIMEMAX = 5;
     public const int INT_BASEDAY = 7;
 
     public const string STR_MONDAY = "월요일";
@@ -27,7 +27,7 @@ public class CONSTSTRIONG
     public const string STR_TOTALRESULT_HEALTH = " 원 [헬스장 회원비]";
     public const string STR_TOTALRESULT_MEALS = " 원 [식단비]";
     public const string STR_TOTALRESULT_BUSINESS = " 원 [봉급]";
-    public const string STR_TOTALRESULT_BREAK = " 원 [휴가 비용]";
+    public const string STR_TOTALRESULT_BREAK = " 원 [휴가 비용, 치팅비용]";
     public const string STR_TOTALRESULT_EVENT = " 원 [이벤트 결과]";
 
     public const string STR_BENCHPRESS = "벤치프레스";

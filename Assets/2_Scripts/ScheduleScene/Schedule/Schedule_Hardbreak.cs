@@ -28,7 +28,7 @@ public class Schedule_Hardbreak : ScheduleBase
         yield return new WaitForSeconds(1.5f);
 
         StatusSystem_Manager.Instance.Set_StressPlus_Func(-70);
-        StatusSystem_Manager.Instance.Set_BusinessGoldPlus_Func(-100000);
+        StatusSystem_Manager.Instance.Set_BreakGoldPlus_Func(100000);
 
         UI_Schedule_Script.Instance.WeekDayClear_Func(this, 70);
 

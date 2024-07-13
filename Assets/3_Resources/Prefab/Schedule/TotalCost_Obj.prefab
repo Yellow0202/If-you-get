@@ -189,8 +189,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "- 80,000\uC6D0 [\uD5EC\uC2A4\uC7A5 \uD68C\uC6D0\uBE44]"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 07ba90bfb18da9242a8e334c7ebc6927, type: 2}
-  m_sharedMaterial: {fileID: -8854167688255102343, guid: 07ba90bfb18da9242a8e334c7ebc6927, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: db41109306c3a914eba7d64a4f708b81, type: 2}
+  m_sharedMaterial: {fileID: -4370696178032021600, guid: db41109306c3a914eba7d64a4f708b81, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

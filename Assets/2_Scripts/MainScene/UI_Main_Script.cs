@@ -67,6 +67,8 @@ public class UI_Main_Script : MonoBehaviour
         this._curHealthValunceArr = new HealthValunceType[CONSTSTRIONG.INT_BASEDAY];
         this._selHealthValunce = HealthValunceType.Easy;
 
+        UserSystem_Manager.Instance.wealth.TryGetWealthControl_Func(UserSystem_Manager.WealthControl.Earn, WealthType.Money, 5000000);
+
         this.TextUpdate_Func();
     }
 
@@ -84,21 +86,13 @@ public class UI_Main_Script : MonoBehaviour
 
     public void TextUpdate_Func()
     {
-        //_status_BackMovement_Text;
-        //_status_ChestExercises_Text;
-        //_status_LowerBodyExercises_Text;
-        //_status_Gold_Text;
-        //_status_Stress_Text;
-        //_status_Stress_Img;
-        //_status_Mental_Img;
-
         UserStatusData a_Status = UserSystem_Manager.Instance.status.Get_UserStatus_Func();
 
         this._status_BackMovement_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_BackMovementStrengthInfoDataList_Func(a_Status.backMovementSTR);
-        this._status_BackMovement_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_ChestExercisesStrengthInfoDataList_Func(a_Status.chestExercisesSTR);
-        this._status_BackMovement_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_LowerBodyExercises_CostStrengthInfoDataList_Func(a_Status.lowerBodyExercisesSTR);
+        this._status_ChestExercises_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_ChestExercisesStrengthInfoDataList_Func(a_Status.chestExercisesSTR);
+        this._status_LowerBodyExercises_Text.text = DataBase_Manager.Instance.GetStrength_Info.Get_LowerBodyExercises_CostStrengthInfoDataList_Func(a_Status.lowerBodyExercisesSTR);
 
-        this._status_Gold_Text.text = UserSystem_Manager.Instance.wealth.GetQuantity_Func(WealthType.Money).ToStringLong();
+        this._status_Gold_Text.text = UserSystem_Manager.Instance.wealth.GetQuantity_Func(WealthType.Money).ToStringLong() + "¿ø";
         this._status_Stress_Text.text = a_Status.stress + "/ 100";
         this._status_Stress_Img.fillAmount = a_Status.stress / 100;
 

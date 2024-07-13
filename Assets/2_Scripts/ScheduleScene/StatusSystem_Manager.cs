@@ -131,6 +131,28 @@ public class StatusSystem_Manager : SerializedMonoBehaviour, GameSystem_Manager.
         ScheduleSystem_Manager.Instance.plusStatus.businessGold += (int)a_Total;
     }
 
+    public void Set_EventGoldPlus_Func(int a_Value)
+    {
+        float a_Total = a_Value;
+
+        if (this.is_Stressss == true)
+            a_Total *= this._statusDeley;
+
+
+        ScheduleSystem_Manager.Instance.plusStatus.eventCost += (int)a_Total;
+    }
+
+    public void Set_BreakGoldPlus_Func(int a_Value)
+    {
+        float a_Total = a_Value;
+
+        if (this.is_Stressss == true)
+            a_Total *= this._statusDeley;
+
+
+        ScheduleSystem_Manager.Instance.plusStatus.breakCost += (int)a_Total;
+    }
+
     public void Set_StressPlus_Func(int a_Value)
     {
         ScheduleSystem_Manager.Instance.plusStatus.stress += a_Value;
@@ -276,7 +298,7 @@ public class StatusSystem_Manager : SerializedMonoBehaviour, GameSystem_Manager.
             case StatusType.Money:
                 if (a_ValueType == StatusValueType.Single)
                 {
-                    this.Set_BusinessGoldPlus_Func((int)a_Value);
+                    this.Set_EventGoldPlus_Func((int)a_Value * -1);
                 }
                 break;
         }
