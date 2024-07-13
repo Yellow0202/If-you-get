@@ -115,9 +115,15 @@ MonoBehaviour:
   - Define_1
   - Define_2
   - Define_3
-  _uI_Icon_backMovement: {fileID: 21300000, guid: 1accade437a341541aff9ba8ed056d79, type: 3}
-  _uI_Icon_chestExercises: {fileID: 21300000, guid: c4579f4b97c4de1439dda7a11afab3d7, type: 3}
-  _uI_Icon_lowerBodyExercises: {fileID: 21300000, guid: 8cdaa02222290b24e953219f224be9c4, type: 3}
+  _uI_Icon_Low_backMovement: {fileID: 21300000, guid: 1accade437a341541aff9ba8ed056d79, type: 3}
+  _uI_Icon_Mid_backMovement: {fileID: 21300000, guid: f658a699dd8d9744eb9fd14b8b1c5de9, type: 3}
+  _uI_Icon_Higt_backMovement: {fileID: 21300000, guid: 5a1fa852320e9b442b323addf5289e43, type: 3}
+  _uI_Icon_Low_chestExercises: {fileID: 21300000, guid: c4579f4b97c4de1439dda7a11afab3d7, type: 3}
+  _uI_Icon_Mid_chestExercises: {fileID: 21300000, guid: e4b0ce766c173c440a1820ab434a90e1, type: 3}
+  _uI_Icon_Higt_chestExercises: {fileID: 21300000, guid: bef16281864e0414d901cbb35980e74d, type: 3}
+  _uI_Icon_Low_lowerBodyExercises: {fileID: 21300000, guid: 8cdaa02222290b24e953219f224be9c4, type: 3}
+  _uI_Icon_Mid_lowerBodyExercises: {fileID: 21300000, guid: fef1b456fe1d800449f1fc6f8aa0db66, type: 3}
+  _uI_Icon_Higt_lowerBodyExercises: {fileID: 21300000, guid: ddc7aad392087404d9fb2fe0dd8ef519, type: 3}
   _uI_Icon_lowbreak: {fileID: 21300000, guid: d828416c33c9fb64c8d1b1f9a8310a1b, type: 3}
   _uI_Icon_hardbreak: {fileID: 21300000, guid: cbb04aeac2e001645b72f592784aec65, type: 3}
   _uI_Icon_business: {fileID: 21300000, guid: f12a6cd866758ac4080f5d5d401bf006, type: 3}
@@ -134,8 +140,20 @@ MonoBehaviour:
   _level_Back_DeleyValue: 200
   _level_Chest_DeleyValue: 20
   _level_LowerBody_DeleyValue: 6
+  _level_LowStress: 15
+  _level_MidStress: 18
+  _level_HigtStress: 21
   _totalCost_HealthCost: 80000
   _totalCost_MealsCost: 300000
   _event_CountMax: 3
   _event_CallPersent: 30
   _event_StatusPersent: 99
+  _plus_Low_backMovement: 30
+  _plus_Mid_backMovement: 40
+  _plus_Higt_backMovement: 50
+  _plus_Low_chestExercises: 17
+  _plus_Mid_chestExercises: 23
+  _plus_Higt_chestExercises: 28
+  _plus_Low_lowerBodyExercises: 19
+  _plus_Mid_lowerBodyExercisest: 26
+  _plus_Higt_lowerBodyExercises: 32

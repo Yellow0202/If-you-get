@@ -125,6 +125,12 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
         public void Set_MentalStatus_Func(int a_MentalCount)
         {
             this.GetData.mentality += a_MentalCount;
+
+            if (3 < this.GetData.mentality)
+                this.GetData.mentality = 3;
+            else if (this.GetData.mentality < 0)
+                this.GetData.mentality = 0;
+
         }
 
         public void Set_BackMovementSTR_Func(int a_BackMovementSTR)

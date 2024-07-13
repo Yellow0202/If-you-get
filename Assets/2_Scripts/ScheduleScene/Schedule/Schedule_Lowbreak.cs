@@ -17,6 +17,9 @@ public class Schedule_Lowbreak : ScheduleBase
 
     private IEnumerator Schedule_Cor()
     {
+        //배경 스프라이트 변경
+        UI_Schedule_Script.Instance.Set_BgImgChange_Func(this.myschedulType);
+
         while (true)
         {
             break;
@@ -24,7 +27,9 @@ public class Schedule_Lowbreak : ScheduleBase
 
         yield return new WaitForSeconds(1.5f);
 
-        UI_Schedule_Script.Instance.WeekDayClear_Func(this);
+        StatusSystem_Manager.Instance.Set_StressPlus_Func(-40);
+
+        UI_Schedule_Script.Instance.WeekDayClear_Func(this, 40);
 
         yield return null;
 

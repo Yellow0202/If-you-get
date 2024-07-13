@@ -109,6 +109,33 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         ScheduleSystem_Manager.Instance.Start_Schedule_Func();
     }
 
+    public void Set_BgImgChange_Func(ScheduleType a_BgType)
+    {
+        switch (a_BgType)
+        {
+            case ScheduleType.BackMovement:
+                break;
+
+            case ScheduleType.ChestExercises:
+                break;
+
+            case ScheduleType.LowerBodyExercises:
+                break;
+
+            case ScheduleType.Lowbreak:
+                break;
+
+            case ScheduleType.Hardbreak:
+                break;
+
+            case ScheduleType.Business:
+                break;
+
+            case ScheduleType.Cheating:
+                break;
+        }
+    }
+
     public void Set_ArrowSpriteChange_Func(HealthType a_ArrowType)
     {
         this._schedule_HealthType = a_ArrowType;
@@ -325,12 +352,46 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         return "";
     }
 
-    public void WeekDayClear_Func(ScheduleBase a_ClearData)
+    public void WeekDayClear_Func(ScheduleBase a_ClearData, int a_PlusValue)
     {
         this._inGameOnOffGameObject.SetActive(false);
+
+        switch(a_ClearData.myschedulType)
+        {
+            case ScheduleType.BackMovement:
+                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n" +
+                                               "µî ±ÙÀ° +" + a_PlusValue;
+                break;
+
+            case ScheduleType.ChestExercises:
+                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n" +
+                               "°¡½¿ ±ÙÀ° +" + a_PlusValue;
+                break;
+
+            case ScheduleType.LowerBodyExercises:
+                this._resultCommentText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]\n" +
+                               "ÇÏÃ¼ ±ÙÀ° +" + a_PlusValue;
+                break;
+
+            case ScheduleType.Lowbreak:
+                this._resultCommentText.text = "´À±ßÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!\n" + "ÇÇ·Îµµ -" + a_PlusValue;
+                break;
+
+            case ScheduleType.Hardbreak:
+                this._resultCommentText.text = "È­·ÁÇÑ ÈÞ½ÄÀ» Áñ°å´Ù!!\n" + "ÇÇ·Îµµ -" + a_PlusValue + "  µ· -100,000";
+                break;
+
+            case ScheduleType.Business:
+                this._resultCommentText.text = "¾÷¹«¸¦ ÁøÇàÇß´Ù\n" + "µ· +" + a_PlusValue;
+                break;
+
+            case ScheduleType.Cheating:
+                this._resultCommentText.text = "¾÷¹«¸¦ ÁøÇàÇß´Ù\n" + "Á¤½Å·Â +" + a_PlusValue + "  µ· -50,000" + "  ·£´ý±Ù·Â -5";
+                break;
+        }
+
         this.Reset_Func();
 
-        this._resultCommentText.text = "Å×½ºÆ® ÁøÇà \n" + a_ClearData.myschedulType;
         int a_CurWeekDay = ScheduleSystem_Manager.s_curWeekDay.ToInt();
         a_CurWeekDay++;
         string a_NextDaySTR = this.Setting_WeekDayUpdate_Func((CurWeekDayType)a_CurWeekDay);

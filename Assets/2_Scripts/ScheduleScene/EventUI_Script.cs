@@ -91,6 +91,8 @@ public class EventUI_Script : MonoBehaviour
         this._eventResultText.text = LocalizeSystem_Manager.Instance.GetLcz_Func(a_EventSelInfoData.Status_change_Str);
         this._eventBtnList[this._eventBtnList.Count - 1].gameObject.SetActive(false);
 
+        StatusSystem_Manager.Instance.StatusPlus_Func(a_EventSelInfoData);
+
         this.EvnetClose_Func();
     }
 
@@ -100,6 +102,8 @@ public class EventUI_Script : MonoBehaviour
         this._eventResultText.gameObject.SetActive(true);
         this._eventResultText.text = LocalizeSystem_Manager.Instance.GetLcz_Func(a_EventSelPInfoData.Status_change_Str);
         this._eventBtnList[this._eventBtnList.Count - 1].gameObject.SetActive(false);
+
+        StatusSystem_Manager.Instance.StatusPlus_Func(a_EventSelPInfoData);
 
         this.EvnetClose_Func();
     }

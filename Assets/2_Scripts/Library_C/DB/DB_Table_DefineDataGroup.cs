@@ -9,9 +9,15 @@ using Cargold.DB.TableImporter;
 
 public partial class DB_Table_DefineDataGroup
 {
-    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("등 운동")] private Sprite _uI_Icon_backMovement; public Sprite uI_Icon_backMovement => this._uI_Icon_backMovement;
-    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가슴 운동")] private Sprite _uI_Icon_chestExercises; public Sprite uI_Icon_chestExercises => this._uI_Icon_chestExercises;
-    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("하체 운동")] private Sprite _uI_Icon_lowerBodyExercises; public Sprite uI_Icon_lowerBodyExercises => this._uI_Icon_lowerBodyExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("등 운동(저)")] private Sprite _uI_Icon_Low_backMovement; public Sprite uI_Icon_Low_backMovement => this._uI_Icon_Low_backMovement;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("등 운동(중)")] private Sprite _uI_Icon_Mid_backMovement; public Sprite uI_Icon_Mid_backMovement => this._uI_Icon_Mid_backMovement;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("등 운동(고)")] private Sprite _uI_Icon_Higt_backMovement; public Sprite uI_Icon_Higt_backMovement => this._uI_Icon_Higt_backMovement;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가슴 운동(저)")] private Sprite _uI_Icon_Low_chestExercises; public Sprite uI_Icon_Low_chestExercises => this._uI_Icon_Low_chestExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가슴 운동(중)")] private Sprite _uI_Icon_Mid_chestExercises; public Sprite uI_Icon_Mid_chestExercises => this._uI_Icon_Mid_chestExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가슴 운동(고)")] private Sprite _uI_Icon_Higt_chestExercises; public Sprite uI_Icon_Higt_chestExercises => this._uI_Icon_Higt_chestExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("하체 운동(저)")] private Sprite _uI_Icon_Low_lowerBodyExercises; public Sprite uI_Icon_Low_lowerBodyExercises => this._uI_Icon_Low_lowerBodyExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("하체 운동(중)")] private Sprite _uI_Icon_Mid_lowerBodyExercises; public Sprite uI_Icon_Mid_lowerBodyExercises => this._uI_Icon_Mid_lowerBodyExercises;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("하체 운동(고)")] private Sprite _uI_Icon_Higt_lowerBodyExercises; public Sprite uI_Icon_Higt_lowerBodyExercises => this._uI_Icon_Higt_lowerBodyExercises;
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("가벼운 휴식")] private Sprite _uI_Icon_lowbreak; public Sprite uI_Icon_lowbreak => this._uI_Icon_lowbreak;
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("호화로운 휴식")] private Sprite _uI_Icon_hardbreak; public Sprite uI_Icon_hardbreak => this._uI_Icon_hardbreak;
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("업무")] private Sprite _uI_Icon_business; public Sprite uI_Icon_business => this._uI_Icon_business;
@@ -30,6 +36,9 @@ public partial class DB_Table_DefineDataGroup
     [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("부하 값(등)")] private float _level_Back_DeleyValue; public float level_Back_DeleyValue => this._level_Back_DeleyValue;
     [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("부하 값(가슴)")] private float _level_Chest_DeleyValue; public float level_Chest_DeleyValue => this._level_Chest_DeleyValue;
     [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("부하 값(하체)")] private float _level_LowerBody_DeleyValue; public float level_LowerBody_DeleyValue => this._level_LowerBody_DeleyValue;
+    [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("저강도 피로도")] private int _level_LowStress; public int level_LowStress => this._level_LowStress;
+    [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("중강도 피로도")] private int _level_MidStress; public int level_MidStress => this._level_MidStress;
+    [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("고강도 피로도")] private int _level_HigtStress; public int level_HigtStress => this._level_HigtStress;
 
     [SerializeField, FoldoutGroup("정산"), LabelText("헬스장 비용(고정)")] private int _totalCost_HealthCost; public int totalCost_HealthCost => this._totalCost_HealthCost;
     [SerializeField, FoldoutGroup("정산"), LabelText("식단 비용(고정)")] private int _totalCost_MealsCost; public int totalCost_MealsCost => this._totalCost_MealsCost;
@@ -37,6 +46,18 @@ public partial class DB_Table_DefineDataGroup
     [SerializeField, FoldoutGroup("이벤트"), LabelText("이벤트 등장 최대 카운트")] private int _event_CountMax; public int event_CountMax => this._event_CountMax;
     [SerializeField, FoldoutGroup("이벤트"), LabelText("이벤트 등장 확률")] private float _event_CallPersent; public float event_CallPersent => this._event_CallPersent;
     [SerializeField, FoldoutGroup("이벤트"), LabelText("조건부 이벤트 등장 확률")] private float _event_StatusPersent; public float event_StatusPersent => this._event_StatusPersent;
+
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("등(저강도)")] private int _plus_Low_backMovement; public int plus_Low_backMovement => this._plus_Low_backMovement;
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("등(중강도)")] private int _plus_Mid_backMovement; public int plus_Mid_backMovement => this._plus_Mid_backMovement;
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("등(고강도)")] private int _plus_Higt_backMovement; public int plus_Higt_backMovement => this._plus_Higt_backMovement;
+
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("가슴(저강도)")] private int _plus_Low_chestExercises; public int plus_Low_chestExercises => this._plus_Low_chestExercises;
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("가슴(중강도)")] private int _plus_Mid_chestExercises; public int plus_Mid_chestExercises => this._plus_Mid_chestExercises;
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("가슴(고강도)")] private int _plus_Higt_chestExercises; public int plus_Higt_chestExercises => this._plus_Higt_chestExercises;
+
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("하체(저강도)")] private int _plus_Low_lowerBodyExercises; public int plus_Low_lowerBodyExercises => this._plus_Low_lowerBodyExercises;
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("하체(중강도)")] private int _plus_Mid_lowerBodyExercisest; public int plus_Mid_lowerBodyExercises => this._plus_Mid_lowerBodyExercisest;
+    [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("하체(고강도)")] private int _plus_Higt_lowerBodyExercises; public int plus_Higt_lowerBodyExercises => this._plus_Higt_lowerBodyExercises;
 
     protected override void Init_Project_Func()
     {

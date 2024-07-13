@@ -17,6 +17,9 @@ public class Schedule_Cheating : ScheduleBase
 
     private IEnumerator Schedule_Cor()
     {
+        //배경 스프라이트 변경
+        UI_Schedule_Script.Instance.Set_BgImgChange_Func(this.myschedulType);
+
         while (true)
         {
             break;
@@ -24,7 +27,27 @@ public class Schedule_Cheating : ScheduleBase
 
         yield return new WaitForSeconds(1.5f);
 
-        UI_Schedule_Script.Instance.WeekDayClear_Func(this);
+        StatusSystem_Manager.Instance.Set_MentalCountPlus_Func(1);
+        StatusSystem_Manager.Instance.Set_BusinessGoldPlus_Func(-50000);;
+
+        int a_Random = Random.Range(0, 3);
+
+        switch(a_Random)
+        {
+            case 0:
+                StatusSystem_Manager.Instance.Set_BackStrPlus_Func(-5);
+                break;
+
+            case 1:
+                StatusSystem_Manager.Instance.Set_ChestStrPlus_Func(-5);
+                break;
+
+            case 2:
+                StatusSystem_Manager.Instance.Set_LowerbodyStrPlus_Func(-5);
+                break;
+        }
+
+        UI_Schedule_Script.Instance.WeekDayClear_Func(this, 1);
 
         yield return null;
 

@@ -17,6 +17,9 @@ public class Schedule_ChestExercises : ScheduleBase
 
     private IEnumerator Schedule_Cor()
     {
+        //배경 스프라이트 변경
+        UI_Schedule_Script.Instance.Set_BgImgChange_Func(this.myschedulType);
+
         //스프라이트 고정
         UI_Schedule_Script.Instance.Set_ArrowSpriteChange_Func(HealthType.ChestExercises);
         UI_Schedule_Script.Instance.Set_HpBar_Func();
@@ -68,9 +71,45 @@ public class Schedule_ChestExercises : ScheduleBase
         }
 
         //스테이터스 내용 추가
+        HealthValunceType a_CurHealthValunce = ScheduleSystem_Manager.Instance.curScheduleData._curHealthValunceArr[ScheduleSystem_Manager.s_curWeekDay.ToInt()];
 
+        float a_TotalStr = 0;
 
-        UI_Schedule_Script.Instance.WeekDayClear_Func(this);
+        switch (a_CurHealthValunce)
+        {
+            case HealthValunceType.Easy:
+                StatusSystem_Manager.Instance.Set_StressPlus_Func(DataBase_Manager.Instance.GetTable_Define.level_LowStress);
+
+                a_TotalStr = DataBase_Manager.Instance.GetTable_Define.plus_Low_chestExercises / 10;
+                a_TotalStr *= UI_Schedule_Script.Instance.curCount;
+
+                StatusSystem_Manager.Instance.Set_ChestStrPlus_Func((int)a_TotalStr);
+                break;
+
+            case HealthValunceType.Nomal:
+                StatusSystem_Manager.Instance.Set_StressPlus_Func(DataBase_Manager.Instance.GetTable_Define.level_MidStress);
+
+                a_TotalStr = DataBase_Manager.Instance.GetTable_Define.plus_Mid_chestExercises / 10;
+                a_TotalStr *= UI_Schedule_Script.Instance.curCount;
+
+                StatusSystem_Manager.Instance.Set_ChestStrPlus_Func((int)a_TotalStr);
+                break;
+
+            case HealthValunceType.Hard:
+                StatusSystem_Manager.Instance.Set_StressPlus_Func(DataBase_Manager.Instance.GetTable_Define.level_HigtStress);
+
+                a_TotalStr = DataBase_Manager.Instance.GetTable_Define.plus_Higt_chestExercises / 10;
+                a_TotalStr *= UI_Schedule_Script.Instance.curCount;
+
+                StatusSystem_Manager.Instance.Set_ChestStrPlus_Func((int)a_TotalStr);
+                break;
+
+            default:
+                Debug.LogError("버그");
+                break;
+        }
+
+        UI_Schedule_Script.Instance.WeekDayClear_Func(this, (int)a_TotalStr);
 
         yield return null;
 
