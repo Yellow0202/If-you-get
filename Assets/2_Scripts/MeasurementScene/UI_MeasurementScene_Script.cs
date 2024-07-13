@@ -53,6 +53,7 @@ public class UI_MeasurementScene_Script : MonoBehaviour
         this._resultObj.SetActive(false);
         this._gotoMainBtn.onClick.AddListener(() => { SceneManager.LoadScene("0.MainScene_2"); });
 
+        Sound_Script.Instance.Play_BGM(BGMListType.삼대측정BGM);
         this.Setting_Func();
     }
 
@@ -272,6 +273,7 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                 "[ " + UserSystem_Manager.Instance.record.Get_BackMovement_Func().ToString() + " / " + UserSystem_Manager.Instance.record.Get_ChestExercises_Func().ToString() + " / " +
                        UserSystem_Manager.Instance.record.Get_LowerBodyExercises_Func().ToString() + " ]";
 
+            Sound_Script.Instance.Play_SFX(SFXListType.삼대측정결과SFX);
             this._resultObj.SetActive(true);
         }
         else
@@ -314,6 +316,7 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                 UserSystem_Manager.Instance.record.Set_ClearLowerBodyExercises_Func();
             }
 
+            Sound_Script.Instance.Play_SFX(SFXListType.삼대증가시환호SFX);
             this.Set_Value_Func();
             this.Setting_Func();
         }

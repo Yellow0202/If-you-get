@@ -83,12 +83,13 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
             //정산처리 애니메이션이 애니메이션 종료 후 아래 토탈 함수를 호출 할 거임.
 
             UI_Schedule_Script.Instance.TotalResult_Func();
-
             s_curWeekDay = CurWeekDayType.Monday;
         }
         else
         {
             //다음날 스케쥴 시행
+            Sound_Script.Instance.Play_SFX(SFXListType.요일넘기는SFX);
+
             ScheduleBase a_CurScheduleScript = this._scheduleTypeToScriptDataDic.GetValue_Func(this._curScheduleData._curScheduleArr[s_curWeekDay.ToInt()]);
             a_CurScheduleScript.SchedulStart_Func();
         }

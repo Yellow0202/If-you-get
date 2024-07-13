@@ -128,24 +128,31 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         switch (a_BgType)
         {
             case ScheduleType.BackMovement:
+                Sound_Script.Instance.Play_BGM(BGMListType.공용운동BGM);
                 break;
 
             case ScheduleType.ChestExercises:
+                Sound_Script.Instance.Play_BGM(BGMListType.공용운동BGM);
                 break;
 
             case ScheduleType.LowerBodyExercises:
+                Sound_Script.Instance.Play_BGM(BGMListType.공용운동BGM);
                 break;
 
             case ScheduleType.Lowbreak:
+                Sound_Script.Instance.Play_BGM(BGMListType.휴식BGM);
                 break;
 
             case ScheduleType.Hardbreak:
+                Sound_Script.Instance.Play_BGM(BGMListType.휴식BGM);
                 break;
 
             case ScheduleType.Business:
+                Sound_Script.Instance.Play_BGM(BGMListType.업무BGM);
                 break;
 
             case ScheduleType.Cheating:
+                Sound_Script.Instance.Play_BGM(BGMListType.치팅데이BGM);
                 break;
         }
     }
@@ -272,6 +279,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         {
             this._curCount++;
             this._schedule_Time = 0.0f;
+            Sound_Script.Instance.Play_SFX(SFXListType.갯수증가SFX);
             this.Set_HpBar_Func();
         }
         this._schedule_TimerText.text = this._schedule_Time.ToString("F2").ToString() + " 초";
@@ -396,7 +404,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
                 break;
 
             case ScheduleType.Business:
-                this._resultCommentText.text = "업무를 진행했다\n\n" + "<color=green>돈 +" + a_PlusValue + "</color>" + "<color=green>피로도 +20</color>";
+                this._resultCommentText.text = "업무를 진행했다\n\n" + "<color=green>돈 +" + a_PlusValue + "</color><color=end>피로도 +20</color>";
                 break;
 
             case ScheduleType.Cheating:
@@ -531,10 +539,13 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
 
         {
             this._strengthAnim.Play("Schedule_Str_Anim");
+            Sound_Script.Instance.Play_SFX(SFXListType.토탈애니메이션SFX);
             yield return Coroutine_C.GetWaitForSeconds_Cor(0.5f);
             this._stressAnim.Play("Schedule_Stress_Anim");
+            Sound_Script.Instance.Play_SFX(SFXListType.토탈애니메이션SFX);
             yield return Coroutine_C.GetWaitForSeconds_Cor(0.5f);
             this._mentalAnim.Play("Schedule_Mental_Anim");
+            Sound_Script.Instance.Play_SFX(SFXListType.토탈애니메이션SFX);
         }   //스테이터스 연출 시작
 
         yield return Coroutine_C.GetWaitForSeconds_Cor(1.0f);
@@ -567,6 +578,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
 
         yield return Coroutine_C.GetWaitForSeconds_Cor(0.65f);
         this._resultCost.text = "남은 금액 : " + UserSystem_Manager.Instance.wealth.GetQuantity_Func(WealthType.Money).ToStringLong();
+        Sound_Script.Instance.Play_SFX(SFXListType.토탈총합등장SFX);
         this._resultCost.gameObject.SetActive(true);
         yield return Coroutine_C.GetWaitForSeconds_Cor(0.75f);
 

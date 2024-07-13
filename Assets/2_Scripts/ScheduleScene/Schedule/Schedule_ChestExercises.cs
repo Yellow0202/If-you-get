@@ -80,8 +80,8 @@ public class Schedule_ChestExercises : ScheduleBase
             case HealthValunceType.Easy:
                 StatusSystem_Manager.Instance.Set_StressPlus_Func(DataBase_Manager.Instance.GetTable_Define.level_LowStress);
 
-                a_TotalStr = DataBase_Manager.Instance.GetTable_Define.plus_Low_chestExercises / 10;
-                a_TotalStr *= UI_Schedule_Script.Instance.curCount;
+                a_TotalStr = DataBase_Manager.Instance.GetTable_Define.plus_Low_chestExercises / 10.0f;
+                a_TotalStr = a_TotalStr * UI_Schedule_Script.Instance.curCount;
 
                 StatusSystem_Manager.Instance.Set_ChestStrPlus_Func((int)a_TotalStr);
                 break;

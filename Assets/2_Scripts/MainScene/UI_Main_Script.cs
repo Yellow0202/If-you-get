@@ -82,6 +82,8 @@ public class UI_Main_Script : MonoBehaviour
             //엔딩
             Debug.Log("엔딩 ㅊㅋㅊㅋ");
         }
+
+        //this.Start_MainUI_Func();
     }
 
     // Start is called before the first frame update
@@ -93,10 +95,10 @@ public class UI_Main_Script : MonoBehaviour
     private void Start_MainUI_Func()
     {
         this._curWeekDay_Text.text = GameSystem_Manager.Instance.curweekDay.ToString() + "월 스케쥴";
+        this.TextUpdate_Func();
 
         this.RendererUpdate_Func(s_LastSelValunce.ToInt());
         this.Set_BtnValue_Func();
-        this.TextUpdate_Func();
         this._curScheduleNum = -1;
 
         Sound_Script.Instance.Play_BGM(BGMListType.메인BGM);
@@ -202,6 +204,7 @@ public class UI_Main_Script : MonoBehaviour
                 break;
         }
 
+        Sound_Script.Instance.Play_SFX(SFXListType.중량선택SFX);
         s_LastSelValunce = (HealthValunceType)i;
     }
 
@@ -265,6 +268,7 @@ public class UI_Main_Script : MonoBehaviour
             this._curHealthValunceArr[this._curScheduleNum] = HealthValunceType.Done;
         }
 
+        Sound_Script.Instance.Play_SFX(SFXListType.스케쥴등록SFX);
         this.Set_ScheduleSpriteChange_Func(a_scheduleType);
     }
 
@@ -276,6 +280,8 @@ public class UI_Main_Script : MonoBehaviour
         this._curScheduleArr[this._curScheduleNum] = ScheduleType.Done;
         this._curHealthValunceArr[this._curScheduleNum] = HealthValunceType.Done;
         this.Set_ScheduleSpriteChange_Func(ScheduleType.Done);
+
+        Sound_Script.Instance.Play_SFX(SFXListType.스케쥴등록삭제SFX);
 
         this._curScheduleNum--;
     }
@@ -349,6 +355,7 @@ public class UI_Main_Script : MonoBehaviour
         if (this._curScheduleNum < this._curScheduleArr.Length - 1)
             return;
 
+        Sound_Script.Instance.Play_SFX(SFXListType.스케쥴시작SFX);
         StatusSystem_Manager.Instance.Start_Schedule_Func();
         ScheduleSystem_Manager.ScheduleClass a_CurSelSchedulData = new ScheduleClass(this._curScheduleArr, this._curHealthValunceArr);
         ScheduleSystem_Manager.Instance.Set_ScheduleData_Func(a_CurSelSchedulData);

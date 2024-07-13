@@ -39,6 +39,7 @@ public class EventUI_Script : MonoBehaviour
         this.BtnReSet_Func();
         this.CurMentalCountUpdate_Func();
 
+        Sound_Script.Instance.Play_SFX(SFXListType.이벤트등장SFX);
         this._anim.Play("Event_Occurrence_Anim");
     }
 

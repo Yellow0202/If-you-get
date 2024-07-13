@@ -182,17 +182,17 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
 
         public void Set_ClearBackMovement_Func()
         {
-            this.GetData.backMovement += 20;
+            this.GetData.backMovement = this.GetData.backMovement + 20;
         }
 
         public void Set_ClearChestExercises_Func()
         {
-            this.GetData.chestExercises += 20;
+            this.GetData.chestExercises = this.GetData.chestExercises + 20;
         }
 
         public void Set_ClearLowerBodyExercises_Func()
         {
-            this.GetData.lowerBodyExercises += 20;
+            this.GetData.lowerBodyExercises = this.GetData.lowerBodyExercises + 20;
         }
 
         public int Get_BackMovement_Func()
