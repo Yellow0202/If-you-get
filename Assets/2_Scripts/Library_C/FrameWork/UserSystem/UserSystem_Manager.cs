@@ -9,7 +9,7 @@ using Cargold.Infinite;
 
 public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
 {
-    public static new UserSystem_Manager Instance;
+    public static UserSystem_Manager Instance;
 
     [SerializeField] private UserData userData = null;
 
@@ -29,7 +29,8 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
 
         if(_layer == 0)
         {
-            Instance = this;
+            if(Instance == null)
+                Instance = this;
         }
 
         this.wealth.Init_Func(_layer);
@@ -118,7 +119,7 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
             }
             else if(_layer == 2)
             {
-                Instance.wealth.TryGetWealthControl_Func(UserSystem_Manager.WealthControl.Earn, WealthType.Money, 500000);
+
             }
         }
 

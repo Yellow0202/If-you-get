@@ -49,7 +49,8 @@ public class Sound_Script : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if(Instance == null)
+            Instance = this;
         this.Setting_Func();
     }
 

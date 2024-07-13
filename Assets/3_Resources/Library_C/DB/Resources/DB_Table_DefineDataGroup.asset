@@ -148,7 +148,7 @@ MonoBehaviour:
   _totalCost_HealthCost: 80000
   _totalCost_MealsCost: 300000
   _event_CountMax: 3
-  _event_CallPersent: 30
+  _event_CallPersent: 1
   _event_StatusPersent: 99
   _plus_Low_backMovement: 30
   _plus_Mid_backMovement: 40
@@ -159,3 +159,8 @@ MonoBehaviour:
   _plus_Low_lowerBodyExercises: 19
   _plus_Mid_lowerBodyExercisest: 26
   _plus_Higt_lowerBodyExercises: 32
+  _bgSprite_Health: {fileID: 21300000, guid: 6eb13c62659685545904412c57e54435, type: 3}
+  _bgSprite_Job: {fileID: 21300000, guid: bc39ab86d0c212d4684a066d91ff0c76, type: 3}
+  _bgSprite_Chting: {fileID: 21300000, guid: 4f66b17a95519ad4e9ef3f9292308344, type: 3}
+  _bgSprite_rest: {fileID: 21300000, guid: 9277715f792c1b04eb3036b175624345, type: 3}
+  _bgSprite_goodrest: {fileID: 21300000, guid: 083f84d005a958542b338f77d3fb4216, type: 3}

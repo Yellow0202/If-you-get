@@ -83,7 +83,9 @@ public class UI_Main_Script : MonoBehaviour
             Debug.Log("縛註 內六內六");
         }
 
-        //this.Start_MainUI_Func();
+        if(GameSystem_Manager.Instance.curweekDay == 1)
+            UserSystem_Manager.Instance.wealth.TryGetWealthControl_Func(UserSystem_Manager.WealthControl.Earn, WealthType.Money, 500000);
+
     }
 
     // Start is called before the first frame update

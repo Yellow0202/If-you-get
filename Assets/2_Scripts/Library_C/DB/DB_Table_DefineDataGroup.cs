@@ -61,6 +61,12 @@ public partial class DB_Table_DefineDataGroup
     [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("하체(중강도)")] private int _plus_Mid_lowerBodyExercisest; public int plus_Mid_lowerBodyExercises => this._plus_Mid_lowerBodyExercisest;
     [SerializeField, FoldoutGroup("증가 근력 값"), LabelText("하체(고강도)")] private int _plus_Higt_lowerBodyExercises; public int plus_Higt_lowerBodyExercises => this._plus_Higt_lowerBodyExercises;
 
+    [SerializeField, FoldoutGroup("배경"), LabelText("운동")] private Sprite _bgSprite_Health; public Sprite bgSprite_Health => this._bgSprite_Health;
+    [SerializeField, FoldoutGroup("배경"), LabelText("업무")] private Sprite _bgSprite_Job; public Sprite bgSprite_Job => this._bgSprite_Job;
+    [SerializeField, FoldoutGroup("배경"), LabelText("치팅")] private Sprite _bgSprite_Chting; public Sprite bgSprite_Chting => this._bgSprite_Chting;
+    [SerializeField, FoldoutGroup("배경"), LabelText("가벼운 휴식")] private Sprite _bgSprite_rest; public Sprite bgSprite_rest => this._bgSprite_rest;
+    [SerializeField, FoldoutGroup("배경"), LabelText("화려한 휴식")] private Sprite _bgSprite_goodrest; public Sprite bgSprite_goodrest => this._bgSprite_goodrest;
+
     protected override void Init_Project_Func()
     {
         base.Init_Project_Func();

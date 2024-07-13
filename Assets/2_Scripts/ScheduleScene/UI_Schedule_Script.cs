@@ -25,7 +25,6 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
     [SerializeField, LabelText("인게임 온 오프 오브젝트")] private GameObject _inGameOnOffGameObject;
 
     [SerializeField, FoldoutGroup("스케쥴 별 변경될 값"), LabelText("뒷 배경")] private Image _bgroundImg;
-    [SerializeField, FoldoutGroup("스케쥴 별 변경될 값"), LabelText("클릭 이미지")] private Image _clickImg;
 
     [SerializeField, FoldoutGroup("스케쥴 별 변경될 값"), LabelText("타입별 애니메이션 온/오프")] private Dictionary<ScheduleType, GameObject> _typeToAnimObjDataDic;
 
@@ -129,30 +128,37 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         {
             case ScheduleType.BackMovement:
                 Sound_Script.Instance.Play_BGM(BGMListType.공용운동BGM);
+                this._schedule_BgImg.sprite = DataBase_Manager.Instance.GetTable_Define.bgSprite_Health;
                 break;
 
             case ScheduleType.ChestExercises:
                 Sound_Script.Instance.Play_BGM(BGMListType.공용운동BGM);
+                this._schedule_BgImg.sprite = DataBase_Manager.Instance.GetTable_Define.bgSprite_Health;
                 break;
 
             case ScheduleType.LowerBodyExercises:
                 Sound_Script.Instance.Play_BGM(BGMListType.공용운동BGM);
+                this._schedule_BgImg.sprite = DataBase_Manager.Instance.GetTable_Define.bgSprite_Health;
                 break;
 
             case ScheduleType.Lowbreak:
                 Sound_Script.Instance.Play_BGM(BGMListType.휴식BGM);
+                this._schedule_BgImg.sprite = DataBase_Manager.Instance.GetTable_Define.bgSprite_rest;
                 break;
 
             case ScheduleType.Hardbreak:
                 Sound_Script.Instance.Play_BGM(BGMListType.휴식BGM);
+                this._schedule_BgImg.sprite = DataBase_Manager.Instance.GetTable_Define.bgSprite_goodrest;
                 break;
 
             case ScheduleType.Business:
                 Sound_Script.Instance.Play_BGM(BGMListType.업무BGM);
+                this._schedule_BgImg.sprite = DataBase_Manager.Instance.GetTable_Define.bgSprite_Job;
                 break;
 
             case ScheduleType.Cheating:
                 Sound_Script.Instance.Play_BGM(BGMListType.치팅데이BGM);
+                this._schedule_BgImg.sprite = DataBase_Manager.Instance.GetTable_Define.bgSprite_Chting;
                 break;
         }
     }
@@ -343,6 +349,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         this._weekDayText.text = this.Setting_WeekDayUpdate_Func(ScheduleSystem_Manager.s_curWeekDay);
 
         this._onoffGameObject.SetActive(true);
+        ViewChange_Script.Instance.BoxOff_Func();
     }
 
     private string Setting_WeekDayUpdate_Func(CurWeekDayType a_WeekDay)
@@ -404,7 +411,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
                 break;
 
             case ScheduleType.Business:
-                this._resultCommentText.text = "업무를 진행했다\n\n" + "<color=green>돈 +" + a_PlusValue + "</color><color=end>피로도 +20</color>";
+                this._resultCommentText.text = "업무를 진행했다\n\n" + "<color=green>돈 +" + a_PlusValue + "</color>, <color=red>피로도 +20</color>";
                 break;
 
             case ScheduleType.Cheating:
@@ -434,6 +441,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
     {
         this._resultObj.SetActive(false);
 
+        ViewChange_Script.Instance.BoxOn_Func();
 
         //일정 확률로 이벤트가 발생했다면 이벤트 처리를 우선
         if (EventSettingSystem_Manager.Instance.Is_EventCall_Func() == true &&
