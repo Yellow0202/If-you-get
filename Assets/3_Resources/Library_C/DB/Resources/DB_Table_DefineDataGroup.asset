@@ -128,3 +128,5 @@ MonoBehaviour:
   _level_PlusHP: 20
   _level_PlusAttackDmg: 10
   _level_Deley: 10
+  _totalCost_HealthCost: 80000
+  _totalCost_MealsCost: 300000

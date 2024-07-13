@@ -19,4 +19,10 @@ public class CONSTSTRIONG
     public const string STR_HARDBREAK = "화려한 휴식";
     public const string STR_BUSINESS = "업무";
     public const string STR_CHEATING = "치팅데이";
+
+    public const string STR_TOTALRESULT_HEALTH = " 원 [헬스장 회원비]";
+    public const string STR_TOTALRESULT_MEALS = " 원 [식단비]";
+    public const string STR_TOTALRESULT_BUSINESS = " 원 [봉급]";
+    public const string STR_TOTALRESULT_BREAK = " 원 [휴가 비용]";
+    public const string STR_TOTALRESULT_EVENT = " 원 [이벤트 결과]";
 }

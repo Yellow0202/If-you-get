@@ -34,19 +34,19 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 20
     - Name: 
       Entry: 7
       Data: 
     - Name: $k
       Entry: 1
-      Data: EventSel_Info_1_1
+      Data: EventSel_InfoP_1_1
     - Name: $v
       Entry: 7
       Data: 2|EventSelSel_InfoData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: EventSel_Info_1_1
+      Data: EventSel_InfoP_1_1
     - Name: Btn
       Entry: 1
       Data: Lo_test_EventIfo_1_Btn_1
@@ -103,16 +103,1150 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: EventSel_Info_1_2
+      Data: EventSel_InfoP_2_1
     - Name: $v
       Entry: 7
       Data: 3|EventSelSel_InfoData, Assembly-CSharp
     - Name: Key
       Entry: 1
-      Data: EventSel_Info_1_2
+      Data: EventSel_InfoP_2_1
     - Name: Btn
       Entry: 1
       Data: Lo_test_EventIfo_1_Btn_1
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_2
+    - Name: $v
+      Entry: 7
+      Data: 4|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_2
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_2
+    - Name: $v
+      Entry: 7
+      Data: 5|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_2
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_3
+    - Name: $v
+      Entry: 7
+      Data: 6|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_3
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_3
+    - Name: $v
+      Entry: 7
+      Data: 7|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_3
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_4
+    - Name: $v
+      Entry: 7
+      Data: 8|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_4
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_4
+    - Name: $v
+      Entry: 7
+      Data: 9|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_4
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_5
+    - Name: $v
+      Entry: 7
+      Data: 10|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_5
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_5
+    - Name: $v
+      Entry: 7
+      Data: 11|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_5
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_6
+    - Name: $v
+      Entry: 7
+      Data: 12|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_6
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_6
+    - Name: $v
+      Entry: 7
+      Data: 13|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_6
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_7
+    - Name: $v
+      Entry: 7
+      Data: 14|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_7
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_7
+    - Name: $v
+      Entry: 7
+      Data: 15|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_7
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_8
+    - Name: $v
+      Entry: 7
+      Data: 16|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_8
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_8
+    - Name: $v
+      Entry: 7
+      Data: 17|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_8
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_9
+    - Name: $v
+      Entry: 7
+      Data: 18|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_9
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_9
+    - Name: $v
+      Entry: 7
+      Data: 19|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_9
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_1_10
+    - Name: $v
+      Entry: 7
+      Data: 20|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_1_10
+    - Name: Btn
+      Entry: 1
+      Data: 
+    - Name: is_True
+      Entry: 5
+      Data: false
+    - Name: Percent
+      Entry: 4
+      Data: 0
+    - Name: Comment
+      Entry: 1
+      Data: 
+    - Name: Staus_change_Str
+      Entry: 1
+      Data: 
+    - Name: Status_Change
+      Entry: 3
+      Data: 0
+    - Name: StatusType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_1
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_1
+      Entry: 4
+      Data: 0
+    - Name: StatusType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_2
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_2
+      Entry: 4
+      Data: 0
+    - Name: StatusType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_ValueType_3
+      Entry: 3
+      Data: 0
+    - Name: Staus_Change_Value_3
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EventSel_InfoP_2_10
+    - Name: $v
+      Entry: 7
+      Data: 21|EventSelSel_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: EventSel_InfoP_2_10
+    - Name: Btn
+      Entry: 1
+      Data: 
     - Name: is_True
       Entry: 5
       Data: false
@@ -168,7 +1302,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   dataArr:
-  - Key: EventSel_Info_1_1
+  - Key: EventSel_InfoP_1_1
     Btn: Lo_test_EventIfo_1_Btn_1
     is_True: 1
     Percent: 0.4
@@ -184,7 +1318,7 @@ MonoBehaviour:
     StatusType_3: 2
     Staus_ValueType_3: 2
     Staus_Change_Value_3: 0
-  - Key: EventSel_Info_1_2
+  - Key: EventSel_InfoP_2_1
     Btn: Lo_test_EventIfo_1_Btn_1
     is_True: 0
     Percent: 0
@@ -200,6 +1334,312 @@ MonoBehaviour:
     StatusType_3: 0
     Staus_ValueType_3: 0
     Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_2
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_2
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_3
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_3
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_4
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_4
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_5
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_5
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_6
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_6
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_7
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_7
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_8
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_8
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_9
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_9
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_1_10
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
+  - Key: EventSel_InfoP_2_10
+    Btn: 
+    is_True: 0
+    Percent: 0
+    Comment: 
+    Staus_change_Str: 
+    Status_Change: 0
+    StatusType_1: 0
+    Staus_ValueType_1: 0
+    Staus_Change_Value_1: 0
+    StatusType_2: 0
+    Staus_ValueType_2: 0
+    Staus_Change_Value_2: 0
+    StatusType_3: 0
+    Staus_ValueType_3: 0
+    Staus_Change_Value_3: 0
   keyArr:
-  - EventSel_Info_1_1
-  - EventSel_Info_1_2
+  - EventSel_InfoP_1_1
+  - EventSel_InfoP_2_1
+  - EventSel_InfoP_1_2
+  - EventSel_InfoP_2_2
+  - EventSel_InfoP_1_3
+  - EventSel_InfoP_2_3
+  - EventSel_InfoP_1_4
+  - EventSel_InfoP_2_4
+  - EventSel_InfoP_1_5
+  - EventSel_InfoP_2_5
+  - EventSel_InfoP_1_6
+  - EventSel_InfoP_2_6
+  - EventSel_InfoP_1_7
+  - EventSel_InfoP_2_7
+  - EventSel_InfoP_1_8
+  - EventSel_InfoP_2_8
+  - EventSel_InfoP_1_9
+  - EventSel_InfoP_2_9
+  - EventSel_InfoP_1_10
+  - EventSel_InfoP_2_10

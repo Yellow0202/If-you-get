@@ -4,6 +4,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using Cargold;
 using UnityEngine.SceneManagement;
+using Cargold.Infinite;
 
 public enum CurWeekDayType
 {
@@ -22,6 +23,7 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
     public static ScheduleSystem_Manager Instance;
     public static CurWeekDayType s_curWeekDay = CurWeekDayType.Monday;
     [SerializeField, LabelText("스케쥴 데이터"), ReadOnly] private ScheduleClass _curScheduleData; public ScheduleClass curScheduleData => this.curScheduleData;
+    [SerializeField, LabelText("추가된 능력치"), ReadOnly] private PlusStatus _plusStatus; public PlusStatus plusStatus => this._plusStatus;
     [SerializeField, LabelText("스케쥴 별 스크립트")] private List<ScheduleBase> _scheduleScriptDataList;
     [SerializeField, LabelText("스케쥴타입 to 스크립트")] private Dictionary<ScheduleType, ScheduleBase> _scheduleTypeToScriptDataDic;
 
@@ -34,6 +36,8 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
             Instance = this;
             this._curScheduleData =
                 new ScheduleClass(new ScheduleType[DataBase_Manager.Instance.GetTable_Define.playDayData], new HealthValunceType[DataBase_Manager.Instance.GetTable_Define.playDayData]);
+
+            this._plusStatus = new PlusStatus();
 
             this._scheduleTypeToScriptDataDic = new Dictionary<ScheduleType, ScheduleBase>();
 
@@ -56,7 +60,7 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
     {
         //스케쥴이 시작되었을 때.
         //현재 상태에 맞춰 상태를 전개해야 함.
-        Debug.Log("시작됨");
+        this._plusStatus = new PlusStatus();
         this.NextSchedule_Func();
     }
 
@@ -71,7 +75,10 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
         //현재 상태가 MAX라면 정산, 아니라면 다음 스케쥴 시작
         if (s_curWeekDay == CurWeekDayType.MAX)
         {
-            //정산처리
+            //정산처리 애니메이션 호출.
+            //정산처리 애니메이션이 애니메이션 종료 후 아래 토탈 함수를 호출 할 거임.
+
+            UI_Schedule_Script.Instance.TotalResult_Func();
 
             s_curWeekDay = CurWeekDayType.Monday;
         }
@@ -99,6 +106,32 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
         {
             this._curScheduleArr = a_CurScheduleArr;
             this._curHealthValunceArr = _curHealthValunceArr;
+        }
+    }
+
+    [System.Serializable]
+    public class PlusStatus
+    {
+        public int mentalCount;
+        public int backStr;
+        public int chestStr;
+        public int lowerbodyStr;
+        public float stress;
+        public Infinite breakCost;
+        public Infinite eventCost;
+        public Infinite businessGold;
+
+        public PlusStatus()
+        {
+            this.mentalCount = -1;
+            this.backStr = 40;
+            this.chestStr = 40;
+            this.lowerbodyStr = 40;
+            this.stress = 75.0f;
+
+            this.breakCost = 100000;
+            this.eventCost = 100000;
+            this.businessGold = 100000;
         }
     }
 }

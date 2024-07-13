@@ -24,6 +24,8 @@ public partial class DB_Table_DefineDataGroup
     [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("체력 증가 값")] private float _level_PlusHP; public float level_PlusHP => this._level_PlusHP;
     [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("공격력 증가 조건 값")] private float _level_PlusAttackDmg; public float level_PlusAttackDmg => this._level_PlusAttackDmg;
     [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("부하 값")] private float _level_Deley; public float level_Deley => this._level_Deley;
+    [SerializeField, FoldoutGroup("정산"), LabelText("헬스장 비용(고정)")] private int _totalCost_HealthCost; public int totalCost_HealthCost => this._totalCost_HealthCost;
+    [SerializeField, FoldoutGroup("정산"), LabelText("식단 비용(고정)")] private int _totalCost_MealsCost; public int totalCost_MealsCost => this._totalCost_MealsCost;
 
     protected override void Init_Project_Func()
     {

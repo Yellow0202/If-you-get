@@ -59,6 +59,17 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
             return this.eventSelSel_Info;
         }
     }
+    [InlineEditor, LabelText("Strength_Info"), SerializeField] private DB_Strength_InfoDataGroup strength_Info;
+    public DB_Strength_InfoDataGroup GetStrength_Info
+    {
+        get
+        {
+            if (this.strength_Info == null)
+                this.strength_Info = Resources.Load<DB_Strength_InfoDataGroup>(base.dataGroupSobjPath + "DB_Strength_InfoDataGroup");
+
+            return this.strength_Info;
+        }
+    }
     [InlineEditor, LabelText("Localize"), SerializeField] private DB_LocalizeDataGroup localize;
     public DB_LocalizeDataGroup GetLocalize
     {
@@ -101,6 +112,7 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
             this.event_Info.Init_Func();
             this.eventSel_Info.Init_Func();
             this.eventSelSel_Info.Init_Func();
+            this.strength_Info.Init_Func();
             this.localize.Init_Func();
             this.table_Define.Init_Func();
         }
@@ -112,6 +124,7 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
         this.GetEvent_Info.CallEdit_OnDataImportDone_Func();
         this.GetEventSel_Info.CallEdit_OnDataImportDone_Func();
         this.GetEventSelSel_Info.CallEdit_OnDataImportDone_Func();
+        this.GetStrength_Info.CallEdit_OnDataImportDone_Func();
         this.GetLocalize.CallEdit_OnDataImportDone_Func();
         this.GetTable_Define.CallEdit_OnDataImportDone_Func();
         

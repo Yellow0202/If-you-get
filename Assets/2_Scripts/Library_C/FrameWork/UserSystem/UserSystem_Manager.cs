@@ -142,9 +142,9 @@ public class UserSystem_Manager : Cargold.FrameWork.UserSystem_Manager
             this.GetData.lowerBodyExercisesSTR += a_LowerBodyExercisesSTR;
         }
 
-        public void Set_Fatiguelevel_Func(int a_Fatiguelevel)
+        public void Set_Stress_Func(float a_Stress)
         {
-            this.GetData.fatiguelevel += a_Fatiguelevel;
+            this.GetData.stress += a_Stress;
         }
     }
     #endregion

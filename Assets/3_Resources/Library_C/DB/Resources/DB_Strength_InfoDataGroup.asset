@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6195a6a37dcb699418c029e72a890a19, type: 3}
+  m_Name: DB_Strength_InfoDataGroup
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: dataDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Strength_InfoData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strength_Info_0
+    - Name: $v
+      Entry: 7
+      Data: 2|Strength_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Strength_Info_0
+    - Name: Upgrade
+      Entry: 1
+      Data: F
+    - Name: BackMovement_Cost
+      Entry: 3
+      Data: 69
+    - Name: ChestExercises_Cost
+      Entry: 3
+      Data: 51
+    - Name: LowerBodyExercises_Cost
+      Entry: 3
+      Data: 69
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strength_Info_1
+    - Name: $v
+      Entry: 7
+      Data: 3|Strength_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Strength_Info_1
+    - Name: Upgrade
+      Entry: 1
+      Data: E
+    - Name: BackMovement_Cost
+      Entry: 3
+      Data: 104
+    - Name: ChestExercises_Cost
+      Entry: 3
+      Data: 69
+    - Name: LowerBodyExercises_Cost
+      Entry: 3
+      Data: 86
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strength_Info_2
+    - Name: $v
+      Entry: 7
+      Data: 4|Strength_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Strength_Info_2
+    - Name: Upgrade
+      Entry: 1
+      Data: D
+    - Name: BackMovement_Cost
+      Entry: 3
+      Data: 105
+    - Name: ChestExercises_Cost
+      Entry: 3
+      Data: 70
+    - Name: LowerBodyExercises_Cost
+      Entry: 3
+      Data: 87
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strength_Info_3
+    - Name: $v
+      Entry: 7
+      Data: 5|Strength_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Strength_Info_3
+    - Name: Upgrade
+      Entry: 1
+      Data: C
+    - Name: BackMovement_Cost
+      Entry: 3
+      Data: 140
+    - Name: ChestExercises_Cost
+      Entry: 3
+      Data: 87
+    - Name: LowerBodyExercises_Cost
+      Entry: 3
+      Data: 105
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strength_Info_4
+    - Name: $v
+      Entry: 7
+      Data: 6|Strength_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Strength_Info_4
+    - Name: Upgrade
+      Entry: 1
+      Data: B
+    - Name: BackMovement_Cost
+      Entry: 3
+      Data: 175
+    - Name: ChestExercises_Cost
+      Entry: 3
+      Data: 105
+    - Name: LowerBodyExercises_Cost
+      Entry: 3
+      Data: 122
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strength_Info_5
+    - Name: $v
+      Entry: 7
+      Data: 7|Strength_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Strength_Info_5
+    - Name: Upgrade
+      Entry: 1
+      Data: A
+    - Name: BackMovement_Cost
+      Entry: 3
+      Data: 210
+    - Name: ChestExercises_Cost
+      Entry: 3
+      Data: 122
+    - Name: LowerBodyExercises_Cost
+      Entry: 3
+      Data: 140
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strength_Info_6
+    - Name: $v
+      Entry: 7
+      Data: 8|Strength_InfoData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: Strength_Info_6
+    - Name: Upgrade
+      Entry: 1
+      Data: S
+    - Name: BackMovement_Cost
+      Entry: 3
+      Data: 245
+    - Name: ChestExercises_Cost
+      Entry: 3
+      Data: 140
+    - Name: LowerBodyExercises_Cost
+      Entry: 3
+      Data: 157
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  dataArr:
+  - Key: Strength_Info_0
+    Upgrade: F
+    BackMovement_Cost: 69
+    ChestExercises_Cost: 51
+    LowerBodyExercises_Cost: 69
+  - Key: Strength_Info_1
+    Upgrade: E
+    BackMovement_Cost: 104
+    ChestExercises_Cost: 69
+    LowerBodyExercises_Cost: 86
+  - Key: Strength_Info_2
+    Upgrade: D
+    BackMovement_Cost: 105
+    ChestExercises_Cost: 70
+    LowerBodyExercises_Cost: 87
+  - Key: Strength_Info_3
+    Upgrade: C
+    BackMovement_Cost: 140
+    ChestExercises_Cost: 87
+    LowerBodyExercises_Cost: 105
+  - Key: Strength_Info_4
+    Upgrade: B
+    BackMovement_Cost: 175
+    ChestExercises_Cost: 105
+    LowerBodyExercises_Cost: 122
+  - Key: Strength_Info_5
+    Upgrade: A
+    BackMovement_Cost: 210
+    ChestExercises_Cost: 122
+    LowerBodyExercises_Cost: 140
+  - Key: Strength_Info_6
+    Upgrade: S
+    BackMovement_Cost: 245
+    ChestExercises_Cost: 140
+    LowerBodyExercises_Cost: 157
+  keyArr:
+  - Strength_Info_0
+  - Strength_Info_1
+  - Strength_Info_2
+  - Strength_Info_3
+  - Strength_Info_4
+  - Strength_Info_5
+  - Strength_Info_6

@@ -14,7 +14,7 @@ public partial class EventSel_InfoData : Data_C
      [LabelText("선택지")] public string Btn;
      [LabelText("설명")] public string Comment;
      [LabelText("스테이터스 변화 문구")] public string Staus_change_Str;
-     [LabelText("스테이터스 변화 문구")] public SatusChangeType Status_Change;
+     [LabelText("스테이터스 변화 문구")] public bool Is_Dual;
      [LabelText("변화하는 스테이터스 종류")] public SatusType StatusType_1;
      [LabelText("변화값 종류")] public SatusValueType Staus_ValueType_1;
      [LabelText("변화값")] public float Staus_Change_Value_1;
@@ -34,7 +34,7 @@ public partial class EventSel_InfoData : Data_C
         Btn = _cellDataArr[1];
         Comment = _cellDataArr[2];
         Staus_change_Str = _cellDataArr[3];
-        Status_Change = _cellDataArr[4].ToEnum<SatusChangeType>();
+        Is_Dual = _cellDataArr[4].ToBool();
         StatusType_1 = _cellDataArr[5].ToEnum<SatusType>();
         Staus_ValueType_1 = _cellDataArr[6].ToEnum<SatusValueType>();
         Staus_Change_Value_1 = _cellDataArr[7].ToFloat();

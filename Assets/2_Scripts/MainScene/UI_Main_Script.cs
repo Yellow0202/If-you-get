@@ -64,7 +64,7 @@ public class UI_Main_Script : MonoBehaviour
     {
         this.Set_BtnValue_Func();
 
-        this._curScheduleNum = 0;
+        this._curScheduleNum = -1;
     }
 
     #region 스케쥴 관리 버튼
@@ -143,11 +143,13 @@ public class UI_Main_Script : MonoBehaviour
 
     private void Set_SchedulePlus_Func(ScheduleType a_scheduleType)
     {
-        if (this._curScheduleArr.Length <= this._curScheduleNum)
+        if (this._curScheduleArr.Length - 1 <= this._curScheduleNum)
             return;
 
-        if (this._curScheduleNum < 0)
-            this._curScheduleNum = 0;
+        //if (this._curScheduleNum < 0)
+        //    this._curScheduleNum = 0;
+
+        this._curScheduleNum++;
 
         this._curScheduleArr[this._curScheduleNum] = a_scheduleType;
 
@@ -163,8 +165,6 @@ public class UI_Main_Script : MonoBehaviour
         }
 
         this.Set_ScheduleSpriteChange_Func(a_scheduleType);
-
-        this._curScheduleNum++;
     }
 
     private void Set_ScheduleMius_Func()
@@ -172,8 +172,8 @@ public class UI_Main_Script : MonoBehaviour
         if (this._curScheduleNum < 0)
             return;
 
-        if (this._curScheduleArr.Length <= this._curScheduleNum)
-            this._curScheduleNum = this._curScheduleArr.Length - 1;
+        //if (this._curScheduleArr.Length - 1 <= this._curScheduleNum)
+        //    this._curScheduleNum = this._curScheduleArr.Length - 1;
 
         this._curScheduleArr[this._curScheduleNum] = ScheduleType.Done;
         this._curHealthValunceArr[this._curScheduleNum] = HealthValunceType.Done;
@@ -227,7 +227,7 @@ public class UI_Main_Script : MonoBehaviour
 
     private void Click_SchedulePlayStart_Func()
     {
-        if (this._curScheduleNum < this._curScheduleArr.Length)
+        if (this._curScheduleNum < this._curScheduleArr.Length - 1)
             return;
 
         ScheduleSystem_Manager.ScheduleClass a_CurSelSchedulData = new ScheduleClass(this._curScheduleArr, this._curHealthValunceArr);

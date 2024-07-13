@@ -70,15 +70,15 @@ public class UserStatusData
     public int backMovementSTR;
     public int chestExercisesSTR;
     public int lowerBodyExercisesSTR;
-    public int fatiguelevel;
+    public float stress;
 
-    public UserStatusData(int a_Mentality = 3, int a_backMovementSTR = 10, int a_chestExercisesSTR = 10, int a_lowerBodyExercisesSTR = 10, int fatiguelevel = 0)
+    public UserStatusData(int a_Mentality = 3, int a_backMovementSTR = 69, int a_chestExercisesSTR = 51, int a_lowerBodyExercisesSTR = 69, float fatiguelevel = 0.0f)
     {
         this.mentality = a_Mentality;
         this.backMovementSTR = a_backMovementSTR;
         this.chestExercisesSTR = a_chestExercisesSTR;
         this.lowerBodyExercisesSTR = a_lowerBodyExercisesSTR;
-        this.fatiguelevel = fatiguelevel;
+        this.stress = fatiguelevel;
     }
 }
 #endregion
