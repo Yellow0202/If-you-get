@@ -27,6 +27,8 @@ public partial class DB_Table_DefineDataGroup
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("위 키 눌림")] private Sprite _ui_Icon_UpArrowIn; public Sprite ui_Icon_UpArrowIn => this._ui_Icon_UpArrowIn;
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("아래 키 안눌림")] private Sprite _ui_Icon_DownArrowOut; public Sprite ui_Icon_DownArrowOut => this._ui_Icon_DownArrowOut;
     [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("아래 키 눌림")] private Sprite _ui_Icon_DownArrowIn; public Sprite ui_Icon_DownArrowIn => this._ui_Icon_DownArrowIn;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("정산버튼")] private Sprite _ui_Icon_TotalResult; public Sprite ui_Icon_TotalResult => this._ui_Icon_TotalResult;
+    [SerializeField, FoldoutGroup("스케쥴 아이콘"), LabelText("3대 측정 버튼")] private Sprite _ui_Icon_Record; public Sprite ui_Icon_Record => this._ui_Icon_Record;
 
 
     [SerializeField, FoldoutGroup("레벨 디자인"), LabelText("감소시간(등)")] private float _level_Back_DeleteTime; public float level_Back_DeleteTime => this._level_Back_DeleteTime; 

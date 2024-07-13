@@ -48,11 +48,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_0
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 20
     - Name: BackMovement_HP
       Entry: 3
       Data: 140
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 80
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 90
     - Name: 
       Entry: 8
       Data: 
@@ -72,11 +78,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_1
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 40
     - Name: BackMovement_HP
       Entry: 3
       Data: 200
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 114
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 128
     - Name: 
       Entry: 8
       Data: 
@@ -96,11 +108,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_2
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 60
     - Name: BackMovement_HP
       Entry: 3
       Data: 260
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 149
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 167
     - Name: 
       Entry: 8
       Data: 
@@ -120,11 +138,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_3
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 80
     - Name: BackMovement_HP
       Entry: 3
       Data: 320
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 183
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 205
     - Name: 
       Entry: 8
       Data: 
@@ -144,11 +168,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_4
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 100
     - Name: BackMovement_HP
       Entry: 3
       Data: 420
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 240
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 269
     - Name: 
       Entry: 8
       Data: 
@@ -168,11 +198,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_5
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 120
     - Name: BackMovement_HP
       Entry: 3
       Data: 520
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 297
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 333
     - Name: 
       Entry: 8
       Data: 
@@ -192,11 +228,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_6
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 140
     - Name: BackMovement_HP
       Entry: 3
       Data: 620
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 354
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 397
     - Name: 
       Entry: 8
       Data: 
@@ -216,11 +258,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_7
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 160
     - Name: BackMovement_HP
       Entry: 3
       Data: 720
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 411
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 461
     - Name: 
       Entry: 8
       Data: 
@@ -240,11 +288,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_8
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 180
     - Name: BackMovement_HP
       Entry: 3
       Data: 860
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 491
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 551
     - Name: 
       Entry: 8
       Data: 
@@ -264,11 +318,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_9
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 200
     - Name: BackMovement_HP
       Entry: 3
       Data: 1000
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 570
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 640
     - Name: 
       Entry: 8
       Data: 
@@ -288,11 +348,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_10
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 220
     - Name: BackMovement_HP
       Entry: 3
       Data: 1140
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 650
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 730
     - Name: 
       Entry: 8
       Data: 
@@ -312,11 +378,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_11
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 240
     - Name: BackMovement_HP
       Entry: 3
       Data: 1280
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 730
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 820
     - Name: 
       Entry: 8
       Data: 
@@ -336,11 +408,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_12
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 260
     - Name: BackMovement_HP
       Entry: 3
       Data: 1460
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 833
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 935
     - Name: 
       Entry: 8
       Data: 
@@ -360,11 +438,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_13
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 280
     - Name: BackMovement_HP
       Entry: 3
       Data: 1640
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 935
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 1050
     - Name: 
       Entry: 8
       Data: 
@@ -384,11 +468,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_14
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 300
     - Name: BackMovement_HP
       Entry: 3
       Data: 1820
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 1038
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 1165
     - Name: 
       Entry: 8
       Data: 
@@ -408,11 +498,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_15
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 320
     - Name: BackMovement_HP
       Entry: 3
       Data: 2000
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 1140
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 1280
     - Name: 
       Entry: 8
       Data: 
@@ -432,11 +528,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_16
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 340
     - Name: BackMovement_HP
       Entry: 3
       Data: 2200
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 1254
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 1408
     - Name: 
       Entry: 8
       Data: 
@@ -456,11 +558,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_17
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 360
     - Name: BackMovement_HP
       Entry: 3
       Data: 2400
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 1368
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 1536
     - Name: 
       Entry: 8
       Data: 
@@ -480,11 +588,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_18
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 380
     - Name: BackMovement_HP
       Entry: 3
       Data: 2600
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 1482
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 1664
     - Name: 
       Entry: 8
       Data: 
@@ -504,11 +618,17 @@ MonoBehaviour:
       Entry: 1
       Data: Measure_Info_19
     - Name: Weight_KG
-      Entry: 1
+      Entry: 3
       Data: 400
     - Name: BackMovement_HP
       Entry: 3
       Data: 2800
+    - Name: ChestExercises_HP
+      Entry: 3
+      Data: 1596
+    - Name: LowerBodyExercises_HP
+      Entry: 3
+      Data: 1792
     - Name: 
       Entry: 8
       Data: 
@@ -525,63 +645,103 @@ MonoBehaviour:
   - Key: Measure_Info_0
     Weight_KG: 20
     BackMovement_HP: 140
+    ChestExercises_HP: 80
+    LowerBodyExercises_HP: 90
   - Key: Measure_Info_1
     Weight_KG: 40
     BackMovement_HP: 200
+    ChestExercises_HP: 114
+    LowerBodyExercises_HP: 128
   - Key: Measure_Info_2
     Weight_KG: 60
     BackMovement_HP: 260
+    ChestExercises_HP: 149
+    LowerBodyExercises_HP: 167
   - Key: Measure_Info_3
     Weight_KG: 80
     BackMovement_HP: 320
+    ChestExercises_HP: 183
+    LowerBodyExercises_HP: 205
   - Key: Measure_Info_4
     Weight_KG: 100
     BackMovement_HP: 420
+    ChestExercises_HP: 240
+    LowerBodyExercises_HP: 269
   - Key: Measure_Info_5
     Weight_KG: 120
     BackMovement_HP: 520
+    ChestExercises_HP: 297
+    LowerBodyExercises_HP: 333
   - Key: Measure_Info_6
     Weight_KG: 140
     BackMovement_HP: 620
+    ChestExercises_HP: 354
+    LowerBodyExercises_HP: 397
   - Key: Measure_Info_7
     Weight_KG: 160
     BackMovement_HP: 720
+    ChestExercises_HP: 411
+    LowerBodyExercises_HP: 461
   - Key: Measure_Info_8
     Weight_KG: 180
     BackMovement_HP: 860
+    ChestExercises_HP: 491
+    LowerBodyExercises_HP: 551
   - Key: Measure_Info_9
     Weight_KG: 200
     BackMovement_HP: 1000
+    ChestExercises_HP: 570
+    LowerBodyExercises_HP: 640
   - Key: Measure_Info_10
     Weight_KG: 220
     BackMovement_HP: 1140
+    ChestExercises_HP: 650
+    LowerBodyExercises_HP: 730
   - Key: Measure_Info_11
     Weight_KG: 240
     BackMovement_HP: 1280
+    ChestExercises_HP: 730
+    LowerBodyExercises_HP: 820
   - Key: Measure_Info_12
     Weight_KG: 260
     BackMovement_HP: 1460
+    ChestExercises_HP: 833
+    LowerBodyExercises_HP: 935
   - Key: Measure_Info_13
     Weight_KG: 280
     BackMovement_HP: 1640
+    ChestExercises_HP: 935
+    LowerBodyExercises_HP: 1050
   - Key: Measure_Info_14
     Weight_KG: 300
     BackMovement_HP: 1820
+    ChestExercises_HP: 1038
+    LowerBodyExercises_HP: 1165
   - Key: Measure_Info_15
     Weight_KG: 320
     BackMovement_HP: 2000
+    ChestExercises_HP: 1140
+    LowerBodyExercises_HP: 1280
   - Key: Measure_Info_16
     Weight_KG: 340
     BackMovement_HP: 2200
+    ChestExercises_HP: 1254
+    LowerBodyExercises_HP: 1408
   - Key: Measure_Info_17
     Weight_KG: 360
     BackMovement_HP: 2400
+    ChestExercises_HP: 1368
+    LowerBodyExercises_HP: 1536
   - Key: Measure_Info_18
     Weight_KG: 380
     BackMovement_HP: 2600
+    ChestExercises_HP: 1482
+    LowerBodyExercises_HP: 1664
   - Key: Measure_Info_19
     Weight_KG: 400
     BackMovement_HP: 2800
+    ChestExercises_HP: 1596
+    LowerBodyExercises_HP: 1792
   keyArr:
   - Measure_Info_0
   - Measure_Info_1

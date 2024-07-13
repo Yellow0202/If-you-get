@@ -7,6 +7,7 @@ using Cargold;
 using TMPro;
 using JetBrains.Annotations;
 using UnityEngine.SceneManagement;
+using Cargold.FrameWork;
 
 public enum HealthType
 {
@@ -50,6 +51,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
     [SerializeField, FoldoutGroup("정산"), LabelText("연출_정신력 애니메이션")] private Animation _mentalAnim;
     [SerializeField, FoldoutGroup("정산"), LabelText("정산 소모 코스트 나열 배열")] private TotalCostObj_Script[] _totalCostObjArr;
     [SerializeField, FoldoutGroup("정산"), LabelText("메인 이동 버튼")] private Button _goToMainBtn;
+    [SerializeField, FoldoutGroup("정산"), LabelText("메인 이동 버튼 이미지")] private Image _goToMainBtnImg;
     [SerializeField, FoldoutGroup("정산"), LabelText("몇 월 정산 텍스트")] private TextMeshProUGUI _monthText;
     [SerializeField, FoldoutGroup("정산"), LabelText("남은 금액 텍스트")] private TextMeshProUGUI _resultCost;
 
@@ -84,7 +86,19 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         this._inGameOnOffGameObject.SetActive(false);
         this._resultNextDayBtn.onClick.AddListener(NextBtnClick_Func);
 
-        this._goToMainBtn.onClick.AddListener(() => { SceneManager.LoadScene("MainScene_2"); });
+        this._goToMainBtn.onClick.AddListener(() =>
+        {
+            if(GameSystem_Manager.Instance.curweekDay % 3 == 0)
+            {
+                SceneManager.LoadScene("2.MeasurementScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("0.MainScene_2");
+            }
+
+            GameSystem_Manager.Instance.Set_CurWeekDayCountUp_Func();
+        });
 
         this._totalObj.SetActive(false);
 
@@ -452,7 +466,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
 
     private IEnumerator TotalResult_Cor()
     {
-        this._monthText.text = "<" + 3 + "월 정산 금액" + ">";
+        this._monthText.text = "<" + GameSystem_Manager.Instance.curweekDay + "월 정산 금액" + ">";
         this._goToMainBtn.transform.parent.gameObject.SetActive(false);
         this._resultCost.gameObject.SetActive(false);
 
@@ -555,6 +569,12 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         this._resultCost.text = "남은 금액 : " + UserSystem_Manager.Instance.wealth.GetQuantity_Func(WealthType.Money).ToStringLong();
         this._resultCost.gameObject.SetActive(true);
         yield return Coroutine_C.GetWaitForSeconds_Cor(0.75f);
+
+        if(GameSystem_Manager.Instance.curweekDay % 3 == 0)
+        {
+            this._goToMainBtnImg.sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_Record;
+        }
+
         this._goToMainBtn.transform.parent.gameObject.SetActive(true);
 
         this._totalResultCorData.StopCorountine_Func();

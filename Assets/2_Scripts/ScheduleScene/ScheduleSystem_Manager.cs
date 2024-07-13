@@ -97,7 +97,7 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
     public void Set_ScheduleData_Func(ScheduleClass a_CurScheduleData)
     {
         this._curScheduleData = a_CurScheduleData;
-        SceneManager.LoadScene("ScheduleScene");
+        SceneManager.LoadScene("1.ScheduleScene");
     }
 
     [System.Serializable]

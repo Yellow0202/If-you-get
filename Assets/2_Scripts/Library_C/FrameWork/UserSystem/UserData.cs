@@ -11,12 +11,14 @@ public class UserData : Cargold.FrameWork.UserData_C
     public List<UserWealthData> userWealthDataList;
 
     public UserStatusData userStatusData;
+    public UserRecordData userRecordData;
 
     public UserData()
     {
         this.userWealthDataList = new List<UserWealthData>();
 
         this.userStatusData = new UserStatusData();
+        this.userRecordData = new UserRecordData();
     }
 }
 
@@ -62,7 +64,7 @@ public class UserWealthData : Cargold.FrameWork.UserSystem_Manager.Wealth_C<Weal
     }
 }
 #endregion
-#region
+#region UserStatusData
 [System.Serializable]
 public class UserStatusData
 {
@@ -79,6 +81,23 @@ public class UserStatusData
         this.chestExercisesSTR = a_chestExercisesSTR;
         this.lowerBodyExercisesSTR = a_lowerBodyExercisesSTR;
         this.stress = fatiguelevel;
+    }
+}
+#endregion
+
+#region UserStatusData
+[System.Serializable]
+public class UserRecordData
+{
+    public int backMovement;
+    public int chestExercises;
+    public int lowerBodyExercises;
+
+    public UserRecordData(int a_back = 20, int a_chest = 20, int a_lower = 20)
+    {
+        this.backMovement = a_back;
+        this.chestExercises = a_chest;
+        this.lowerBodyExercises = a_lower;
     }
 }
 #endregion

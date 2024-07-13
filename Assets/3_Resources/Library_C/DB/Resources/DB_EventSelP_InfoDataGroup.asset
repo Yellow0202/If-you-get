@@ -1162,25 +1162,25 @@ MonoBehaviour:
       Data: 3
     - Name: Status_Change_Value_2
       Entry: 4
-      Data: 0.8
+      Data: -0.2
     - Name: StatusType_3
       Entry: 3
-      Data: 11
+      Data: 1
     - Name: Status_ValueType_3
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: Status_Change_Value_3
       Entry: 4
-      Data: 0.8
+      Data: 0
     - Name: StatusType_4
       Entry: 3
-      Data: 12
+      Data: 1
     - Name: Status_ValueType_4
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: Status_Change_Value_4
       Entry: 4
-      Data: 0.8
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -2355,13 +2355,13 @@ MonoBehaviour:
     Status_Change_Value_1: -1
     StatusType_2: 10
     Status_ValueType_2: 3
-    Status_Change_Value_2: 0.8
-    StatusType_3: 11
-    Status_ValueType_3: 3
-    Status_Change_Value_3: 0.8
-    StatusType_4: 12
-    Status_ValueType_4: 3
-    Status_Change_Value_4: 0.8
+    Status_Change_Value_2: -0.2
+    StatusType_3: 1
+    Status_ValueType_3: 2
+    Status_Change_Value_3: 0
+    StatusType_4: 1
+    Status_ValueType_4: 2
+    Status_Change_Value_4: 0
   - Key: EventSel_InfoP_1_9
     Btn: Lo_EventIfo_BtnP_9
     is_True: 1

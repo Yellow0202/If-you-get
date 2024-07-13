@@ -9,6 +9,8 @@ using Cargold.DB.TableImporter;
 
 public partial class DB_Measure_infoDataGroup
 {
+    [LabelText("무게 별 각각 체력")] private Dictionary<int, List<int>> _kgToMaxHpListDataDic;
+
     protected override void Init_Project_Func()
     {
         base.Init_Project_Func();
@@ -17,6 +19,47 @@ public partial class DB_Measure_infoDataGroup
          * 이 스크립트는 덮어쓰이지 않습니다.
          * 임의의 데이터 재가공을 원한다면 이 밑으로 코드를 작성하시면 됩니다.
          */
+
+        this.Set_KgToMaxHpListDataDic_Func();
+    }
+
+    private void Set_KgToMaxHpListDataDic_Func()
+    {
+        this._kgToMaxHpListDataDic = new Dictionary<int, List<int>>();
+
+        foreach (Measure_infoData item in dataArr)
+        {
+            List<int> a_List = new List<int>();
+            a_List.Add(item.BackMovement_HP);
+            a_List.Add(item.ChestExercises_HP);
+            a_List.Add(item.LowerBodyExercises_HP);
+
+            this._kgToMaxHpListDataDic.Add(item.Weight_KG, a_List);
+        }
+    }
+
+    public int Get_BackMovement_HP_Func(int a_KG)
+    {
+        if (this._kgToMaxHpListDataDic.TryGetValue(a_KG, out List<int> a_Value) == true)
+            return a_Value[0];
+        else
+            return -1;
+    }
+
+    public int Get_ChestExercises_HP_Func(int a_KG)
+    {
+        if (this._kgToMaxHpListDataDic.TryGetValue(a_KG, out List<int> a_Value) == true)
+            return a_Value[1];
+        else
+            return -1;
+    }
+
+    public int Get_LowerBodyExercises_HP_Func(int a_KG)
+    {
+        if (this._kgToMaxHpListDataDic.TryGetValue(a_KG, out List<int> a_Value) == true)
+            return a_Value[2];
+        else
+            return -1;
     }
 
 #if UNITY_EDITOR

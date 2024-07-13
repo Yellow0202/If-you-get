@@ -67,9 +67,11 @@ public class UI_Main_Script : MonoBehaviour
         this._curHealthValunceArr = new HealthValunceType[CONSTSTRIONG.INT_BASEDAY];
         this._selHealthValunce = HealthValunceType.Easy;
 
-        UserSystem_Manager.Instance.wealth.TryGetWealthControl_Func(UserSystem_Manager.WealthControl.Earn, WealthType.Money, 5000000);
-
-        this.TextUpdate_Func();
+        if(GameSystem_Manager.Instance.curweekDay == 13)
+        {
+            //엔딩
+            Debug.Log("엔딩 ㅊㅋㅊㅋ");
+        }
     }
 
     // Start is called before the first frame update
@@ -81,6 +83,8 @@ public class UI_Main_Script : MonoBehaviour
     private void Start_MainUI_Func()
     {
         this.Set_BtnValue_Func();
+        UserSystem_Manager.Instance.wealth.TryGetWealthControl_Func(UserSystem_Manager.WealthControl.Earn, WealthType.Money, 500000);
+        this.TextUpdate_Func();
         this._curScheduleNum = -1;
     }
 
