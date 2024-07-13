@@ -98,6 +98,8 @@ public class UI_Main_Script : MonoBehaviour
         this.Set_BtnValue_Func();
         this.TextUpdate_Func();
         this._curScheduleNum = -1;
+
+        Sound_Script.Instance.Play_BGM(BGMListType.∏ﬁ¿ŒBGM);
     }
 
     public void TextUpdate_Func()

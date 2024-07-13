@@ -74,7 +74,7 @@ public class UserStatusData
     public int lowerBodyExercisesSTR;
     public float stress;
 
-    public UserStatusData(int a_Mentality = 3, int a_backMovementSTR = 69, int a_chestExercisesSTR = 51, int a_lowerBodyExercisesSTR = 69, float fatiguelevel = 0.0f)
+    public UserStatusData(int a_Mentality = 3, int a_backMovementSTR = 60, int a_chestExercisesSTR = 45, int a_lowerBodyExercisesSTR = 50, float fatiguelevel = 0.0f)
     {
         this.mentality = a_Mentality;
         this.backMovementSTR = a_backMovementSTR;
