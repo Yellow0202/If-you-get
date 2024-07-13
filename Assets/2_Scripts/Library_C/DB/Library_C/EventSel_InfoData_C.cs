@@ -14,7 +14,7 @@ public partial class EventSel_InfoData : Data_C
      [LabelText("선택지")] public string Btn;
      [LabelText("설명")] public string Comment;
      [LabelText("스테이터스 변화 문구")] public string Status_change_Str;
-     [LabelText("중복 할당인지")] public bool Is_Dual;
+     [LabelText("스테이터스 변화 문구")] public bool Is_Dual;
      [LabelText("변화하는 스테이터스 종류")] public StatusType StatusType_1;
      [LabelText("변화값 종류")] public StatusValueType Status_ValueType_1;
      [LabelText("변화값")] public float Status_Change_Value_1;

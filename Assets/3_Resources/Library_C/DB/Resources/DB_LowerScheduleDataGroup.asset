@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c56da00563eaa4082dd0dfacb7c282, type: 3}
+  m_Name: DB_LowerScheduleDataGroup
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: dataDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[LowerScheduleData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_1
+    - Name: $v
+      Entry: 7
+      Data: 2|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_1
+    - Name: Low_Weight
+      Entry: 3
+      Data: 64
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 224
+    - Name: High_Weight
+      Entry: 3
+      Data: 384
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_2
+    - Name: $v
+      Entry: 7
+      Data: 3|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_2
+    - Name: Low_Weight
+      Entry: 3
+      Data: 76
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 248
+    - Name: High_Weight
+      Entry: 3
+      Data: 420
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_3
+    - Name: $v
+      Entry: 7
+      Data: 4|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_3
+    - Name: Low_Weight
+      Entry: 3
+      Data: 88
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 272
+    - Name: High_Weight
+      Entry: 3
+      Data: 456
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_4
+    - Name: $v
+      Entry: 7
+      Data: 5|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_4
+    - Name: Low_Weight
+      Entry: 3
+      Data: 100
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 296
+    - Name: High_Weight
+      Entry: 3
+      Data: 492
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_5
+    - Name: $v
+      Entry: 7
+      Data: 6|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_5
+    - Name: Low_Weight
+      Entry: 3
+      Data: 112
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 320
+    - Name: High_Weight
+      Entry: 3
+      Data: 528
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_6
+    - Name: $v
+      Entry: 7
+      Data: 7|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_6
+    - Name: Low_Weight
+      Entry: 3
+      Data: 124
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 344
+    - Name: High_Weight
+      Entry: 3
+      Data: 564
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_7
+    - Name: $v
+      Entry: 7
+      Data: 8|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_7
+    - Name: Low_Weight
+      Entry: 3
+      Data: 136
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 368
+    - Name: High_Weight
+      Entry: 3
+      Data: 600
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_8
+    - Name: $v
+      Entry: 7
+      Data: 9|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_8
+    - Name: Low_Weight
+      Entry: 3
+      Data: 148
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 392
+    - Name: High_Weight
+      Entry: 3
+      Data: 636
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_9
+    - Name: $v
+      Entry: 7
+      Data: 10|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_9
+    - Name: Low_Weight
+      Entry: 3
+      Data: 160
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 416
+    - Name: High_Weight
+      Entry: 3
+      Data: 672
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerSchedule_10
+    - Name: $v
+      Entry: 7
+      Data: 11|LowerScheduleData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: LowerSchedule_10
+    - Name: Low_Weight
+      Entry: 3
+      Data: 172
+    - Name: Medium_Weight
+      Entry: 3
+      Data: 440
+    - Name: High_Weight
+      Entry: 3
+      Data: 708
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  dataArr:
+  - Key: LowerSchedule_1
+    Low_Weight: 64
+    Medium_Weight: 224
+    High_Weight: 384
+  - Key: LowerSchedule_2
+    Low_Weight: 76
+    Medium_Weight: 248
+    High_Weight: 420
+  - Key: LowerSchedule_3
+    Low_Weight: 88
+    Medium_Weight: 272
+    High_Weight: 456
+  - Key: LowerSchedule_4
+    Low_Weight: 100
+    Medium_Weight: 296
+    High_Weight: 492
+  - Key: LowerSchedule_5
+    Low_Weight: 112
+    Medium_Weight: 320
+    High_Weight: 528
+  - Key: LowerSchedule_6
+    Low_Weight: 124
+    Medium_Weight: 344
+    High_Weight: 564
+  - Key: LowerSchedule_7
+    Low_Weight: 136
+    Medium_Weight: 368
+    High_Weight: 600
+  - Key: LowerSchedule_8
+    Low_Weight: 148
+    Medium_Weight: 392
+    High_Weight: 636
+  - Key: LowerSchedule_9
+    Low_Weight: 160
+    Medium_Weight: 416
+    High_Weight: 672
+  - Key: LowerSchedule_10
+    Low_Weight: 172
+    Medium_Weight: 440
+    High_Weight: 708
+  keyArr:
+  - LowerSchedule_1
+  - LowerSchedule_2
+  - LowerSchedule_3
+  - LowerSchedule_4
+  - LowerSchedule_5
+  - LowerSchedule_6
+  - LowerSchedule_7
+  - LowerSchedule_8
+  - LowerSchedule_9
+  - LowerSchedule_10

@@ -8,11 +8,20 @@ using TMPro;
 using JetBrains.Annotations;
 using UnityEngine.SceneManagement;
 
+public enum HealthType
+{
+    BackMovement = 0,
+    ChestExercises,
+    LowerBodyExercises,
+    MAX
+}
+
 public class UI_Schedule_Script : SerializedMonoBehaviour
 {
     public static UI_Schedule_Script Instance;
 
     [SerializeField, LabelText("온오프 오브젝트")] private GameObject _onoffGameObject;
+    [SerializeField, LabelText("인게임 온 오프 오브젝트")] private GameObject _inGameOnOffGameObject;
 
     [SerializeField, FoldoutGroup("스케쥴 별 변경될 값"), LabelText("뒷 배경")] private Image _bgroundImg;
     [SerializeField, FoldoutGroup("스케쥴 별 변경될 값"), LabelText("클릭 이미지")] private Image _clickImg;
@@ -43,12 +52,36 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
     [SerializeField, FoldoutGroup("정산"), LabelText("메인 이동 버튼")] private Button _goToMainBtn;
     [SerializeField, FoldoutGroup("정산"), LabelText("몇 월 정산 텍스트")] private TextMeshProUGUI _monthText;
     [SerializeField, FoldoutGroup("정산"), LabelText("남은 금액 텍스트")] private TextMeshProUGUI _resultCost;
+
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("현재 운동 타입"), ReadOnly] private HealthType _schedule_HealthType; public HealthType schedule_HealthType => this._schedule_HealthType;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("카운트다운 텍스트")] private TextMeshProUGUI _schedule_CountDownText; public TextMeshProUGUI schedule_CountDownText => this._schedule_CountDownText;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("벤치프레스 갯수 텍스트")] private TextMeshProUGUI _schedule_CountText; public TextMeshProUGUI schedule_CountText => this._schedule_CountText;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("타이머 텍스트")] private TextMeshProUGUI _schedule_TimerText; public TextMeshProUGUI schedule_TimerText => this._schedule_TimerText;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("게이지 이미지")] private Image _schedule_GageBar; public Image schedule_GageBar => this._schedule_GageBar;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("게이지 스크롤 바")] private Scrollbar _schedule_Scrollbar; public Scrollbar schedule_Scrollbar => this._schedule_Scrollbar;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("배경 이미지")] private Image _schedule_BgImg; public Image schedule_BgImg => this._schedule_BgImg;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("키 이미지")] private Image _schedule_KeyImg; public Image schedule_KeyImg => this._schedule_KeyImg;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("애니메이션 리스트")] private List<Animation> _schedule_AnimationList; public List<Animation> schedule_AnimationList => this._schedule_AnimationList;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("눌리기 전 스프라이트"), ReadOnly] private Sprite _schedule_Out_Sprite;
+    [SerializeField, FoldoutGroup("스케쥴"), LabelText("눌리기 후 스프라이트"), ReadOnly] private Sprite _schedule_In_Sprite;
+
+    [SerializeField, FoldoutGroup("운동 게이지 정보"), LabelText("타이머"), ReadOnly] private float _schedule_Time; public float schedule_Time => this._schedule_Time;
+    [SerializeField, FoldoutGroup("운동 게이지 정보"), LabelText("감소 타이머"), ReadOnly] private float _schedule_DeleteTime;
+    [SerializeField, FoldoutGroup("운동 게이지 정보"), LabelText("최대 체력"), ReadOnly] private float _MaxHPGage;
+    [SerializeField, FoldoutGroup("운동 게이지 정보"), LabelText("현재 체력"), ReadOnly] private float _curHPGage;
+    [SerializeField, FoldoutGroup("운동 게이지 정보"), LabelText("현재 부하량"), ReadOnly] private float _curDeleyValue;
+    [SerializeField, FoldoutGroup("운동 게이지 정보"), LabelText("현재 운동"), ReadOnly] private string _curHealthTypeStr;
+    [SerializeField, FoldoutGroup("운동 게이지 정보"), LabelText("현재 갯수"), ReadOnly] private int _curCount; public int curCount => this._curCount;
+    [LabelText("현재 운동 체력 정보")] private List<int> _curHealthHpData;
+
+
     [LabelText("정산 코루틴 변수")] private CoroutineData _totalResultCorData;
 
     private void Awake()
     {
         Instance = this;
         this._onoffGameObject.SetActive(false);
+        this._inGameOnOffGameObject.SetActive(false);
         this._resultNextDayBtn.onClick.AddListener(NextBtnClick_Func);
 
         this._goToMainBtn.onClick.AddListener(() => { SceneManager.LoadScene("MainScene"); });
@@ -59,11 +92,162 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         {
             this._totalCostObjArr[i].gameObject.SetActive(false);
         }
+
+        this._curHealthHpData = new List<int>();
+        this._curCount = 0;
     }
 
     private void Start()
     {
+        //나중에 연출 맞춰서 시작하도록 수정
+        this.Start_Func();
+    }
+
+    public void Start_Func()
+    {
+        //this.Set_HpBar_Func();
         ScheduleSystem_Manager.Instance.Start_Schedule_Func();
+    }
+
+    public void Set_ArrowSpriteChange_Func(HealthType a_ArrowType)
+    {
+        this._schedule_HealthType = a_ArrowType;
+
+        switch (a_ArrowType)
+        {
+            case HealthType.BackMovement:
+                //위키
+                this._schedule_KeyImg.sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
+                this._schedule_In_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowIn;
+                this._schedule_Out_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
+                break;
+
+            case HealthType.ChestExercises:
+                //위키
+                this._schedule_KeyImg.sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
+                this._schedule_In_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowIn;
+                this._schedule_Out_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
+                break;
+
+            case HealthType.LowerBodyExercises:
+                //아래키
+                this._schedule_KeyImg.sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_DownArrowOut;
+                this._schedule_In_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_DownArrowIn;
+                this._schedule_Out_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_DownArrowOut;
+                break;
+        }
+    }
+
+    public void Arrow_InputSpriteChange_Func(bool is_Down)
+    {
+        if (is_Down == true)
+            this._schedule_KeyImg.sprite = this._schedule_In_Sprite;
+        else
+            this._schedule_KeyImg.sprite = this._schedule_Out_Sprite;
+    }
+
+    public void Set_HpBar_Func()
+    {
+        if(this._curCount <= 0)
+        {
+            switch (this._schedule_HealthType)
+            {
+                case HealthType.BackMovement:
+                    this._curHealthHpData =
+                        DataBase_Manager.Instance.GetBackSchedule.Get_TypeToBackScheduleDataDic_Func(ScheduleSystem_Manager.Instance.curScheduleData._curHealthValunceArr[ScheduleSystem_Manager.s_curWeekDay.ToInt()]);
+
+                    this._curHealthTypeStr = CONSTSTRIONG.STR_BENCHPRESS;
+                    break;
+
+                case HealthType.ChestExercises:
+                    this._curHealthHpData =
+                        DataBase_Manager.Instance.GetChestSchedule.Get_TypeToChestScheduleDDataDic_Func(ScheduleSystem_Manager.Instance.curScheduleData._curHealthValunceArr[ScheduleSystem_Manager.s_curWeekDay.ToInt()]);
+
+                    this._curHealthTypeStr = CONSTSTRIONG.STR_DEADLIFT;
+                    break;
+
+                case HealthType.LowerBodyExercises:
+                    this._curHealthHpData =
+                        DataBase_Manager.Instance.GetLowerSchedule.Get_TypeToLowerScheduleDataDic_Func(ScheduleSystem_Manager.Instance.curScheduleData._curHealthValunceArr[ScheduleSystem_Manager.s_curWeekDay.ToInt()]);
+
+                    this._curHealthTypeStr = CONSTSTRIONG.STR_SQUAT;
+                    break;
+            }
+
+            this.Reset_Func();
+            this._inGameOnOffGameObject.SetActive(true);
+        }
+        else if(CONSTSTRIONG.INT_COUNTMAX <= this._curCount)
+        {
+            //종료 상태임을 알림.
+            return;
+        }
+
+        this._MaxHPGage = this._curHealthHpData[this._curCount];
+        this._schedule_CountText.text = this._curHealthTypeStr + "[" + this._curCount + "/" + CONSTSTRIONG.INT_COUNTMAX + "]";
+        this._curDeleyValue = DataBase_Manager.Instance.GetTable_Define.level_Back_DeleyValue / this._MaxHPGage;
+        this._curHPGage = 0.0f;
+        this.Set_HP_Func(0.0f);
+    }
+
+    public void Set_AttackDmg_Func(float a_AttackDmg)
+    {
+        this.Set_HP_Func(a_AttackDmg);
+    }
+
+    public void Update_Health_Func()
+    {
+        this._schedule_Time += Time.deltaTime;
+        this._schedule_DeleteTime += Time.deltaTime;
+
+        switch(this._schedule_HealthType)
+        {
+            case HealthType.BackMovement:
+                if (DataBase_Manager.Instance.GetTable_Define.level_Back_DeleteTime <= this._schedule_DeleteTime)
+                {
+                    this._schedule_DeleteTime = 0.0f;
+                    this.Set_HP_Func(-(this._curDeleyValue));
+                }
+                break;
+
+            case HealthType.ChestExercises:
+                if (DataBase_Manager.Instance.GetTable_Define.level_Chest_DeleteTime <= this._schedule_DeleteTime)
+                {
+                    this._schedule_DeleteTime = 0.0f;
+                    this.Set_HP_Func(-(this._curDeleyValue));
+                }
+                break;
+
+            case HealthType.LowerBodyExercises:
+                if (DataBase_Manager.Instance.GetTable_Define.level_LowerBody_DeleteTime <= this._schedule_DeleteTime)
+                {
+                    this._schedule_DeleteTime = 0.0f;
+                    this.Set_HP_Func(-(this._curDeleyValue));
+                }
+                break;
+        }
+
+        if(1.0f <= this._curHPGage)
+        {
+            this._curCount++;
+            this._schedule_Time = 0.0f;
+            this.Set_HpBar_Func();
+        }
+        this._schedule_TimerText.text = this._schedule_Time.ToString("F2").ToString() + " 초";
+    }
+
+    private void Set_HP_Func(float a_Value)
+    {
+        this._curHPGage += a_Value / this._MaxHPGage;
+
+        if (this._curHPGage < 0.0f)
+            this._curHPGage = 0.0f;
+
+        if (1.0f < this._curHPGage)
+            this._curHPGage = 1.0f;
+
+        this._schedule_GageBar.fillAmount = this._curHPGage;
+        this._schedule_Scrollbar.value = this._curHPGage;
     }
 
     public void Setting_OnOffObject_Func(ScheduleType a_CurType)
@@ -143,6 +327,9 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
 
     public void WeekDayClear_Func(ScheduleBase a_ClearData)
     {
+        this._inGameOnOffGameObject.SetActive(false);
+        this.Reset_Func();
+
         this._resultCommentText.text = "테스트 진행 \n" + a_ClearData.myschedulType;
         int a_CurWeekDay = ScheduleSystem_Manager.s_curWeekDay.ToInt();
         a_CurWeekDay++;
@@ -164,15 +351,25 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
     {
         this._resultObj.SetActive(false);
 
+
         //일정 확률로 이벤트가 발생했다면 이벤트 처리를 우선
-        if(EventSettingSystem_Manager.Instance.Is_EventCall_Func() == true)
+        if (EventSettingSystem_Manager.Instance.Is_EventCall_Func() == true &&
+            EventSettingSystem_Manager.Instance.eventCurCount < DataBase_Manager.Instance.GetTable_Define.event_CountMax)
         {
             //이벤트 발생
             EventSettingSystem_Manager.Instance.EventCall_Func();
         }
         else
         {
-            ScheduleSystem_Manager.Instance.Set_NestWeekDay_Func();
+            if(EventSettingSystem_Manager.Instance.eventCurCount <= 0)
+            {
+                //이벤트 발생
+                EventSettingSystem_Manager.Instance.EventCall_Func();
+            }
+            else
+            {
+                ScheduleSystem_Manager.Instance.Set_NestWeekDay_Func();
+            }
         }
     }
 
@@ -300,5 +497,12 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         this._goToMainBtn.transform.parent.gameObject.SetActive(true);
 
         this._totalResultCorData.StopCorountine_Func();
+    }
+
+    private void Reset_Func()
+    {
+        this._schedule_TimerText.text = "0.00 초";
+        this._schedule_Time = 0.0f;
+        this._curCount = 0;
     }
 }

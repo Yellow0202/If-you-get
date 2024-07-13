@@ -34,4 +34,7 @@ MonoBehaviour:
   strength_Info: {fileID: 11400000, guid: e7bcd918d6a0f7a4bb00fe87d7c3e8d9, type: 2}
   measure_info: {fileID: 11400000, guid: 667862a3dd874394baf2c0e73f067d09, type: 2}
   localize: {fileID: 11400000, guid: e51f846033a7ebf41aac4b1125cccbbb, type: 2}
+  backSchedule: {fileID: 11400000, guid: 7eae4facf149f694da41af630505433b, type: 2}
+  chestSchedule: {fileID: 11400000, guid: 035c0c59759119946aa1a0e73ed733e5, type: 2}
+  lowerSchedule: {fileID: 11400000, guid: dec167ef193df9e48be0a321e25f730b, type: 2}
   table_Define: {fileID: 11400000, guid: b42074a3fdc836941abd8f01fa672780, type: 2}
