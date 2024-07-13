@@ -21,6 +21,10 @@ public class EventUI_Script : MonoBehaviour
     [SerializeField, LabelText("결과 표기 텍스트")] private TextMeshProUGUI _eventResultText;
     [SerializeField, LabelText("버튼 리스트(최대3)")] private List<EventBtn_Script> _eventBtnList;
 
+    [SerializeField, LabelText("멘탈 카운트 리스트")] private List<GameObject> _mentalCountList;
+
+    [LabelText("OK버튼 이전 위치")] private Vector3 _okBtnPos;
+
     private void Awake()
     {
         Instance = this;
@@ -33,8 +37,30 @@ public class EventUI_Script : MonoBehaviour
         this._curEventData = a_CurEvent;
 
         this.BtnReSet_Func();
+        this.CurMentalCountUpdate_Func();
 
         this._anim.Play("Event_Occurrence_Anim");
+    }
+
+    private void CurMentalCountUpdate_Func()
+    {
+        int a_CurMentalCount = UserSystem_Manager.Instance.status.Get_UserStatus_Func().mentality;
+        a_CurMentalCount += ScheduleSystem_Manager.Instance.plusStatus.mentalCount;
+
+        for (int i = 0; i < this._mentalCountList.Count; i++)
+        {
+            this._mentalCountList[i].SetActive(false);
+        }
+
+        if (3 < a_CurMentalCount)
+            a_CurMentalCount = 3;
+        else if (a_CurMentalCount < 0)
+            a_CurMentalCount = 0;
+
+        for (int i = 0; i < a_CurMentalCount; i++)
+        {
+            this._mentalCountList[i].SetActive(true);
+        }
     }
 
     public void EventActive_Func()
@@ -46,8 +72,9 @@ public class EventUI_Script : MonoBehaviour
 
         for (int i = 0; i < this._curEventData.Btn.Length; i++)
         {
-            this._eventBtnList[this._eventBtnList.Count - (i + 1)].EventBtnSetting_Func(this._curEventData.Btn[i], this._curEventData.is_PersentBtn);
+            this._eventBtnList[this._eventBtnList.Count - (i + 2)].EventBtnSetting_Func(this._curEventData.Btn[i], this._curEventData.is_PersentBtn);
         }
+        this._eventBtnList[this._eventBtnList.Count - 1].gameObject.SetActive(true);
 
         this._anim.Play("Event_BoxOn_Anim");
     }
@@ -62,6 +89,8 @@ public class EventUI_Script : MonoBehaviour
         this._eventCommentText.text = LocalizeSystem_Manager.Instance.GetLcz_Func(a_EventSelInfoData.Comment);
         this._eventResultText.gameObject.SetActive(true);
         this._eventResultText.text = LocalizeSystem_Manager.Instance.GetLcz_Func(a_EventSelInfoData.Status_change_Str);
+        this._eventBtnList[this._eventBtnList.Count - 1].gameObject.SetActive(false);
+
         this.EvnetClose_Func();
     }
 
@@ -70,6 +99,7 @@ public class EventUI_Script : MonoBehaviour
         this._eventCommentText.text = LocalizeSystem_Manager.Instance.GetLcz_Func(a_EventSelPInfoData.Comment);
         this._eventResultText.gameObject.SetActive(true);
         this._eventResultText.text = LocalizeSystem_Manager.Instance.GetLcz_Func(a_EventSelPInfoData.Status_change_Str);
+        this._eventBtnList[this._eventBtnList.Count - 1].gameObject.SetActive(false);
 
         this.EvnetClose_Func();
     }
@@ -77,8 +107,12 @@ public class EventUI_Script : MonoBehaviour
     private void EvnetClose_Func()
     {
         this.BtnReSet_Func();
-        this._eventBtnList[this._eventBtnList.Count - 1].EventEnd_Func(() =>
+        this._okBtnPos = this._eventBtnList[this._eventBtnList.Count - 2].transform.position;
+        this._eventBtnList[this._eventBtnList.Count - 2].transform.position = this._eventBtnList[this._eventBtnList.Count - 1].transform.position;
+
+        this._eventBtnList[this._eventBtnList.Count - 2].EventEnd_Func(() =>
         {
+            this._eventBtnList[this._eventBtnList.Count - 2].transform.position = this._okBtnPos;
             this.Reset_Func();
         });
     }
@@ -87,6 +121,7 @@ public class EventUI_Script : MonoBehaviour
     {
         this.BtnReSet_Func();
         this.Reset_Func();
+        ScheduleSystem_Manager.Instance.Set_NestWeekDay_Func();
     }
 
     private void Reset_Func()

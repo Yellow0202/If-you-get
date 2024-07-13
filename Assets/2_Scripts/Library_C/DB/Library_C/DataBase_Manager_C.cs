@@ -92,6 +92,39 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
             return this.localize;
         }
     }
+    [InlineEditor, LabelText("BackSchedule"), SerializeField] private DB_BackScheduleDataGroup backSchedule;
+    public DB_BackScheduleDataGroup GetBackSchedule
+    {
+        get
+        {
+            if (this.backSchedule == null)
+                this.backSchedule = Resources.Load<DB_BackScheduleDataGroup>(base.dataGroupSobjPath + "DB_BackScheduleDataGroup");
+
+            return this.backSchedule;
+        }
+    }
+    [InlineEditor, LabelText("ChestSchedule"), SerializeField] private DB_ChestScheduleDataGroup chestSchedule;
+    public DB_ChestScheduleDataGroup GetChestSchedule
+    {
+        get
+        {
+            if (this.chestSchedule == null)
+                this.chestSchedule = Resources.Load<DB_ChestScheduleDataGroup>(base.dataGroupSobjPath + "DB_ChestScheduleDataGroup");
+
+            return this.chestSchedule;
+        }
+    }
+    [InlineEditor, LabelText("LowerSchedule"), SerializeField] private DB_LowerScheduleDataGroup lowerSchedule;
+    public DB_LowerScheduleDataGroup GetLowerSchedule
+    {
+        get
+        {
+            if (this.lowerSchedule == null)
+                this.lowerSchedule = Resources.Load<DB_LowerScheduleDataGroup>(base.dataGroupSobjPath + "DB_LowerScheduleDataGroup");
+
+            return this.lowerSchedule;
+        }
+    }
     [InlineEditor, LabelText("Table_Define"), SerializeField] private DB_Table_DefineDataGroup table_Define;
     public DB_Table_DefineDataGroup GetTable_Define
     {
@@ -128,6 +161,9 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
             this.strength_Info.Init_Func();
             this.measure_info.Init_Func();
             this.localize.Init_Func();
+            this.backSchedule.Init_Func();
+            this.chestSchedule.Init_Func();
+            this.lowerSchedule.Init_Func();
             this.table_Define.Init_Func();
         }
     }
@@ -141,6 +177,9 @@ public partial class DataBase_Manager : Cargold.FrameWork.DataBase_Manager
         this.GetStrength_Info.CallEdit_OnDataImportDone_Func();
         this.GetMeasure_info.CallEdit_OnDataImportDone_Func();
         this.GetLocalize.CallEdit_OnDataImportDone_Func();
+        this.GetBackSchedule.CallEdit_OnDataImportDone_Func();
+        this.GetChestSchedule.CallEdit_OnDataImportDone_Func();
+        this.GetLowerSchedule.CallEdit_OnDataImportDone_Func();
         this.GetTable_Define.CallEdit_OnDataImportDone_Func();
         
         base.CallEdit_OnDataImport_Func();

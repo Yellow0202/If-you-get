@@ -26,12 +26,12 @@ public class Test_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        curMAXHP = DataBase_Manager.Instance.GetTable_Define.level_StartHP;
-        curAttackDmg = curPowerUp / DataBase_Manager.Instance.GetTable_Define.level_PlusAttackDmg;
+        //curMAXHP = DataBase_Manager.Instance.GetTable_Define.level_StartHP;
+        //curAttackDmg = curPowerUp / DataBase_Manager.Instance.GetTable_Define.level_PlusAttackDmg;
 
-        test_power = DataBase_Manager.Instance.GetTable_Define.level_PlusAttackDmg;
+        //test_power = DataBase_Manager.Instance.GetTable_Define.level_PlusAttackDmg;
 
-        curDeley = curMAXHP / DataBase_Manager.Instance.GetTable_Define.level_Deley;
+        //curDeley = curMAXHP / DataBase_Manager.Instance.GetTable_Define.level_Deley;
     }
 
     // Update is called once per frame
@@ -69,10 +69,10 @@ public class Test_Script : MonoBehaviour
 
     private void Test_Plus_Func()
     {
-        curMAXHP += DataBase_Manager.Instance.GetTable_Define.level_PlusHP;
-        curDeley = curMAXHP / DataBase_Manager.Instance.GetTable_Define.level_Deley;
-        curTime = 0.0f;
+        //curMAXHP += DataBase_Manager.Instance.GetTable_Define.level_PlusHP;
+        //curDeley = curMAXHP / DataBase_Manager.Instance.GetTable_Define.level_Deley;
+        //curTime = 0.0f;
 
-        curCount++;
+        //curCount++;
     }
 }

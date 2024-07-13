@@ -115,19 +115,27 @@ MonoBehaviour:
   - Define_1
   - Define_2
   - Define_3
-  _playDayData: 7
-  _uI_Icon_backMovement: {fileID: 21300000, guid: 8702be598dd9f504ca33be2afee2ca33, type: 3}
-  _uI_Icon_chestExercises: {fileID: 21300000, guid: 903d664043815ca4a9cc1f548bdd4b21, type: 3}
-  _uI_Icon_lowerBodyExercises: {fileID: 21300000, guid: 112c6fcf56e349449ab2e6ad76b67816, type: 3}
-  _uI_Icon_lowbreak: {fileID: 21300000, guid: 3a6bc61a8319b1949ab9f1f2db1302b4, type: 3}
-  _uI_Icon_hardbreak: {fileID: 21300000, guid: 4623f326a884a2546ab39078bf7822c3, type: 3}
-  _uI_Icon_business: {fileID: 21300000, guid: e876b803a4dd5c5488078071d15aa9c0, type: 3}
-  _uI_Icon_cheating: {fileID: 21300000, guid: f447d62f2dacf9843be7cbf168a3a9d0, type: 3}
-  _uI_Icon_done: {fileID: 21300000, guid: a0632a18e7c665641b94fea66506ab50, type: 3}
-  _level_StartHP: 100
-  _level_PlusHP: 20
+  _uI_Icon_backMovement: {fileID: 21300000, guid: 1accade437a341541aff9ba8ed056d79, type: 3}
+  _uI_Icon_chestExercises: {fileID: 21300000, guid: c4579f4b97c4de1439dda7a11afab3d7, type: 3}
+  _uI_Icon_lowerBodyExercises: {fileID: 21300000, guid: 8cdaa02222290b24e953219f224be9c4, type: 3}
+  _uI_Icon_lowbreak: {fileID: 21300000, guid: d828416c33c9fb64c8d1b1f9a8310a1b, type: 3}
+  _uI_Icon_hardbreak: {fileID: 21300000, guid: cbb04aeac2e001645b72f592784aec65, type: 3}
+  _uI_Icon_business: {fileID: 21300000, guid: f12a6cd866758ac4080f5d5d401bf006, type: 3}
+  _uI_Icon_cheating: {fileID: 21300000, guid: 6fa0426324f0a97458d5639f246d76d1, type: 3}
+  _uI_Icon_done: {fileID: 21300000, guid: bd3cde4b3c0b548498ac5b6e8cc4bc3e, type: 3}
+  _ui_Icon_UpArrowOut: {fileID: 21300000, guid: 74147e09743064e4b92d43a6abaa6623, type: 3}
+  _ui_Icon_UpArrowIn: {fileID: 21300000, guid: e8fe9cc3aec6216479e9095ac1536242, type: 3}
+  _ui_Icon_DownArrowOut: {fileID: 21300000, guid: 62d9434bdda3c4140a691f00dfeb997e, type: 3}
+  _ui_Icon_DownArrowIn: {fileID: 21300000, guid: 07f083065cc750d42824acab692b8e52, type: 3}
+  _level_Back_DeleteTime: 0.1
+  _level_Chest_DeleteTime: 1
+  _level_LowerBody_DeleteTime: 3
   _level_PlusAttackDmg: 10
-  _level_Deley: 10
+  _level_Back_DeleyValue: 200
+  _level_Chest_DeleyValue: 20
+  _level_LowerBody_DeleyValue: 6
   _totalCost_HealthCost: 80000
   _totalCost_MealsCost: 300000
-  _event_CallPersent: 99
+  _event_CountMax: 3
+  _event_CallPersent: 30
+  _event_StatusPersent: 99

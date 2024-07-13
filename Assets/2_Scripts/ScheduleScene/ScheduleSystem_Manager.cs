@@ -22,7 +22,7 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
 {
     public static ScheduleSystem_Manager Instance;
     public static CurWeekDayType s_curWeekDay = CurWeekDayType.Monday;
-    [SerializeField, LabelText("스케쥴 데이터"), ReadOnly] private ScheduleClass _curScheduleData; public ScheduleClass curScheduleData => this.curScheduleData;
+    [SerializeField, LabelText("스케쥴 데이터"), ReadOnly] private ScheduleClass _curScheduleData; public ScheduleClass curScheduleData => this._curScheduleData;
     [SerializeField, LabelText("추가된 능력치"), ReadOnly] private PlusStatus _plusStatus; public PlusStatus plusStatus => this._plusStatus;
     [SerializeField, LabelText("스케쥴 별 스크립트")] private List<ScheduleBase> _scheduleScriptDataList;
     [SerializeField, LabelText("스케쥴타입 to 스크립트")] private Dictionary<ScheduleType, ScheduleBase> _scheduleTypeToScriptDataDic;
@@ -34,8 +34,12 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
         if(_layer == 0)
         {
             Instance = this;
-            this._curScheduleData =
-                new ScheduleClass(new ScheduleType[DataBase_Manager.Instance.GetTable_Define.playDayData], new HealthValunceType[DataBase_Manager.Instance.GetTable_Define.playDayData]);
+
+            if(this._curScheduleData == null)
+            {
+                this._curScheduleData =
+                        new ScheduleClass(new ScheduleType[CONSTSTRIONG.INT_BASEDAY], new HealthValunceType[CONSTSTRIONG.INT_BASEDAY]);
+            }
 
             this._plusStatus = new PlusStatus();
 
@@ -123,15 +127,15 @@ public class ScheduleSystem_Manager : SerializedMonoBehaviour, GameSystem_Manage
 
         public PlusStatus()
         {
-            this.mentalCount = -1;
-            this.backStr = 40;
-            this.chestStr = 40;
-            this.lowerbodyStr = 40;
-            this.stress = 75.0f;
+            this.mentalCount = 0;
+            this.backStr = 0;
+            this.chestStr = 0;
+            this.lowerbodyStr = 0;
+            this.stress = 0;
 
-            this.breakCost = 100000;
-            this.eventCost = 100000;
-            this.businessGold = 100000;
+            this.breakCost = 0;
+            this.eventCost = 0;
+            this.businessGold = 0;
         }
     }
 }

@@ -14,11 +14,14 @@ public class EventSettingSystem_Manager : SerializedMonoBehaviour, GameSystem_Ma
     [SerializeField, LabelText("이벤트 발생 확률"), ReadOnly] float _eventCallPersent => DataBase_Manager.Instance.GetTable_Define.event_CallPersent;
     [SerializeField, LabelText("조건부 이벤트 발생 확률"), ReadOnly] float _eventStatusCallPersent => DataBase_Manager.Instance.GetTable_Define.event_StatusPersent;
 
+    [SerializeField, LabelText("현재까지 오픈된 이벤트 수"), ReadOnly] private int _eventCurCount; public int eventCurCount => this._eventCurCount;
+
     public void Init_Func(int _layer)
     {
         if (_layer == 0)
         {
             Instance = this;
+            this._eventCurCount = 0;
         }
         else if (_layer == 1)
         {
@@ -43,6 +46,8 @@ public class EventSettingSystem_Manager : SerializedMonoBehaviour, GameSystem_Ma
     public void EventCall_Func()
     {
         //이벤트 호출 됨.
+
+        this._eventCurCount++;
 
         //조건부 이벤트 확률적 호출
         float a_RandomFloat = Random.Range(0.0f, 1.0f);
@@ -88,10 +93,13 @@ public class EventSettingSystem_Manager : SerializedMonoBehaviour, GameSystem_Ma
                         break;
                 }
 
-                a_StatusEventList.Add(DataBase_Manager.Instance.GetEvent_Info.Get_StatusToboolToEventInfoDicDataDic_Func((StatusType)i, a_Value));
+                Event_InfoData a_EventData = DataBase_Manager.Instance.GetEvent_Info.Get_StatusToboolToEventInfoDicDataDic_Func((StatusType)i, a_Value);
+
+                if(a_EventData != null)
+                    a_StatusEventList.Add(a_EventData);
             }
 
-            if(0< a_StatusEventList.Count)
+            if(0 < a_StatusEventList.Count)
             {
                 a_Event = a_StatusEventList.GetRandItem_Func();
             }

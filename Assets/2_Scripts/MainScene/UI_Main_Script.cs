@@ -50,8 +50,8 @@ public class UI_Main_Script : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        this._curScheduleArr = new ScheduleType[DataBase_Manager.Instance.GetTable_Define.playDayData];
-        this._curHealthValunceArr = new HealthValunceType[DataBase_Manager.Instance.GetTable_Define.playDayData];
+        this._curScheduleArr = new ScheduleType[CONSTSTRIONG.INT_BASEDAY];
+        this._curHealthValunceArr = new HealthValunceType[CONSTSTRIONG.INT_BASEDAY];
     }
 
     // Start is called before the first frame update
