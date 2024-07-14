@@ -262,6 +262,9 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
                     this._schedule_DeleteTime = 0.0f;
                     this.Set_HP_Func(-(this._curDeleyValue));
                 }
+
+                AnimationCharacAnim_Script.Instance.Set_BackAnim_Func(this._curHPGage);
+
                 break;
 
             case HealthType.ChestExercises:
@@ -270,6 +273,9 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
                     this._schedule_DeleteTime = 0.0f;
                     this.Set_HP_Func(-(this._curDeleyValue));
                 }
+
+                AnimationCharacAnim_Script.Instance.Set_ChestAnim_Func(this._curHPGage);
+
                 break;
 
             case HealthType.LowerBodyExercises:
@@ -278,6 +284,9 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
                     this._schedule_DeleteTime = 0.0f;
                     this.Set_HP_Func(-(this._curDeleyValue));
                 }
+
+                AnimationCharacAnim_Script.Instance.Set_LowerAnim_Func(this._curHPGage);
+
                 break;
         }
 
@@ -349,6 +358,7 @@ public class UI_Schedule_Script : SerializedMonoBehaviour
         this._weekDayText.text = this.Setting_WeekDayUpdate_Func(ScheduleSystem_Manager.s_curWeekDay);
 
         this._onoffGameObject.SetActive(true);
+        AnimationCharacAnim_Script.Instance.Close_GameObject_Func(a_CurType);
         ViewChange_Script.Instance.BoxOff_Func();
     }
 

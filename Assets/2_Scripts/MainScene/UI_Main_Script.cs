@@ -7,6 +7,7 @@ using UnityEngine.XR;
 using static ScheduleSystem_Manager;
 using TMPro;
 using Cargold;
+using UnityEngine.SceneManagement;
 
 public enum ScheduleType
 {
@@ -68,6 +69,8 @@ public class UI_Main_Script : MonoBehaviour
     [SerializeField, FoldoutGroup("UI"), LabelText("월 텍스트")] private TextMeshProUGUI _curWeekDay_Text;
     [SerializeField, FoldoutGroup("UI"), LabelText("피로도 텍스트")] private TextMeshProUGUI _valunceStress_Text;
 
+    [SerializeField, LabelText("캐릭터")] private Image _charImg;
+
     [SerializeField, LabelText("시작 버튼")] private Button _scheduleStartBtn;
 
     private void Awake()
@@ -88,6 +91,16 @@ public class UI_Main_Script : MonoBehaviour
 
     }
 
+    public void Test_GoToEnd_Func()
+    {
+        SceneManager.LoadScene("3.EndScene");
+    }
+
+    public void Test_GoToRecord_Func()
+    {
+        SceneManager.LoadScene("2.MeasurementScene");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -98,12 +111,23 @@ public class UI_Main_Script : MonoBehaviour
     {
         this._curWeekDay_Text.text = GameSystem_Manager.Instance.curweekDay.ToString() + "월 스케쥴";
         this.TextUpdate_Func();
-
+        this.CharacterChange_Func();
         this.RendererUpdate_Func(s_LastSelValunce.ToInt());
         this.Set_BtnValue_Func();
         this._curScheduleNum = -1;
 
         Sound_Script.Instance.Play_BGM(BGMListType.메인BGM);
+    }
+
+    private void CharacterChange_Func()
+    {
+        int a_Total = UserSystem_Manager.Instance.record.Get_BackMovement_Func() + UserSystem_Manager.Instance.record.Get_ChestExercises_Func() + UserSystem_Manager.Instance.record.Get_LowerBodyExercises_Func();
+        this._status_Total_Text.text = a_Total.ToString();
+
+        if (500 <= a_Total)
+        {
+
+        }
     }
 
     public void TextUpdate_Func()

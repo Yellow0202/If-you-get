@@ -164,3 +164,7 @@ MonoBehaviour:
   _bgSprite_Chting: {fileID: 21300000, guid: 4f66b17a95519ad4e9ef3f9292308344, type: 3}
   _bgSprite_rest: {fileID: 21300000, guid: 9277715f792c1b04eb3036b175624345, type: 3}
   _bgSprite_goodrest: {fileID: 21300000, guid: 083f84d005a958542b338f77d3fb4216, type: 3}
+  _char_Sprite_lv0: {fileID: 21300000, guid: 77a160be84253654a9278c5fc96f9796, type: 3}
+  _char_Sprite_lv1: {fileID: 21300000, guid: 55ac333685f09884b861672213683ea8, type: 3}
+  _char_Sprite_lv2: {fileID: 21300000, guid: 527eed581c1999e4aae7720fc4a47ad1, type: 3}
+  _char_Sprite_lv3: {fileID: 21300000, guid: 440c1343406df4146b9d00ad41a772af, type: 3}

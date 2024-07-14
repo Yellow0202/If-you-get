@@ -118,6 +118,9 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                 this._schedule_KeyImg.sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
                 this._schedule_In_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowIn;
                 this._schedule_Out_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
+
+                AnimationCharacAnim_Script.Instance.Close_GameObject_Func(ScheduleType.BackMovement);
+
                 break;
 
             case 1:
@@ -125,6 +128,9 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                 this._schedule_KeyImg.sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
                 this._schedule_In_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowIn;
                 this._schedule_Out_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_UpArrowOut;
+
+                AnimationCharacAnim_Script.Instance.Close_GameObject_Func(ScheduleType.ChestExercises);
+
                 break;
 
             case 2:
@@ -132,6 +138,9 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                 this._schedule_KeyImg.sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_DownArrowOut;
                 this._schedule_In_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_DownArrowIn;
                 this._schedule_Out_Sprite = DataBase_Manager.Instance.GetTable_Define.ui_Icon_DownArrowOut;
+
+                AnimationCharacAnim_Script.Instance.Close_GameObject_Func(ScheduleType.LowerBodyExercises);
+
                 break;
         }
     }
@@ -193,6 +202,8 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                         this.Set_HP_Func(-(this._curDeleyValue));
                     }
 
+                    AnimationCharacAnim_Script.Instance.Set_BackAnim_Func(this._curHPGage);
+
                     break;
 
                 case 1: //º¥Ä¡
@@ -220,6 +231,8 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                         this.Set_HP_Func(-(this._curDeleyValue));
                     }
 
+                    AnimationCharacAnim_Script.Instance.Set_ChestAnim_Func(this._curHPGage);
+
                     break;
 
                 case 2: //½ºÄõÆ®
@@ -240,6 +253,8 @@ public class UI_MeasurementScene_Script : MonoBehaviour
                         this._schedule_DeleteTime = 0.0f;
                         this.Set_HP_Func(-(this._curDeleyValue));
                     }
+
+                    AnimationCharacAnim_Script.Instance.Set_LowerAnim_Func(this._curHPGage);
 
                     break;
             }

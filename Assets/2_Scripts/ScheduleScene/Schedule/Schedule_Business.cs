@@ -28,7 +28,7 @@ public class Schedule_Business : ScheduleBase
         yield return new WaitForSeconds(1.5f);
 
         StatusSystem_Manager.Instance.Set_BusinessGoldPlus_Func(500000);
-        StatusSystem_Manager.Instance.Set_StressPlus_Func(-20);
+        StatusSystem_Manager.Instance.Set_StressPlus_Func(20);
         UI_Schedule_Script.Instance.WeekDayClear_Func(this, 500000);
 
         yield return null;

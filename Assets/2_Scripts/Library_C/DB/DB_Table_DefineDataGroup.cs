@@ -67,6 +67,11 @@ public partial class DB_Table_DefineDataGroup
     [SerializeField, FoldoutGroup("배경"), LabelText("가벼운 휴식")] private Sprite _bgSprite_rest; public Sprite bgSprite_rest => this._bgSprite_rest;
     [SerializeField, FoldoutGroup("배경"), LabelText("화려한 휴식")] private Sprite _bgSprite_goodrest; public Sprite bgSprite_goodrest => this._bgSprite_goodrest;
 
+    [SerializeField, FoldoutGroup("캐릭터"), LabelText("레벨0")] private Sprite _char_Sprite_lv0; public Sprite char_Sprite_lv0 => this._char_Sprite_lv0;
+    [SerializeField, FoldoutGroup("캐릭터"), LabelText("레벨1")] private Sprite _char_Sprite_lv1; public Sprite char_Sprite_lv1 => this._char_Sprite_lv1;
+    [SerializeField, FoldoutGroup("캐릭터"), LabelText("레벨2")] private Sprite _char_Sprite_lv2; public Sprite char_Sprite_lv2 => this._char_Sprite_lv2;
+    [SerializeField, FoldoutGroup("캐릭터"), LabelText("레벨3")] private Sprite _char_Sprite_lv3; public Sprite char_Sprite_lv3 => this._char_Sprite_lv3;
+
     protected override void Init_Project_Func()
     {
         base.Init_Project_Func();

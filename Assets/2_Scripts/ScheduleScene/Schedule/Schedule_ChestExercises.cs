@@ -17,6 +17,8 @@ public class Schedule_ChestExercises : ScheduleBase
 
     private IEnumerator Schedule_Cor()
     {
+        yield return Coroutine_C.GetWaitForSeconds_Cor(0.75f);
+
         //배경 스프라이트 변경
         UI_Schedule_Script.Instance.Set_BgImgChange_Func(this.myschedulType);
 
