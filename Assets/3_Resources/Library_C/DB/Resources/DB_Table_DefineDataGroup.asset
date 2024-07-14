@@ -135,13 +135,13 @@ MonoBehaviour:
   _ui_Icon_DownArrowIn: {fileID: 21300000, guid: 07f083065cc750d42824acab692b8e52, type: 3}
   _ui_Icon_TotalResult: {fileID: 21300000, guid: b7c19df50f44ab540987e6229a2b1968, type: 3}
   _ui_Icon_Record: {fileID: 21300000, guid: 083caabab3f13ce47a0954741f0240f2, type: 3}
-  _level_Back_DeleteTime: 0.1
-  _level_Chest_DeleteTime: 1
-  _level_LowerBody_DeleteTime: 3
+  _level_Back_DeleteTime: 0.08
+  _level_Chest_DeleteTime: 0.12
+  _level_LowerBody_DeleteTime: 0.14
   _level_PlusAttackDmg: 10
-  _level_Back_DeleyValue: 200
-  _level_Chest_DeleyValue: 20
-  _level_LowerBody_DeleyValue: 6
+  _level_Back_DeleyValue: 180
+  _level_Chest_DeleyValue: 50
+  _level_LowerBody_DeleyValue: 200
   _level_LowStress: 15
   _level_MidStress: 18
   _level_HigtStress: 21
